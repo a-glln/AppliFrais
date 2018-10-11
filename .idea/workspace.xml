@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="18ab21e6-9852-42df-90ec-c659003d9da0" name="Default" comment="" />
+    <list default="true" id="18ab21e6-9852-42df-90ec-c659003d9da0" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sc_chat/app/Resources/views/home/home.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sc_chat/src/AppBundle/Controller/Home/HomeController.php" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,22 +18,7 @@
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="routing.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="56" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FrameworkCommandLineHistory">
     <commandsHistory>
@@ -116,9 +106,9 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="676" />
-    <option name="width" value="1253" />
-    <option name="height" value="1089" />
+    <option name="x" value="675" />
+    <option name="width" value="1255" />
+    <option name="height" value="1090" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -128,92 +118,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <expand>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="AppliFrais" type="cbb8eebc:String" user="AppliFrais" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="AppliFrais" type="cbb8eebc:String" user="AppliFrais" />
-              <item name="AppliFrais" type="cbb8eebc:String" user="AppliFrais" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="AppliFrais" type="cbb8eebc:String" user="AppliFrais" />
-              <item name="AppliFrais" type="cbb8eebc:String" user="AppliFrais" />
-              <item name="app" type="cbb8eebc:String" user="app" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="AppliFrais" type="cbb8eebc:String" user="AppliFrais" />
-              <item name="AppliFrais" type="cbb8eebc:String" user="AppliFrais" />
-              <item name="app" type="cbb8eebc:String" user="app" />
-              <item name="Resources" type="cbb8eebc:String" user="Resources" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="AppliFrais" type="cbb8eebc:String" user="AppliFrais" />
-              <item name="AppliFrais" type="cbb8eebc:String" user="AppliFrais" />
-              <item name="app" type="cbb8eebc:String" user="app" />
-              <item name="Resources" type="cbb8eebc:String" user="Resources" />
-              <item name="views" type="cbb8eebc:String" user="views" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="AppliFrais" type="cbb8eebc:String" user="AppliFrais" />
-              <item name="AppliFrais" type="cbb8eebc:String" user="AppliFrais" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="AppliFrais" type="cbb8eebc:String" user="AppliFrais" />
-              <item name="AppliFrais" type="cbb8eebc:String" user="AppliFrais" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-              <item name="FrontBundle" type="cbb8eebc:String" user="FrontBundle" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="AppliFrais" type="cbb8eebc:String" user="AppliFrais" />
-              <item name="AppliFrais" type="cbb8eebc:String" user="AppliFrais" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-              <item name="FrontBundle" type="cbb8eebc:String" user="FrontBundle" />
-              <item name="Resources" type="cbb8eebc:String" user="Resources" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="AppliFrais" type="cbb8eebc:String" user="AppliFrais" />
-              <item name="AppliFrais" type="cbb8eebc:String" user="AppliFrais" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-              <item name="FrontBundle" type="cbb8eebc:String" user="FrontBundle" />
-              <item name="Resources" type="cbb8eebc:String" user="Resources" />
-              <item name="public" type="cbb8eebc:String" user="public" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="AppliFrais" type="cbb8eebc:String" user="AppliFrais" />
-              <item name="AppliFrais" type="cbb8eebc:String" user="AppliFrais" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-              <item name="FrontBundle" type="cbb8eebc:String" user="FrontBundle" />
-              <item name="Resources" type="cbb8eebc:String" user="Resources" />
-              <item name="views" type="cbb8eebc:String" user="views" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="AppliFrais" type="cbb8eebc:String" user="AppliFrais" />
-              <item name="AppliFrais" type="cbb8eebc:String" user="AppliFrais" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-              <item name="FrontBundle" type="cbb8eebc:String" user="FrontBundle" />
-              <item name="Resources" type="cbb8eebc:String" user="Resources" />
-              <item name="views" type="cbb8eebc:String" user="views" />
-              <item name="Default" type="cbb8eebc:String" user="Default" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -359,6 +263,92 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="AppliFrais" type="cbb8eebc:String" user="AppliFrais" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="AppliFrais" type="cbb8eebc:String" user="AppliFrais" />
+              <item name="AppliFrais" type="cbb8eebc:String" user="AppliFrais" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="AppliFrais" type="cbb8eebc:String" user="AppliFrais" />
+              <item name="AppliFrais" type="cbb8eebc:String" user="AppliFrais" />
+              <item name="app" type="cbb8eebc:String" user="app" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="AppliFrais" type="cbb8eebc:String" user="AppliFrais" />
+              <item name="AppliFrais" type="cbb8eebc:String" user="AppliFrais" />
+              <item name="app" type="cbb8eebc:String" user="app" />
+              <item name="Resources" type="cbb8eebc:String" user="Resources" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="AppliFrais" type="cbb8eebc:String" user="AppliFrais" />
+              <item name="AppliFrais" type="cbb8eebc:String" user="AppliFrais" />
+              <item name="app" type="cbb8eebc:String" user="app" />
+              <item name="Resources" type="cbb8eebc:String" user="Resources" />
+              <item name="views" type="cbb8eebc:String" user="views" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="AppliFrais" type="cbb8eebc:String" user="AppliFrais" />
+              <item name="AppliFrais" type="cbb8eebc:String" user="AppliFrais" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="AppliFrais" type="cbb8eebc:String" user="AppliFrais" />
+              <item name="AppliFrais" type="cbb8eebc:String" user="AppliFrais" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="FrontBundle" type="cbb8eebc:String" user="FrontBundle" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="AppliFrais" type="cbb8eebc:String" user="AppliFrais" />
+              <item name="AppliFrais" type="cbb8eebc:String" user="AppliFrais" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="FrontBundle" type="cbb8eebc:String" user="FrontBundle" />
+              <item name="Resources" type="cbb8eebc:String" user="Resources" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="AppliFrais" type="cbb8eebc:String" user="AppliFrais" />
+              <item name="AppliFrais" type="cbb8eebc:String" user="AppliFrais" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="FrontBundle" type="cbb8eebc:String" user="FrontBundle" />
+              <item name="Resources" type="cbb8eebc:String" user="Resources" />
+              <item name="public" type="cbb8eebc:String" user="public" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="AppliFrais" type="cbb8eebc:String" user="AppliFrais" />
+              <item name="AppliFrais" type="cbb8eebc:String" user="AppliFrais" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="FrontBundle" type="cbb8eebc:String" user="FrontBundle" />
+              <item name="Resources" type="cbb8eebc:String" user="Resources" />
+              <item name="views" type="cbb8eebc:String" user="views" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="AppliFrais" type="cbb8eebc:String" user="AppliFrais" />
+              <item name="AppliFrais" type="cbb8eebc:String" user="AppliFrais" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="FrontBundle" type="cbb8eebc:String" user="FrontBundle" />
+              <item name="Resources" type="cbb8eebc:String" user="Resources" />
+              <item name="views" type="cbb8eebc:String" user="views" />
+              <item name="Default" type="cbb8eebc:String" user="Default" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -366,7 +356,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.zend.framework.tool" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="settings.editor.splitter.proportion" value="0.32610837" />
   </component>
   <component name="RecentsManager">
@@ -416,11 +406,13 @@
       <workItem from="1539162134365" duration="9000" />
       <workItem from="1539162278918" duration="685000" />
       <workItem from="1539260568538" duration="95000" />
+      <workItem from="1539261585766" duration="81000" />
+      <workItem from="1539261684743" duration="553000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23213000" />
+    <option name="totallyTimeSpent" value="23847000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
@@ -454,6 +446,13 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="56" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -660,9 +659,6 @@
           <caret line="1" column="56" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="56" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
