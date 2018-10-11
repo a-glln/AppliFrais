@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/AppliFrais.iml" filepath="$PROJECT_DIR$/.idea/AppliFrais.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../sc_chat/.idea/sc-chat.iml" filepath="$PROJECT_DIR$/../sc_chat/.idea/sc-chat.iml" />
+    </modules>
+  </component>
+</project>
