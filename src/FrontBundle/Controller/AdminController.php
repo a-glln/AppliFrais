@@ -9,7 +9,7 @@ class AdminController extends Controller
     public function indexAction()
     {
 
-        $nom = "COUCOU";
+        $nom = "toto";
 
         return $this->render('@Front/Default/index.html.twig', array("nom" => $nom));
     }
