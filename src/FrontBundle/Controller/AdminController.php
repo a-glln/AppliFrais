@@ -14,4 +14,3 @@ class AdminController extends Controller
         return $this->render('@Front/Default/index.html.twig', array("nom" => $nom));
     }
 }
-//teubi
