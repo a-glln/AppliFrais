@@ -1,0 +1,39 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1>Comptes list</h1>
+
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Username </th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for compte in comptes %}
+            <tr>
+                <td><a href="{{ path('admin_compte_show', { 'id': compte.id }) }}">{{ compte.id }}</a></td>
+                <td> {{ compte.username   }}</td>
+                <td>
+                    <ul>
+                        <li>
+                            <a href="{{ path('admin_compte_show', { 'id': compte.id }) }}">show</a>
+                        </li>
+                        <li>
+                            <a href="{{ path('admin_compte_edit', { 'id': compte.id }) }}">edit</a>
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+    <ul>
+        <li>
+            <a href="{{ path('admin_compte_new') }}">Create a new compte</a>
+        </li>
+    </ul>
+{% endblock %}

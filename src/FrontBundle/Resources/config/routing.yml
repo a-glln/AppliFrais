@@ -1,3 +1,7 @@
+front_admin_compte:
+    resource: "@FrontBundle/Resources/config/routing/compte.yml"
+    prefix:   /admin/compte
+
 front_homepage:
     path:     /
     defaults: { _controller: FrontBundle:Default:index }

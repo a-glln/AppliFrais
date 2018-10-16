@@ -15,6 +15,7 @@
 
     <!-- Custom styles for this template -->
     <link href="{{ asset("bundles/front/css/simple-sidebar.css") }}" rel="stylesheet">
+    {% block stylesheet %}{% endblock %}
 
 </head>
 
@@ -25,6 +26,16 @@
     <!-- Sidebar -->
     <div id="sidebar-wrapper">
         <ul class="sidebar-nav">
+            <li>
+                {% if is_granted("IS_AUTHENTICATED_REMEMBERED") %}
+                    {{ 'layout.logged_in_as'|trans({'%username%': app.user.username}, 'FOSUserBundle') }} |
+                    <a href="{{ path('fos_user_security_logout') }}">
+                        {{ 'layout.logout'|trans({}, 'FOSUserBundle') }}
+                    </a>
+                {% else %}
+                    <a href="{{ path('fos_user_security_login') }}">{{ 'layout.login'|trans({}, 'FOSUserBundle') }}</a>
+                {% endif %}
+            </li>
             {% block menu %}
             <li class="sidebar-brand">
                 <a href="#">AppliFrais</a>
@@ -43,8 +54,20 @@
     <!-- Page Content -->
     <div id="page-content-wrapper">
         <div class="container-fluid">
+            {% block fos_user_content %}
+            {% endblock fos_user_content %}
             {% block body %}
-            <h1>Simple Sidebar</h1>
+                {% if app.request.hasPreviousSession %}
+                    {% for type, messages in app.session.flashBag.all %}
+                        {% for message in messages %}
+                            <div class="{{ type }}">
+                                {{ message|trans({}, 'FOSUserBundle') }}
+                            </div>
+                        {% endfor %}
+                    {% endfor %}
+                {% endif %}
+
+                <h1>Simple Sidebar</h1>
             <p>This template has a responsive menu toggling system. The menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button below, the menu will appear/disappear. On small screens, the page content will be pushed off canvas.</p>
             <p>Make sure to keep all page content within the <code>#page-content-wrapper</code>.</p>
             <a href="#menu-toggle" class="btn btn-secondary" id="menu-toggle">Toggle Menu</a>

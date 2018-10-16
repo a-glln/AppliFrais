@@ -47,7 +47,5 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="sc-chat" />
-    <orderEntry type="module" module-name="sc-chat" />
   </component>
 </module>
