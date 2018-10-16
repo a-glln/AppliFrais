@@ -4,8 +4,6 @@
     <list default="true" id="18ab21e6-9852-42df-90ec-c659003d9da0" name="Default" comment="test">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FrontBundle/Resources/public/css/simple-sidebar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/FrontBundle/Resources/public/css/simple-sidebar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FrontBundle/Resources/views/Security/login.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/FrontBundle/Resources/views/Security/login.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../sc_chat/app/AppKernel.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../sc_chat/app/Resources/views/default/index.html.twig" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../sc_chat/app/config/config.yml" beforeDir="false" />
@@ -53,7 +51,7 @@
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -62,7 +60,7 @@
         <entry file="file://$PROJECT_DIR$/src/FrontBundle/Resources/public/css/simple-sidebar.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+              <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -491,7 +489,7 @@
       <workItem from="1539633262617" duration="11000" />
       <workItem from="1539633287375" duration="277000" />
       <workItem from="1539680134044" duration="3934000" />
-      <workItem from="1539699854777" duration="1511000" />
+      <workItem from="1539699854777" duration="2111000" />
     </task>
     <task id="LOCAL-00001" summary="Merge branch 'master' of https://github.com/a-glln/AppliFrais&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;&#10;supprimer teubi">
       <created>1539262801247</created>
@@ -514,15 +512,21 @@
       <option name="project" value="LOCAL" />
       <updated>1539700531690</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="vendor">
+      <created>1539701518929</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1539701518929</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35166000" />
+    <option name="totallyTimeSpent" value="35766000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067025" side_tool="true" weight="0.32884097" />
@@ -558,7 +562,8 @@
     <MESSAGE value="Merge branch 'master' of https://github.com/a-glln/AppliFrais&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;&#10;supprimer teubi" />
     <MESSAGE value="test" />
     <MESSAGE value="Fos user bundle fonctionnel debut du css de login" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fos user bundle fonctionnel debut du css de login" />
+    <MESSAGE value="vendor" />
+    <option name="LAST_COMMIT_MESSAGE" value="vendor" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/FrontBundle/Controller/AdminController.php">
@@ -827,7 +832,7 @@
     <entry file="file://$PROJECT_DIR$/src/FrontBundle/Resources/public/css/simple-sidebar.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -841,7 +846,7 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" selection-end-column="8" />
         </state>
       </provider>
     </entry>
