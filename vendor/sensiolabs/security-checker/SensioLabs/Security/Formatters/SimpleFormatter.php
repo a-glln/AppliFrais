@@ -30,7 +30,7 @@ class SimpleFormatter implements FormatterInterface
      */
     public function displayResults(OutputInterface $output, $lockFilePath, array $vulnerabilities)
     {
-        $output->writeln(sprintf('Security Check Report: <comment>%s</>', realpath($lockFilePath)));
+        $output->writeln(sprintf('Security Check Report: <comment>%s</comment>', realpath($lockFilePath)));
 
         if ($count = count($vulnerabilities)) {
             $status = 'CRITICAL';

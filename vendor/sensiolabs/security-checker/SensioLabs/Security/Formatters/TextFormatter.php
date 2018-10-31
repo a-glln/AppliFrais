@@ -35,7 +35,7 @@ class TextFormatter implements FormatterInterface
         $output = new SymfonyStyle(new ArrayInput(array()), $output);
         $output->title('Symfony Security Check Report');
         // use ->comment when bumping console to 2.8+
-        $output->writeln(sprintf('<fg=default;bg=default> // </>Checked file: <comment>%s</>', realpath($lockFilePath)));
+        $output->writeln(sprintf('<fg=default;bg=default> // </fg>Checked file: <comment>%s</comment>', realpath($lockFilePath)));
 
         if ($count = count($vulnerabilities)) {
             $output->error(sprintf('%d packages have known vulnerabilities.', $count));
@@ -48,7 +48,7 @@ class TextFormatter implements FormatterInterface
                 $output->section(sprintf('%s (%s)', $dependency, $issues['version']));
 
                 $details = array_map(function ($value) {
-                    return sprintf("<info>%s</>: %s\n   %s", $value['cve'] ?: '(no CVE ID)', $value['title'], $value['link']);
+                    return sprintf("<info>%s</info>: %s\n   %s", $value['cve'] ?: '(no CVE ID)', $value['title'], $value['link']);
                 }, $issues['advisories']);
 
                 $output->listing($details);

@@ -22,6 +22,14 @@ class Compte extends BaseUser
      */
     protected $id;
 
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="nom", type="string", nullable=true, length=25)
+     */
+
+    private $nom;
+
     public function __construct()
     {
         parent::__construct();
@@ -37,5 +45,28 @@ class Compte extends BaseUser
     {
         return $this->id;
     }
-}
 
+    /**
+     * Set nom
+     *
+     * @param string $nom
+     *
+     * @return Compte
+     */
+    public function setNom($nom)
+    {
+        $this->nom = $nom;
+
+        return $this;
+    }
+
+    /**
+     * Get nom
+     *
+     * @return string
+     */
+    public function getNom()
+    {
+        return $this->nom;
+    }
+}

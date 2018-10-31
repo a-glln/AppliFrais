@@ -8,6 +8,7 @@
             <tr>
                 <th>Id</th>
                 <th>Username </th>
+                <th>Nom </th>
                 <th>Actions</th>
             </tr>
         </thead>
@@ -16,6 +17,7 @@
             <tr>
                 <td><a href="{{ path('admin_compte_show', { 'id': compte.id }) }}">{{ compte.id }}</a></td>
                 <td> {{ compte.username   }}</td>
+                <td> {{ compte.nom   }}</td>
                 <td>
                     <ul>
                         <li>

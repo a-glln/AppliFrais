@@ -15,13 +15,14 @@ class CompteType extends AbstractType
         // add your custom field
         $builder
             ->add('enabled')
+            ->add('nom')
             ->add('roles', ChoiceType::class, array(
                 'label'=>'Role',
                 'choices'   => array(
-                    'ROLE_VISITEUR'   => 'Visiteur',
-                    'ROLE_COMPTABLE'   => 'Comptable',
-                    'ROLE_ADMIN'   => 'Administrateur',
-                    'ROLE_SUPER_ADMIN'   => 'Super Admin',
+                    'Visiteur'   => 'ROLE_VISITEUR',
+                    'Comptable'   => 'ROLE_COMPTABLE',
+                    'Administrateur'   => 'ROLE_ADMIN',
+                    'SUPER ADMIN'   => 'ROLE_SUPER_ADMIN',
                 ),
                 'expanded' => true,
                 'multiple'  => true

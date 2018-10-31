@@ -11,6 +11,6 @@ class AdminController extends Controller
 
         $nom = "toto";
 
-        return $this->render('@Front/Default/index.html.twig', array("nom" => $nom));
+        return $this->render('@Front/Admin/index.html.twig', array("nom" => $nom));
     }
 }
