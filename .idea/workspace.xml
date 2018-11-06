@@ -3,646 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="18ab21e6-9852-42df-90ec-c659003d9da0" name="Default" comment="ajout de droit/Restriction">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/AppKernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/AppKernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Resources/views/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/base.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Resources/views/compte/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/compte/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/security.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/security.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FrontBundle/Controller/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/FrontBundle/Controller/AdminController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FrontBundle/Controller/ComptableController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/FrontBundle/Controller/ComptableController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FrontBundle/Controller/VisiteurController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/FrontBundle/Controller/VisiteurController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FrontBundle/Entity/Compte.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/FrontBundle/Entity/Compte.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FrontBundle/Form/CompteType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/FrontBundle/Form/CompteType.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FrontBundle/Resources/views/Admin/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/FrontBundle/Resources/views/Admin/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FrontBundle/Resources/views/Comptable/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/FrontBundle/Resources/views/Comptable/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FrontBundle/Resources/views/Security/login.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/FrontBundle/Resources/views/Security/login.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FrontBundle/Resources/views/Visiteur/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/FrontBundle/Resources/views/Visiteur/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/autoload.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/ca-bundle/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/ca-bundle/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/fig/link-util/LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/fig/link-util/LICENSE.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/fig/link-util/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/fig/link-util/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/fig/link-util/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/fig/link-util/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/fig/link-util/phpcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/fig/link-util/phpcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/fig/link-util/src/LinkProviderTrait.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/fig/link-util/src/LinkProviderTrait.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/fig/link-util/src/LinkTrait.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/fig/link-util/src/LinkTrait.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/fig/link-util/src/TemplatedHrefTrait.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/fig/link-util/src/TemplatedHrefTrait.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/fig/link-util/test/GenericLinkProviderTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/fig/link-util/test/GenericLinkProviderTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/fig/link-util/test/TemplatedHrefTraitTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/fig/link-util/test/TemplatedHrefTraitTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/jdorn/sql-formatter/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/jdorn/sql-formatter/.travis.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/jdorn/sql-formatter/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/jdorn/sql-formatter/LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/jdorn/sql-formatter/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/jdorn/sql-formatter/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/jdorn/sql-formatter/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/jdorn/sql-formatter/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/jdorn/sql-formatter/examples/cli.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/jdorn/sql-formatter/examples/cli.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/jdorn/sql-formatter/lib/SqlFormatter.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/jdorn/sql-formatter/lib/SqlFormatter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/jdorn/sql-formatter/tests/SqlFormatterTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/jdorn/sql-formatter/tests/SqlFormatterTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/jdorn/sql-formatter/tests/sql.sql" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/jdorn/sql-formatter/tests/sql.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/monolog/monolog/.php_cs" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/.php_cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/monolog/monolog/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/monolog/monolog/doc/01-usage.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/doc/01-usage.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/monolog/monolog/doc/02-handlers-formatters-processors.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/doc/02-handlers-formatters-processors.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/monolog/monolog/doc/03-utilities.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/doc/03-utilities.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/monolog/monolog/doc/04-extending.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/doc/04-extending.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/monolog/monolog/doc/sockets.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/doc/sockets.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Formatter/FlowdockFormatter.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Formatter/FlowdockFormatter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Formatter/FluentdFormatter.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Formatter/FluentdFormatter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Formatter/HtmlFormatter.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Formatter/HtmlFormatter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Formatter/LineFormatter.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Formatter/LineFormatter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Formatter/MongoDBFormatter.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Formatter/MongoDBFormatter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Formatter/NormalizerFormatter.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Formatter/NormalizerFormatter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Formatter/WildfireFormatter.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Formatter/WildfireFormatter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/AbstractHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/AbstractHandler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/AmqpHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/AmqpHandler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/BufferHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/BufferHandler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/CouchDBHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/CouchDBHandler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/DoctrineCouchDBHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/DoctrineCouchDBHandler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/DynamoDbHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/DynamoDbHandler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/ErrorLogHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/ErrorLogHandler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/FilterHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/FilterHandler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/FingersCrossed/ChannelLevelActivationStrategy.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/FingersCrossed/ChannelLevelActivationStrategy.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/FingersCrossed/ErrorLevelActivationStrategy.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/FingersCrossed/ErrorLevelActivationStrategy.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/FingersCrossedHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/FingersCrossedHandler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/FirePHPHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/FirePHPHandler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/GelfHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/GelfHandler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/HandlerWrapper.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/HandlerWrapper.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/LogglyHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/LogglyHandler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/MissingExtensionException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/MissingExtensionException.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/MongoDBHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/MongoDBHandler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/NewRelicHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/NewRelicHandler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/PHPConsoleHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/PHPConsoleHandler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/PsrHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/PsrHandler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/RavenHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/RavenHandler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/RollbarHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/RollbarHandler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/Slack/SlackRecord.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/Slack/SlackRecord.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/SlackbotHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/SlackbotHandler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/SocketHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/SocketHandler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/SyslogUdp/UdpSocket.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/SyslogUdp/UdpSocket.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/SyslogUdpHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/SyslogUdpHandler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/TestHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/TestHandler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Processor/MemoryPeakUsageProcessor.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Processor/MemoryPeakUsageProcessor.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Processor/MemoryUsageProcessor.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Processor/MemoryUsageProcessor.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Processor/TagProcessor.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Processor/TagProcessor.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Registry.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Registry.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/ErrorHandlerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/ErrorHandlerTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Formatter/ElasticaFormatterTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Formatter/ElasticaFormatterTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Formatter/FlowdockFormatterTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Formatter/FlowdockFormatterTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Formatter/FluentdFormatterTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Formatter/FluentdFormatterTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Formatter/GelfMessageFormatterTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Formatter/GelfMessageFormatterTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Formatter/LogglyFormatterTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Formatter/LogglyFormatterTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Formatter/LogstashFormatterTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Formatter/LogstashFormatterTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Formatter/ScalarFormatterTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Formatter/ScalarFormatterTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/AbstractHandlerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/AbstractHandlerTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/AbstractProcessingHandlerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/AbstractProcessingHandlerTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/BrowserConsoleHandlerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/BrowserConsoleHandlerTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/ChromePHPHandlerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/ChromePHPHandlerTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/DoctrineCouchDBHandlerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/DoctrineCouchDBHandlerTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/DynamoDbHandlerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/DynamoDbHandlerTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/FilterHandlerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/FilterHandlerTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/GelfHandlerLegacyTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/GelfHandlerLegacyTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/LogEntriesHandlerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/LogEntriesHandlerTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/MockRavenClient.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/MockRavenClient.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/NativeMailerHandlerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/NativeMailerHandlerTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/NullHandlerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/NullHandlerTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/PHPConsoleHandlerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/PHPConsoleHandlerTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/RedisHandlerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/RedisHandlerTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/RollbarHandlerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/RollbarHandlerTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/RotatingFileHandlerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/RotatingFileHandlerTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/SlackbotHandlerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/SlackbotHandlerTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/SocketHandlerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/SocketHandlerTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/SyslogUdpHandlerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/SyslogUdpHandlerTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/UdpSocketTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/UdpSocketTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/LoggerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/LoggerTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Processor/GitProcessorTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Processor/GitProcessorTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Processor/MercurialProcessorTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Processor/MercurialProcessorTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Processor/UidProcessorTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Processor/UidProcessorTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/PsrLogCompatTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/PsrLogCompatTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/TestCase.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/TestCase.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/paragonie/random_compat/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/paragonie/random_compat/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/paragonie/random_compat/build-phar.sh" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/paragonie/random_compat/build-phar.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/paragonie/random_compat/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/paragonie/random_compat/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/paragonie/random_compat/dist/random_compat.phar.pubkey.asc" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/paragonie/random_compat/dist/random_compat.phar.pubkey.asc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/paragonie/random_compat/lib/byte_safe_strings.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/paragonie/random_compat/lib/byte_safe_strings.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/paragonie/random_compat/lib/cast_to_int.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/paragonie/random_compat/lib/cast_to_int.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/paragonie/random_compat/lib/error_polyfill.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/paragonie/random_compat/lib/error_polyfill.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/paragonie/random_compat/lib/random.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/paragonie/random_compat/lib/random.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/paragonie/random_compat/lib/random_bytes_com_dotnet.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/paragonie/random_compat/lib/random_bytes_com_dotnet.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/paragonie/random_compat/lib/random_bytes_dev_urandom.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/paragonie/random_compat/lib/random_bytes_dev_urandom.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/paragonie/random_compat/lib/random_bytes_libsodium.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/paragonie/random_compat/lib/random_bytes_libsodium.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/paragonie/random_compat/lib/random_int.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/paragonie/random_compat/lib/random_int.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/paragonie/random_compat/other/build_phar.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/paragonie/random_compat/other/build_phar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/paragonie/random_compat/psalm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/paragonie/random_compat/psalm.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/distribution-bundle/DependencyInjection/SensioDistributionExtension.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/distribution-bundle/DependencyInjection/SensioDistributionExtension.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/distribution-bundle/README.rst" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/distribution-bundle/README.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/distribution-bundle/Resources/config/security.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/distribution-bundle/Resources/config/security.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/distribution-bundle/Resources/skeleton/app/SymfonyRequirements.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/distribution-bundle/Resources/skeleton/app/SymfonyRequirements.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/distribution-bundle/Resources/skeleton/app/check.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/distribution-bundle/Resources/skeleton/app/check.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/distribution-bundle/Resources/skeleton/web/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/distribution-bundle/Resources/skeleton/web/config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/distribution-bundle/UPGRADE.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/distribution-bundle/UPGRADE.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/.travis.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Configuration/ConfigurationAnnotation.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Configuration/ConfigurationAnnotation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Configuration/Entity.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Configuration/Entity.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Configuration/Method.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Configuration/Method.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Configuration/ParamConverter.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Configuration/ParamConverter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Configuration/Security.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Configuration/Security.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Configuration/Template.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Configuration/Template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/DependencyInjection/Compiler/AddExpressionLanguageProvidersPass.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/DependencyInjection/Compiler/AddExpressionLanguageProvidersPass.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/DependencyInjection/Compiler/OptimizerPass.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/DependencyInjection/Compiler/OptimizerPass.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/DependencyInjection/Configuration.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/DependencyInjection/Configuration.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/DependencyInjection/SensioFrameworkExtraExtension.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/DependencyInjection/SensioFrameworkExtraExtension.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/EventListener/ControllerListener.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/EventListener/ControllerListener.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/EventListener/PsrResponseListener.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/EventListener/PsrResponseListener.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Request/ParamConverter/DateTimeParamConverter.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Request/ParamConverter/DateTimeParamConverter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Request/ParamConverter/DoctrineParamConverter.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Request/ParamConverter/DoctrineParamConverter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Request/ParamConverter/ParamConverterInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Request/ParamConverter/ParamConverterInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Resources/config/converters.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Resources/config/converters.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Resources/config/psr7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Resources/config/psr7.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Resources/config/routing.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Resources/config/routing.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Resources/config/security.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Resources/config/security.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Resources/doc/annotations/cache.rst" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Resources/doc/annotations/cache.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/SensioFrameworkExtraBundle.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/SensioFrameworkExtraBundle.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/DependencyInjection/Compiler/AddExpressionLanguageProvidersPassTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/DependencyInjection/Compiler/AddExpressionLanguageProvidersPassTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/DependencyInjection/SensioFrameworkExtraExtensionTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/DependencyInjection/SensioFrameworkExtraExtensionTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/EventListener/Fixture/FooControllerCacheAtClass.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/EventListener/Fixture/FooControllerCacheAtClass.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/EventListener/Fixture/FooControllerCacheAtMethod.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/EventListener/Fixture/FooControllerCacheAtMethod.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/EventListener/Fixture/FooControllerMultipleCacheAtClass.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/EventListener/Fixture/FooControllerMultipleCacheAtClass.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/EventListener/Fixture/FooControllerParamConverterAtClassAndMethod.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/EventListener/Fixture/FooControllerParamConverterAtClassAndMethod.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/EventListener/HttpCacheListenerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/EventListener/HttpCacheListenerTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/EventListener/IsGrantedListenerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/EventListener/IsGrantedListenerTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/EventListener/ParamConverterListenerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/EventListener/ParamConverterListenerTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/EventListener/PsrResponseListenerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/EventListener/PsrResponseListenerTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/Fixtures/ActionArgumentsBundle/ActionArgumentsBundle.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/Fixtures/ActionArgumentsBundle/ActionArgumentsBundle.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/Fixtures/ActionArgumentsBundle/Controller/NullableArgumentsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/Fixtures/ActionArgumentsBundle/Controller/NullableArgumentsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/Fixtures/FooBundle/Controller/InvokableClassLevelController.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/Fixtures/FooBundle/Controller/InvokableClassLevelController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/Fixtures/FooBundle/Controller/InvokableContainerController.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/Fixtures/FooBundle/Controller/InvokableContainerController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/Fixtures/FooBundle/Controller/InvokableController.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/Fixtures/FooBundle/Controller/InvokableController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/Fixtures/FooBundle/Controller/OptionalArgumentsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/Fixtures/FooBundle/Controller/OptionalArgumentsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/Fixtures/FooBundle/Controller/SimpleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/Fixtures/FooBundle/Controller/SimpleController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/Fixtures/FooBundle/ControllerWithVariadics/IsGrantedControllerWithVariadics.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/Fixtures/FooBundle/ControllerWithVariadics/IsGrantedControllerWithVariadics.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/Fixtures/FooBundle/Entity/Foo.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/Fixtures/FooBundle/Entity/Foo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/Fixtures/FooBundle/FooBundle.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/Fixtures/FooBundle/FooBundle.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/Fixtures/FooBundle/Resources/views/invokable_container/variable.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/Fixtures/FooBundle/Resources/views/invokable_container/variable.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/Fixtures/FooBundle/Resources/views/overwritten.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/Fixtures/FooBundle/Resources/views/overwritten.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/Fixtures/FooBundle/Resources/views/simple/streamed.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/Fixtures/FooBundle/Resources/views/simple/streamed.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/Fixtures/config/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/Fixtures/config/config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/Fixtures/config/nullable_type/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/Fixtures/config/nullable_type/config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/Fixtures/config/nullable_type/routing.yml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/Fixtures/config/nullable_type/routing.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/Functional/OptionalArgumentsTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/Functional/OptionalArgumentsTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/Request/ParamConverter/DateTimeParamConverterTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/Request/ParamConverter/DateTimeParamConverterTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/Request/ParamConverter/DoctrineParamConverterTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/Request/ParamConverter/DoctrineParamConverterTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/Routing/AnnotatedRouteControllerLoaderTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/Routing/AnnotatedRouteControllerLoaderTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/Routing/Fixtures/FoobarController.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/Routing/Fixtures/FoobarController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/Templating/Fixture/BarBundle/Controller/BarController.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/Templating/Fixture/BarBundle/Controller/BarController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/Templating/Fixture/Controller/MyAdmin/OutOfBundleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/Templating/Fixture/Controller/MyAdmin/OutOfBundleController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/Templating/Fixture/FooBundle/Action/FooAction.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/Templating/Fixture/FooBundle/Action/FooAction.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/Templating/Fixture/FooBundle/Controller/SubController/FooBarController.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/Templating/Fixture/FooBundle/Controller/SubController/FooBarController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/Templating/TemplateGuesserTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/Templating/TemplateGuesserTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/generator-bundle/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/generator-bundle/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/generator-bundle/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/generator-bundle/.travis.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Command/AutoComplete/EntitiesAutoCompleter.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Command/AutoComplete/EntitiesAutoCompleter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Command/GenerateControllerCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Command/GenerateControllerCommand.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Command/GenerateDoctrineCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Command/GenerateDoctrineCommand.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Command/GenerateDoctrineFormCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Command/GenerateDoctrineFormCommand.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Command/Validators.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Command/Validators.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Generator/CommandGenerator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Generator/CommandGenerator.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Generator/DoctrineEntityGenerator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Generator/DoctrineEntityGenerator.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/generator-bundle/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/generator-bundle/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Manipulator/Manipulator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Manipulator/Manipulator.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/generator-bundle/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/generator-bundle/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Resources/doc/commands/generate_controller.rst" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Resources/doc/commands/generate_controller.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Resources/doc/commands/generate_doctrine_crud.rst" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Resources/doc/commands/generate_doctrine_crud.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Resources/doc/index.rst" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Resources/doc/index.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Resources/skeleton/bundle/Bundle.php.twig" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Resources/skeleton/bundle/Bundle.php.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Resources/skeleton/bundle/DefaultController.php.twig" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Resources/skeleton/bundle/DefaultController.php.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Resources/skeleton/bundle/DefaultControllerTest.php.twig" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Resources/skeleton/bundle/DefaultControllerTest.php.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Resources/skeleton/bundle/index.html.twig.twig" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Resources/skeleton/bundle/index.html.twig.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Resources/skeleton/bundle/services.php.twig" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Resources/skeleton/bundle/services.php.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Resources/skeleton/bundle/services.yml.twig" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Resources/skeleton/bundle/services.yml.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Resources/skeleton/controller/Controller.php.twig" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Resources/skeleton/controller/Controller.php.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Resources/skeleton/crud/actions/delete.php.twig" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Resources/skeleton/crud/actions/delete.php.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Resources/skeleton/crud/actions/index.php.twig" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Resources/skeleton/crud/actions/index.php.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Resources/skeleton/crud/actions/show.php.twig" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Resources/skeleton/crud/actions/show.php.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Resources/skeleton/crud/config/routing.php.twig" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Resources/skeleton/crud/config/routing.php.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Resources/skeleton/crud/config/routing.xml.twig" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Resources/skeleton/crud/config/routing.xml.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Resources/skeleton/crud/config/routing.yml.twig" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Resources/skeleton/crud/config/routing.yml.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Resources/skeleton/crud/tests/others/short_scenario.php.twig" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Resources/skeleton/crud/tests/others/short_scenario.php.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Resources/skeleton/crud/tests/test.php.twig" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Resources/skeleton/crud/tests/test.php.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Resources/skeleton/crud/views/new.html.twig.twig" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Resources/skeleton/crud/views/new.html.twig.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Resources/skeleton/crud/views/show.html.twig.twig" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Resources/skeleton/crud/views/show.html.twig.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Tests/Command/GenerateCommandCommandTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Tests/Command/GenerateCommandCommandTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Tests/Command/GenerateCommandTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Tests/Command/GenerateCommandTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Tests/Command/GenerateControllerCommandTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Tests/Command/GenerateControllerCommandTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Tests/Command/GenerateDoctrineCrudCommandTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Tests/Command/GenerateDoctrineCrudCommandTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Tests/Command/GenerateDoctrineEntityCommandTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Tests/Command/GenerateDoctrineEntityCommandTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Tests/Generator/DoctrineEntityGeneratorTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Tests/Generator/DoctrineEntityGeneratorTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Tests/Generator/DoctrineFormGeneratorTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Tests/Generator/DoctrineFormGeneratorTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Tests/Generator/GeneratorTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Tests/Generator/GeneratorTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Tests/Manipulator/ConfigurationManipulatorTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Tests/Manipulator/ConfigurationManipulatorTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Tests/Manipulator/Stubs/ContainsBundlesShortArraySyntaxKernelStub.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Tests/Manipulator/Stubs/ContainsBundlesShortArraySyntaxKernelStub.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Tests/Manipulator/Stubs/ContainsCommaShortArraySyntaxKernelStub.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Tests/Manipulator/Stubs/ContainsCommaShortArraySyntaxKernelStub.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Tests/Manipulator/Stubs/ContainsExtraCodeKernelStub.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Tests/Manipulator/Stubs/ContainsExtraCodeKernelStub.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Tests/Manipulator/Stubs/ContainsExtraCodeShortArraySyntaxKernelStub.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Tests/Manipulator/Stubs/ContainsExtraCodeShortArraySyntaxKernelStub.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Tests/Manipulator/Stubs/EmptyBundlesMultilineKernelStub.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Tests/Manipulator/Stubs/EmptyBundlesMultilineKernelStub.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Tests/Manipulator/Stubs/EmptyBundlesMultilineShortArraySyntaxKernelStub.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Tests/Manipulator/Stubs/EmptyBundlesMultilineShortArraySyntaxKernelStub.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Tests/Manipulator/Stubs/EmptyBundlesShortArraySyntaxKernelStub.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Tests/Manipulator/Stubs/EmptyBundlesShortArraySyntaxKernelStub.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Tests/Manipulator/Stubs/UsingShortArraySyntaxKernelStub.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Tests/Manipulator/Stubs/UsingShortArraySyntaxKernelStub.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensio/generator-bundle/phpunit.xml.dist" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensio/generator-bundle/phpunit.xml.dist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensiolabs/security-checker/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensiolabs/security-checker/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensiolabs/security-checker/SensioLabs/Security/Crawler/BaseCrawler.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensiolabs/security-checker/SensioLabs/Security/Crawler/BaseCrawler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensiolabs/security-checker/SensioLabs/Security/Crawler/CrawlerInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensiolabs/security-checker/SensioLabs/Security/Crawler/CrawlerInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensiolabs/security-checker/SensioLabs/Security/Crawler/CurlCrawler.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensiolabs/security-checker/SensioLabs/Security/Crawler/CurlCrawler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensiolabs/security-checker/SensioLabs/Security/Crawler/DefaultCrawler.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensiolabs/security-checker/SensioLabs/Security/Crawler/DefaultCrawler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensiolabs/security-checker/SensioLabs/Security/Crawler/FileGetContentsCrawler.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensiolabs/security-checker/SensioLabs/Security/Crawler/FileGetContentsCrawler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensiolabs/security-checker/SensioLabs/Security/Exception/HttpException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensiolabs/security-checker/SensioLabs/Security/Exception/HttpException.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensiolabs/security-checker/SensioLabs/Security/Exception/RuntimeException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensiolabs/security-checker/SensioLabs/Security/Exception/RuntimeException.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensiolabs/security-checker/SensioLabs/Security/Formatters/JsonFormatter.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensiolabs/security-checker/SensioLabs/Security/Formatters/JsonFormatter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensiolabs/security-checker/SensioLabs/Security/Formatters/SimpleFormatter.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensiolabs/security-checker/SensioLabs/Security/Formatters/SimpleFormatter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensiolabs/security-checker/SensioLabs/Security/Formatters/TextFormatter.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensiolabs/security-checker/SensioLabs/Security/Formatters/TextFormatter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sensiolabs/security-checker/box.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sensiolabs/security-checker/box.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/.github/ISSUE_TEMPLATE.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/.github/ISSUE_TEMPLATE.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/VERSION" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/VERSION" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/doc/help-resources.rst" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/doc/help-resources.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/doc/including-the-files.rst" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/doc/including-the-files.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/doc/index.rst" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/doc/index.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/doc/japanese.rst" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/doc/japanese.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/doc/sending.rst" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/doc/sending.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/CharacterReader.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/CharacterReader.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/CharacterStream.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/CharacterStream.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/CharacterStream/NgCharacterStream.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/CharacterStream/NgCharacterStream.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/DependencyContainer.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/DependencyContainer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/DependencyException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/DependencyException.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Encoder/Base64Encoder.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Encoder/Base64Encoder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Encoder/QpEncoder.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Encoder/QpEncoder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Encoding.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Encoding.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Events/CommandEvent.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Events/CommandEvent.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Events/Event.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Events/Event.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Events/EventDispatcher.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Events/EventDispatcher.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Events/EventListener.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Events/EventListener.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Events/EventObject.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Events/EventObject.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Events/SimpleEventDispatcher.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Events/SimpleEventDispatcher.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Events/TransportChangeEvent.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Events/TransportChangeEvent.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Events/TransportChangeListener.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Events/TransportChangeListener.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/FailoverTransport.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/FailoverTransport.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/FileSpool.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/FileSpool.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Filterable.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Filterable.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/InputByteStream.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/InputByteStream.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/IoException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/IoException.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/KeyCache/SimpleKeyCacheInputStream.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/KeyCache/SimpleKeyCacheInputStream.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mailer/ArrayRecipientIterator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mailer/ArrayRecipientIterator.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Message.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Message.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Attachment.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Attachment.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/CharsetObserver.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/CharsetObserver.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/ContentEncoder.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/ContentEncoder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/ContentEncoder/RawContentEncoder.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/ContentEncoder/RawContentEncoder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Grammar.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Grammar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/HeaderEncoder/Base64HeaderEncoder.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/HeaderEncoder/Base64HeaderEncoder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/HeaderEncoder/QpHeaderEncoder.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/HeaderEncoder/QpHeaderEncoder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/HeaderFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/HeaderFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/HeaderSet.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/HeaderSet.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/AbstractHeader.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/AbstractHeader.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/DateHeader.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/DateHeader.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/PathHeader.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/PathHeader.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Message.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Message.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/MimeEntity.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/MimeEntity.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/MimePart.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/MimePart.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/ParameterizedHeader.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/ParameterizedHeader.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/SimpleHeaderSet.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/SimpleHeaderSet.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/SimpleMimeEntity.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/SimpleMimeEntity.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/DecoratorPlugin.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/DecoratorPlugin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/ImpersonatePlugin.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/ImpersonatePlugin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/Logger.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/Logger.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/Loggers/EchoLogger.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/Loggers/EchoLogger.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/MessageLogger.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/MessageLogger.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/Pop/Pop3Connection.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/Pop/Pop3Connection.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/Pop/Pop3Exception.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/Pop/Pop3Exception.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/RedirectingPlugin.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/RedirectingPlugin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/Reporter.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/Reporter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/SendmailTransport.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/SendmailTransport.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/SignedMessage.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/SignedMessage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Signer.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Signer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Signers/DKIMSigner.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Signers/DKIMSigner.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Signers/HeaderSigner.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Signers/HeaderSigner.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Signers/SMimeSigner.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Signers/SMimeSigner.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/SpoolTransport.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/SpoolTransport.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/Auth/PlainAuthenticator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/Auth/PlainAuthenticator.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpHandler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/FailoverTransport.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/FailoverTransport.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/IoBuffer.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/IoBuffer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/LoadBalancedTransport.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/LoadBalancedTransport.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/MailTransport.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/MailTransport.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/NullTransport.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/NullTransport.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/SimpleMailInvoker.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/SimpleMailInvoker.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/SmtpAgent.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/SmtpAgent.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/SpoolTransport.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/SpoolTransport.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/dependency_maps/mime_deps.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/dependency_maps/mime_deps.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/dependency_maps/transport_deps.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/dependency_maps/transport_deps.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/mime_types.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/mime_types.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/preferences.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/preferences.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/swift_init.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/swift_init.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/swiftmailer_generate_mimes_config.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/swiftmailer_generate_mimes_config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/phpunit.xml.dist" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/phpunit.xml.dist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/StreamCollector.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/StreamCollector.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/SwiftMailerTestCase.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/SwiftMailerTestCase.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/_samples/charsets/iso-8859-1/one.txt" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/_samples/charsets/iso-8859-1/one.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/_samples/charsets/utf-8/one.txt" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/_samples/charsets/utf-8/one.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/_samples/charsets/utf-8/two.txt" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/_samples/charsets/utf-8/two.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/_samples/smime/CA.srl" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/_samples/smime/CA.srl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/_samples/smime/ca.crt" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/_samples/smime/ca.crt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/_samples/smime/ca.key" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/_samples/smime/ca.key" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/_samples/smime/encrypt2.crt" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/_samples/smime/encrypt2.crt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/_samples/smime/sign.key" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/_samples/smime/sign.key" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/_samples/smime/sign2.crt" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/_samples/smime/sign2.crt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/_samples/smime/sign2.key" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/_samples/smime/sign2.key" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/acceptance.conf.php.default" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/acceptance.conf.php.default" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/acceptance/Swift/ByteStream/FileByteStreamAcceptanceTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/acceptance/Swift/ByteStream/FileByteStreamAcceptanceTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/acceptance/Swift/EmbeddedFileAcceptanceTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/acceptance/Swift/EmbeddedFileAcceptanceTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/acceptance/Swift/Encoder/QpEncoderAcceptanceTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/acceptance/Swift/Encoder/QpEncoderAcceptanceTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/acceptance/Swift/EncodingAcceptanceTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/acceptance/Swift/EncodingAcceptanceTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/acceptance/Swift/KeyCache/ArrayKeyCacheAcceptanceTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/acceptance/Swift/KeyCache/ArrayKeyCacheAcceptanceTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/acceptance/Swift/KeyCache/DiskKeyCacheAcceptanceTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/acceptance/Swift/KeyCache/DiskKeyCacheAcceptanceTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/acceptance/Swift/MessageAcceptanceTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/acceptance/Swift/MessageAcceptanceTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/acceptance/Swift/Mime/AttachmentAcceptanceTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/acceptance/Swift/Mime/AttachmentAcceptanceTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/acceptance/Swift/Mime/ContentEncoder/QpContentEncoderAcceptanceTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/acceptance/Swift/Mime/ContentEncoder/QpContentEncoderAcceptanceTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/acceptance/Swift/Mime/EmbeddedFileAcceptanceTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/acceptance/Swift/Mime/EmbeddedFileAcceptanceTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/acceptance/Swift/Mime/HeaderEncoder/Base64HeaderEncoderAcceptanceTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/acceptance/Swift/Mime/HeaderEncoder/Base64HeaderEncoderAcceptanceTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/acceptance/Swift/Mime/MimePartAcceptanceTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/acceptance/Swift/Mime/MimePartAcceptanceTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/acceptance/Swift/Mime/SimpleMessageAcceptanceTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/acceptance/Swift/Mime/SimpleMessageAcceptanceTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/acceptance/Swift/Transport/StreamBuffer/SocketTimeoutTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/acceptance/Swift/Transport/StreamBuffer/SocketTimeoutTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/acceptance/Swift/Transport/StreamBuffer/TlsSocketAcceptanceTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/acceptance/Swift/Transport/StreamBuffer/TlsSocketAcceptanceTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/bootstrap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/bug/Swift/Bug111Test.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/bug/Swift/Bug111Test.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/bug/Swift/Bug206Test.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/bug/Swift/Bug206Test.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/bug/Swift/Bug38Test.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/bug/Swift/Bug38Test.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/bug/Swift/Bug518Test.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/bug/Swift/Bug518Test.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/bug/Swift/Bug51Test.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/bug/Swift/Bug51Test.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/bug/Swift/Bug650Test.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/bug/Swift/Bug650Test.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/bug/Swift/Bug76Test.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/bug/Swift/Bug76Test.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/fixtures/MimeEntityFixture.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/fixtures/MimeEntityFixture.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/smoke.conf.php.default" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/smoke.conf.php.default" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/smoke/Swift/Smoke/AttachmentSmokeTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/smoke/Swift/Smoke/AttachmentSmokeTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/smoke/Swift/Smoke/HtmlWithAttachmentSmokeTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/smoke/Swift/Smoke/HtmlWithAttachmentSmokeTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/CharacterReader/GenericFixedWidthReaderTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/CharacterReader/GenericFixedWidthReaderTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/DependencyContainerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/DependencyContainerTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Events/EventObjectTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Events/EventObjectTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Events/ResponseEventTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Events/ResponseEventTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Events/SimpleEventDispatcherTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Events/SimpleEventDispatcherTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Events/TransportExceptionEventTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Events/TransportExceptionEventTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/KeyCache/SimpleKeyCacheInputStreamTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/KeyCache/SimpleKeyCacheInputStreamTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/MailerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/MailerTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Mime/AbstractMimeEntityTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Mime/AbstractMimeEntityTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Mime/AttachmentTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Mime/AttachmentTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Mime/ContentEncoder/Base64ContentEncoderTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Mime/ContentEncoder/Base64ContentEncoderTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Mime/ContentEncoder/PlainContentEncoderTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Mime/ContentEncoder/PlainContentEncoderTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Mime/ContentEncoder/QpContentEncoderTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Mime/ContentEncoder/QpContentEncoderTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Mime/EmbeddedFileTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Mime/EmbeddedFileTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Mime/Headers/IdentificationHeaderTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Mime/Headers/IdentificationHeaderTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Mime/Headers/ParameterizedHeaderTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Mime/Headers/ParameterizedHeaderTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Mime/Headers/PathHeaderTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Mime/Headers/PathHeaderTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Mime/MimePartTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Mime/MimePartTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Mime/SimpleHeaderFactoryTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Mime/SimpleHeaderFactoryTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Mime/SimpleMessageTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Mime/SimpleMessageTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Plugins/LoggerPluginTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Plugins/LoggerPluginTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Plugins/PopBeforeSmtpPluginTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Plugins/PopBeforeSmtpPluginTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Plugins/ThrottlerPluginTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Plugins/ThrottlerPluginTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Signers/DKIMSignerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Signers/DKIMSignerTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Signers/OpenDKIMSignerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Signers/OpenDKIMSignerTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Signers/SMimeSignerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Signers/SMimeSignerTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Transport/AbstractSmtpEventSupportTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Transport/AbstractSmtpEventSupportTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Transport/Esmtp/Auth/LoginAuthenticatorTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Transport/Esmtp/Auth/LoginAuthenticatorTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Transport/Esmtp/Auth/PlainAuthenticatorTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Transport/Esmtp/Auth/PlainAuthenticatorTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Transport/FailoverTransportTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Transport/FailoverTransportTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Transport/LoadBalancedTransportTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Transport/LoadBalancedTransportTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Transport/SendmailTransportTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Transport/SendmailTransportTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/monolog-bundle/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/monolog-bundle/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/monolog-bundle/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/monolog-bundle/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/monolog-bundle/DependencyInjection/Compiler/AddProcessorsPass.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/monolog-bundle/DependencyInjection/Compiler/AddProcessorsPass.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/monolog-bundle/DependencyInjection/Compiler/AddSwiftMailerTransportPass.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/monolog-bundle/DependencyInjection/Compiler/AddSwiftMailerTransportPass.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/monolog-bundle/DependencyInjection/Compiler/DebugHandlerPass.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/monolog-bundle/DependencyInjection/Compiler/DebugHandlerPass.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/monolog-bundle/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/monolog-bundle/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/monolog-bundle/MonologBundle.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/monolog-bundle/MonologBundle.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/monolog-bundle/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/monolog-bundle/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/monolog-bundle/Resources/config/monolog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/monolog-bundle/Resources/config/monolog.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/monolog-bundle/Resources/config/schema/monolog-1.0.xsd" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/monolog-bundle/Resources/config/schema/monolog-1.0.xsd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/monolog-bundle/SwiftMailer/MessageFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/monolog-bundle/SwiftMailer/MessageFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/monolog-bundle/Tests/DependencyInjection/ConfigurationTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/monolog-bundle/Tests/DependencyInjection/ConfigurationTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/monolog-bundle/Tests/DependencyInjection/DependencyInjectionTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/monolog-bundle/Tests/DependencyInjection/DependencyInjectionTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/monolog-bundle/Tests/DependencyInjection/Fixtures/xml/multiple_handlers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/monolog-bundle/Tests/DependencyInjection/Fixtures/xml/multiple_handlers.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/monolog-bundle/Tests/DependencyInjection/Fixtures/xml/new_and_priority.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/monolog-bundle/Tests/DependencyInjection/Fixtures/xml/new_and_priority.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/monolog-bundle/Tests/DependencyInjection/Fixtures/xml/new_and_priority_import.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/monolog-bundle/Tests/DependencyInjection/Fixtures/xml/new_and_priority_import.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/monolog-bundle/Tests/DependencyInjection/Fixtures/xml/new_at_end.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/monolog-bundle/Tests/DependencyInjection/Fixtures/xml/new_at_end.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/monolog-bundle/Tests/DependencyInjection/Fixtures/xml/new_at_end_import.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/monolog-bundle/Tests/DependencyInjection/Fixtures/xml/new_at_end_import.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/monolog-bundle/Tests/DependencyInjection/Fixtures/xml/overwriting.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/monolog-bundle/Tests/DependencyInjection/Fixtures/xml/overwriting.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/monolog-bundle/Tests/DependencyInjection/Fixtures/xml/overwriting_import.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/monolog-bundle/Tests/DependencyInjection/Fixtures/xml/overwriting_import.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/monolog-bundle/Tests/DependencyInjection/Fixtures/xml/process_psr_3_messages_disabled.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/monolog-bundle/Tests/DependencyInjection/Fixtures/xml/process_psr_3_messages_disabled.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/monolog-bundle/Tests/DependencyInjection/Fixtures/yml/handlers_with_channels.yml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/monolog-bundle/Tests/DependencyInjection/Fixtures/yml/handlers_with_channels.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/monolog-bundle/Tests/DependencyInjection/Fixtures/yml/multiple_email_recipients.yml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/monolog-bundle/Tests/DependencyInjection/Fixtures/yml/multiple_email_recipients.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/monolog-bundle/Tests/DependencyInjection/Fixtures/yml/new_and_priority.yml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/monolog-bundle/Tests/DependencyInjection/Fixtures/yml/new_and_priority.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/monolog-bundle/Tests/DependencyInjection/Fixtures/yml/overwriting_import.yml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/monolog-bundle/Tests/DependencyInjection/Fixtures/yml/overwriting_import.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/monolog-bundle/Tests/DependencyInjection/Fixtures/yml/parameterized_handlers.yml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/monolog-bundle/Tests/DependencyInjection/Fixtures/yml/parameterized_handlers.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/monolog-bundle/Tests/DependencyInjection/MonologExtensionTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/monolog-bundle/Tests/DependencyInjection/MonologExtensionTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/monolog-bundle/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/monolog-bundle/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/CoverageListener.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/CoverageListener.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/Legacy/CommandForV5.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/Legacy/CommandForV5.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/Legacy/CommandForV6.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/Legacy/CommandForV6.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/Legacy/CoverageListenerForV6.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/Legacy/CoverageListenerForV6.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/Legacy/CoverageListenerTrait.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/Legacy/CoverageListenerTrait.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/Legacy/SymfonyTestsListenerForV5.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/Legacy/SymfonyTestsListenerForV5.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/Legacy/SymfonyTestsListenerForV7.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/Legacy/SymfonyTestsListenerForV7.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/Legacy/SymfonyTestsListenerTrait.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/Legacy/SymfonyTestsListenerTrait.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/Legacy/TestRunnerForV5.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/Legacy/TestRunnerForV5.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/Legacy/TestRunnerForV7.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/Legacy/TestRunnerForV7.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/Tests/DeprecationErrorHandler/fake_vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/Tests/DeprecationErrorHandler/fake_vendor/composer/autoload_real.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/Tests/DeprecationErrorHandler/generate_phar.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/Tests/DeprecationErrorHandler/generate_phar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/Tests/DeprecationErrorHandler/weak.phpt" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/Tests/DeprecationErrorHandler/weak.phpt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/Tests/DeprecationErrorHandler/weak_vendors_on_non_vendor.phpt" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/Tests/DeprecationErrorHandler/weak_vendors_on_non_vendor.phpt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/Tests/DeprecationErrorHandler/weak_vendors_on_vendor.phpt" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/Tests/DeprecationErrorHandler/weak_vendors_on_vendor.phpt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/Tests/DnsMockTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/Tests/DnsMockTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/Tests/Fixtures/coverage/phpunit-with-listener.xml.dist" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/Tests/Fixtures/coverage/phpunit-with-listener.xml.dist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/Tests/Fixtures/coverage/tests/BarCovTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/Tests/Fixtures/coverage/tests/BarCovTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/Tests/Fixtures/coverage/tests/CoversDefaultClassTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/Tests/Fixtures/coverage/tests/CoversDefaultClassTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/Tests/Fixtures/coverage/tests/SutNotFindTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/Tests/Fixtures/coverage/tests/SutNotFindTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/Tests/Fixtures/coverage/tests/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/Tests/Fixtures/coverage/tests/bootstrap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/TextUI/TestRunner.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/TextUI/TestRunner.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/bin/simple-phpunit" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/bin/simple-phpunit" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/phpunit.xml.dist" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/phpunit.xml.dist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-apcu/Apcu.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-apcu/Apcu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-apcu/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-apcu/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-apcu/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-apcu/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-apcu/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-apcu/bootstrap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-apcu/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-apcu/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-ctype/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-ctype/bootstrap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-ctype/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-ctype/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-intl-icu/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-intl-icu/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-intl-icu/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-intl-icu/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-intl-icu/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-intl-icu/bootstrap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-intl-icu/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-intl-icu/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/Resources/unidata/titleCaseRegexp.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/Resources/unidata/titleCaseRegexp.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/bootstrap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-php70/Php70.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-php70/Php70.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-php70/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-php70/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-php70/Resources/stubs/AssertionError.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-php70/Resources/stubs/AssertionError.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-php70/Resources/stubs/DivisionByZeroError.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-php70/Resources/stubs/DivisionByZeroError.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-php70/Resources/stubs/ParseError.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-php70/Resources/stubs/ParseError.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-php70/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-php70/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-util/BinaryNoFuncOverload.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-util/BinaryNoFuncOverload.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-util/BinaryOnFuncOverload.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-util/BinaryOnFuncOverload.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-util/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-util/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-util/TestListenerTrait.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-util/TestListenerTrait.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/CHANGELOG" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/CHANGELOG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Command/NewEmailCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Command/NewEmailCommand.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Command/SendEmailCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Command/SendEmailCommand.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/DataCollector/MessageDataCollector.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/DataCollector/MessageDataCollector.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/DependencyInjection/Compiler/RegisterPluginsPass.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/DependencyInjection/Compiler/RegisterPluginsPass.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/DependencyInjection/SmtpTransportConfigurator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/DependencyInjection/SmtpTransportConfigurator.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/DependencyInjection/SwiftmailerExtension.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/DependencyInjection/SwiftmailerExtension.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/EventListener/EmailSenderListener.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/EventListener/EmailSenderListener.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Resources/config/schema/swiftmailer-1.0.xsd" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Resources/config/schema/swiftmailer-1.0.xsd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Resources/config/swiftmailer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Resources/config/swiftmailer.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Resources/meta/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Resources/meta/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Resources/views/Collector/swiftmailer.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Resources/views/Collector/swiftmailer.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Tests/Command/SendEmailCommandTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Tests/Command/SendEmailCommandTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Tests/DependencyInjection/Fixtures/config/php/empty.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Tests/DependencyInjection/Fixtures/config/php/empty.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Tests/DependencyInjection/Fixtures/config/php/full.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Tests/DependencyInjection/Fixtures/config/php/full.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Tests/DependencyInjection/Fixtures/config/php/many_mailers.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Tests/DependencyInjection/Fixtures/config/php/many_mailers.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Tests/DependencyInjection/Fixtures/config/php/redirect.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Tests/DependencyInjection/Fixtures/config/php/redirect.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Tests/DependencyInjection/Fixtures/config/php/redirect_multi.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Tests/DependencyInjection/Fixtures/config/php/redirect_multi.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Tests/DependencyInjection/Fixtures/config/php/redirect_single.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Tests/DependencyInjection/Fixtures/config/php/redirect_single.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Tests/DependencyInjection/Fixtures/config/php/sendmail.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Tests/DependencyInjection/Fixtures/config/php/sendmail.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Tests/DependencyInjection/Fixtures/config/php/smtp.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Tests/DependencyInjection/Fixtures/config/php/smtp.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Tests/DependencyInjection/Fixtures/config/php/spool_memory.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Tests/DependencyInjection/Fixtures/config/php/spool_memory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Tests/DependencyInjection/Fixtures/config/php/spool_service.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Tests/DependencyInjection/Fixtures/config/php/spool_service.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Tests/DependencyInjection/Fixtures/config/php/urls.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Tests/DependencyInjection/Fixtures/config/php/urls.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Tests/DependencyInjection/Fixtures/config/xml/empty.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Tests/DependencyInjection/Fixtures/config/xml/empty.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Tests/DependencyInjection/Fixtures/config/xml/full.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Tests/DependencyInjection/Fixtures/config/xml/full.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Tests/DependencyInjection/Fixtures/config/xml/null_mailer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Tests/DependencyInjection/Fixtures/config/xml/null_mailer.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Tests/DependencyInjection/Fixtures/config/xml/sender_address.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Tests/DependencyInjection/Fixtures/config/xml/sender_address.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Tests/DependencyInjection/Fixtures/config/xml/smtp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Tests/DependencyInjection/Fixtures/config/xml/smtp.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Tests/DependencyInjection/Fixtures/config/yml/antiflood.yml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Tests/DependencyInjection/Fixtures/config/yml/antiflood.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Tests/DependencyInjection/Fixtures/config/yml/disable_delivery.yml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Tests/DependencyInjection/Fixtures/config/yml/disable_delivery.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Tests/DependencyInjection/Fixtures/config/yml/empty.yml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Tests/DependencyInjection/Fixtures/config/yml/empty.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Tests/DependencyInjection/Fixtures/config/yml/full.yml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Tests/DependencyInjection/Fixtures/config/yml/full.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Tests/DependencyInjection/Fixtures/config/yml/mail.yml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Tests/DependencyInjection/Fixtures/config/yml/mail.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Tests/DependencyInjection/Fixtures/config/yml/one_mailer.yml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Tests/DependencyInjection/Fixtures/config/yml/one_mailer.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Tests/DependencyInjection/Fixtures/config/yml/redirect_multi.yml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Tests/DependencyInjection/Fixtures/config/yml/redirect_multi.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Tests/DependencyInjection/Fixtures/config/yml/redirect_single.yml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Tests/DependencyInjection/Fixtures/config/yml/redirect_single.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Tests/DependencyInjection/Fixtures/config/yml/sendmail.yml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Tests/DependencyInjection/Fixtures/config/yml/sendmail.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Tests/DependencyInjection/Fixtures/config/yml/smtp.yml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Tests/DependencyInjection/Fixtures/config/yml/smtp.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Tests/DependencyInjection/Fixtures/config/yml/spool.yml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Tests/DependencyInjection/Fixtures/config/yml/spool.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Tests/DependencyInjection/Fixtures/config/yml/spool_service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Tests/DependencyInjection/Fixtures/config/yml/spool_service.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Tests/DependencyInjection/Fixtures/config/yml/stream_options.yml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Tests/DependencyInjection/Fixtures/config/yml/stream_options.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/phpunit.xml.dist" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/phpunit.xml.dist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/symfony/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/.travis.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/symfony/CHANGELOG-3.0.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/CHANGELOG-3.0.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/symfony/CONTRIBUTING.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/CONTRIBUTING.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/symfony/UPGRADE-3.0.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/UPGRADE-3.0.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/symfony/UPGRADE-3.2.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/UPGRADE-3.2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/symfony/UPGRADE-3.4.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/UPGRADE-3.4.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/symfony/UPGRADE-4.0.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/UPGRADE-4.0.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/symfony/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/symfony/phpunit" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/phpunit" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Extension/SandboxTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Extension/SandboxTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/autoescape/block.test" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/autoescape/block.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/exceptions/multiline_array_with_undefined_variable_again.test" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/exceptions/multiline_array_with_undefined_variable_again.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/exceptions/multiline_function_with_unknown_argument.test" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/exceptions/multiline_function_with_unknown_argument.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/exceptions/syntax_error_in_reused_template.test" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/exceptions/syntax_error_in_reused_template.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/expressions/_self.test" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/expressions/_self.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/expressions/array.test" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/expressions/array.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/expressions/bitwise.test" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/expressions/bitwise.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/expressions/literals.test" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/expressions/literals.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/expressions/magic_call.test" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/expressions/magic_call.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/expressions/matches.test" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/expressions/matches.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/expressions/negative_numbers.test" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/expressions/negative_numbers.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/expressions/operators_as_variables.test" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/expressions/operators_as_variables.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/expressions/starts_with.test" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/expressions/starts_with.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/expressions/strings.test" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/expressions/strings.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/expressions/ternary_operator.test" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/expressions/ternary_operator.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/expressions/ternary_operator_noelse.test" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/expressions/ternary_operator_noelse.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/expressions/unary_precedence.test" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/expressions/unary_precedence.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/batch_with_empty_fill.test" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/batch_with_empty_fill.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/batch_with_exact_elements.test" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/batch_with_exact_elements.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/batch_with_fill.test" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/batch_with_fill.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/batch_with_keys.test" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/batch_with_keys.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/batch_with_zero_elements.test" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/batch_with_zero_elements.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/date_default_format_interval.test" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/date_default_format_interval.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/date_namedargs.test" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/date_namedargs.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/default.test" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/default.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/dynamic_filter.test" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/dynamic_filter.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/escape_javascript.test" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/escape_javascript.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/first.test" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/first.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/format.test" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/format.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/join.test" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/join.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/last.test" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/last.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/length_utf8.test" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/length_utf8.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/merge.test" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/merge.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/number_format.test" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/number_format.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/replace_invalid_arg.test" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/replace_invalid_arg.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/reverse.test" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/reverse.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/slice.test" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/slice.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/sort.test" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/sort.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/special_chars.test" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/special_chars.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/split.test" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/split.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/urlencode_deprecated.test" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/urlencode_deprecated.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/functions/attribute.test" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/functions/attribute.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/functions/block_without_name.test" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/functions/block_without_name.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/functions/date.test" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/functions/date.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/functions/date_namedargs.test" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/functions/date_namedargs.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/functions/dump_array.test" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/functions/dump_array.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/functions/dynamic_function.test" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/functions/dynamic_function.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/functions/include/expression.test" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/functions/include/expression.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/functions/include/missing.test" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/functions/include/missing.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/functions/include/missing_nested.test" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/functions/include/missing_nested.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/functions/include/sandbox_disabling.test" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/functions/include/sandbox_disabling.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/functions/include/sandbox_disabling_ignore_missing.test" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/functions/include/sandbox_disabling_ignore_missing.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/functions/magic_call.test" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/functions/magic_call.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/functions/magic_call53.test" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/functions/magic_call53.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/functions/max.test" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/functions/max.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/functions/range.test" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/functions/range.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/functions/recursive_block_with_inheritance.test" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/functions/recursive_block_with_inheritance.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/functions/source.test" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/functions/source.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/functions/template_from_string.test" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/functions/template_from_string.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/macros/varargs.test" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/macros/varargs.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/macros/varargs_argument.test" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/macros/varargs_argument.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/regression/issue_1143.test" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/regression/issue_1143.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/tags/autoescape/basic.test" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/tags/autoescape/basic.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/tags/autoescape/blocks.test" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/tags/autoescape/blocks.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/tags/autoescape/literal.test" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/tags/autoescape/literal.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/tags/autoescape/strategy.legacy.test" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/tags/autoescape/strategy.legacy.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/tags/autoescape/strategy.test" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/tags/autoescape/strategy.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/tags/autoescape/type.test" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/tags/autoescape/type.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/tags/autoescape/with_pre_escape_filters.test" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/tags/autoescape/with_pre_escape_filters.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/tags/inheritance/dynamic.test" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/tags/inheritance/dynamic.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/tags/inheritance/extends_as_array.test" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/tags/inheritance/extends_as_array.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/tags/inheritance/extends_as_array_with_empty_name.test" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/tags/inheritance/extends_as_array_with_empty_name.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/tags/inheritance/multiple.test" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/tags/inheritance/multiple.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/tags/inheritance/multiple_dynamic.test" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/tags/inheritance/multiple_dynamic.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/tags/inheritance/nested_blocks.test" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/tags/inheritance/nested_blocks.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/tags/inheritance/nested_blocks_parent_only.test" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/tags/inheritance/nested_blocks_parent_only.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/tags/inheritance/parent.test" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/tags/inheritance/parent.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/tags/inheritance/use.test" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/tags/inheritance/use.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/tags/spaceless/simple.test" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/tags/spaceless/simple.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/tests/array.test" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/tests/array.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/tests/constant.test" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/tests/constant.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/tests/defined_for_attribute.test" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/tests/defined_for_attribute.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/tests/defined_for_blocks.test" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/tests/defined_for_blocks.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/tests/defined_for_blocks_with_template.test" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/tests/defined_for_blocks_with_template.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/tests/defined_for_constants.test" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/tests/defined_for_constants.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/tests/null_coalesce.test" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/tests/null_coalesce.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Profiler/Dumper/BlackfireTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Profiler/Dumper/BlackfireTest.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -658,25 +19,27 @@
     <session id="-38808204">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.53" value="1" />
           <entry key="project.open.time.68" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.70" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="gitignore" value="12" />
-          <entry key="php" value="188" />
+          <entry key="gitignore" value="15" />
+          <entry key="php" value="201" />
           <entry key="twig" value="81" />
-          <entry key="txt" value="168" />
+          <entry key="txt" value="175" />
           <entry key="yml" value="55" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PHP" value="188" />
-          <entry key="PLAIN_TEXT" value="180" />
+          <entry key="PHP" value="201" />
+          <entry key="PLAIN_TEXT" value="190" />
           <entry key="Twig" value="81" />
           <entry key="YAML" value="55" />
         </counts>
@@ -684,22 +47,24 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="dist" value="1" />
-          <entry key="gitignore" value="1" />
+          <entry key="gitignore" value="2" />
           <entry key="json" value="1" />
-          <entry key="php" value="19" />
+          <entry key="md" value="1" />
+          <entry key="php" value="26" />
           <entry key="twig" value="15" />
           <entry key="xml" value="2" />
-          <entry key="yml" value="6" />
+          <entry key="yml" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JSON" value="1" />
-          <entry key="PHP" value="19" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Markdown" value="1" />
+          <entry key="PHP" value="26" />
+          <entry key="PLAIN_TEXT" value="2" />
           <entry key="Twig" value="15" />
           <entry key="XML" value="3" />
-          <entry key="YAML" value="6" />
+          <entry key="YAML" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.composer.actions">
@@ -710,84 +75,12 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FrontBundle/Resources/views/Comptable/index.html.twig">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/symfony/phpunit-bridge/phpunit.xml.dist">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/sensio/generator-bundle/Resources/skeleton/bundle/Bundle.php.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Resources/config/psr7.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="78" selection-start-line="7" selection-start-column="78" selection-end-line="7" selection-end-column="78" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Tests/DependencyInjection/Fixtures/config/xml/sender_address.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/sensio/generator-bundle/Resources/skeleton/crud/tests/test.php.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="24" column="2" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/Fixtures/FooBundle/Controller/InvokableContainerController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/vendor/sensiolabs/security-checker/SensioLabs/Security/Formatters/SimpleFormatter.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="38" column="27" lean-forward="true" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FrontBundle/Controller/ComptableController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+            <state relative-caret-position="102">
+              <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -795,11 +88,44 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/FrontBundle/Entity/Compte.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
+            <state relative-caret-position="-339">
               <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
-              <folding>
-                <element signature="e#38#70#0#PHP" expanded="true" />
-              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/FrontBundle/Controller/AdminController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="31" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/FrontBundle/Controller/ComptableController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="327">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="29" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/FrontBundle/Entity/Visiteur.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1139">
+              <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -836,10 +162,14 @@
       <command text="s assets:install " />
       <command text="s doctrine:schema:update --force " />
       <command text="s doctrine:generate:entities FrontBundle:Compte" />
+      <command text="s doctrine:generate:entity " />
     </commandsHistory>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Dummy.txt" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -860,7 +190,6 @@
         <option value="$PROJECT_DIR$/src/FrontBundle/Resources/public/css/simple-sidebar.css" />
         <option value="$PROJECT_DIR$/app/AppKernel.php" />
         <option value="$PROJECT_DIR$/app/config/parameters.yml" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
         <option value="$PROJECT_DIR$/src/FrontBundle/Resources/views/Security/login.html.twig" />
         <option value="$PROJECT_DIR$/src/FrontBundle/Controller/VisiteurController.php" />
@@ -877,6 +206,9 @@
         <option value="$PROJECT_DIR$/vendor/sensio/generator-bundle/Resources/skeleton/bundle/Bundle.php.twig" />
         <option value="$PROJECT_DIR$/vendor/sensio/generator-bundle/Resources/skeleton/crud/tests/test.php.twig" />
         <option value="$PROJECT_DIR$/vendor/sensiolabs/security-checker/SensioLabs/Security/Formatters/SimpleFormatter.php" />
+        <option value="$PROJECT_DIR$/vendor/sensiolabs/security-checker/SensioLabs/Security/Formatters/TextFormatter.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/FrontBundle/Entity/Visiteur.php" />
       </list>
     </option>
   </component>
@@ -935,7 +267,7 @@
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-icu" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
@@ -949,6 +281,53 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="AppliFrais" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AppliFrais" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AppliFrais" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AppliFrais" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AppliFrais" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AppliFrais" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AppliFrais" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AppliFrais" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AppliFrais" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AppliFrais" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="FrontBundle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AppliFrais" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AppliFrais" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="FrontBundle" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AppliFrais" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AppliFrais" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="FrontBundle" type="462c0819:PsiDirectoryNode" />
+              <item name="Entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Project Files">
           <expand>
@@ -1035,184 +414,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="AppliFrais" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AppliFrais" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AppliFrais" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AppliFrais" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AppliFrais" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AppliFrais" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AppliFrais" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AppliFrais" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AppliFrais" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AppliFrais" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AppliFrais" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AppliFrais" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="compte" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AppliFrais" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AppliFrais" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AppliFrais" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AppliFrais" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="FrontBundle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AppliFrais" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AppliFrais" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="FrontBundle" type="462c0819:PsiDirectoryNode" />
-              <item name="Controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AppliFrais" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AppliFrais" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="FrontBundle" type="462c0819:PsiDirectoryNode" />
-              <item name="Entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AppliFrais" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AppliFrais" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="FrontBundle" type="462c0819:PsiDirectoryNode" />
-              <item name="Form" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AppliFrais" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AppliFrais" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="FrontBundle" type="462c0819:PsiDirectoryNode" />
-              <item name="Resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AppliFrais" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AppliFrais" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="FrontBundle" type="462c0819:PsiDirectoryNode" />
-              <item name="Resources" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AppliFrais" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AppliFrais" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="FrontBundle" type="462c0819:PsiDirectoryNode" />
-              <item name="Resources" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-              <item name="routing" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AppliFrais" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AppliFrais" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="FrontBundle" type="462c0819:PsiDirectoryNode" />
-              <item name="Resources" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AppliFrais" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AppliFrais" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="FrontBundle" type="462c0819:PsiDirectoryNode" />
-              <item name="Resources" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AppliFrais" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AppliFrais" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="FrontBundle" type="462c0819:PsiDirectoryNode" />
-              <item name="Resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AppliFrais" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AppliFrais" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="FrontBundle" type="462c0819:PsiDirectoryNode" />
-              <item name="Resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="Comptable" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AppliFrais" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AppliFrais" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AppliFrais" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AppliFrais" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="friendsofsymfony" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AppliFrais" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AppliFrais" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="friendsofsymfony" type="462c0819:PsiDirectoryNode" />
-              <item name="user-bundle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AppliFrais" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AppliFrais" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="friendsofsymfony" type="462c0819:PsiDirectoryNode" />
-              <item name="user-bundle" type="462c0819:PsiDirectoryNode" />
-              <item name="Resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AppliFrais" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AppliFrais" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="friendsofsymfony" type="462c0819:PsiDirectoryNode" />
-              <item name="user-bundle" type="462c0819:PsiDirectoryNode" />
-              <item name="Resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AppliFrais" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AppliFrais" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="friendsofsymfony" type="462c0819:PsiDirectoryNode" />
-              <item name="user-bundle" type="462c0819:PsiDirectoryNode" />
-              <item name="Resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="Security" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1225,16 +426,16 @@
     <property name="settings.editor.splitter.proportion" value="0.32610837" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="P:\wamp64\www" />
-      <recent name="P:\wamp64\www\AppliFrais\src\FrontBundle\Resources\public" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="P:\wamp64\www\AppliFrais\src\FrontBundle\Resources\views" />
       <recent name="P:\wamp64\www\sc_chat\app\Resources\views" />
       <recent name="P:\wamp64\www\sc_chat\src\AppBundle\Controller" />
       <recent name="P:\wamp64\www\AppliFrais\src\FrontBundle\Resources\views\Visiteur" />
       <recent name="P:\wamp64\www\AppliFrais\src\FrontBundle\Controller" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="P:\wamp64\www" />
+      <recent name="P:\wamp64\www\AppliFrais\src\FrontBundle\Resources\public" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1286,7 +487,9 @@
       <workItem from="1539680134044" duration="3934000" />
       <workItem from="1539699854777" duration="2111000" />
       <workItem from="1540826281981" duration="5348000" />
-      <workItem from="1540977317669" duration="913000" />
+      <workItem from="1540977317669" duration="2142000" />
+      <workItem from="1541422440810" duration="1001000" />
+      <workItem from="1541513820403" duration="2854000" />
     </task>
     <task id="LOCAL-00001" summary="Merge branch 'master' of https://github.com/a-glln/AppliFrais&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;&#10;supprimer teubi">
       <created>1539262801247</created>
@@ -1316,33 +519,49 @@
       <option name="project" value="LOCAL" />
       <updated>1539701518929</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="ajout de droit/Restriction">
+      <created>1540978784455</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1540978784456</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42027000" />
+    <option name="totallyTimeSpent" value="47111000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1860817" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19213313" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Command Line Tools Console" order="0" sideWeight="0.49848714" visible="true" weight="0.37540984" />
+      <window_info anchor="bottom" id="Command Line Tools Console" order="0" sideWeight="0.49848714" weight="0.37540984" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32941177" />
       <window_info anchor="bottom" id="Run" order="3" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.3295082" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Messages" order="9" visible="true" weight="0.20491803" />
+      <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.49848714" weight="0.20491803" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5015129" side_tool="true" weight="0.60655737" />
-      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49932975" weight="0.552459" />
-      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5015129" side_tool="true" weight="0.20491803" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49932975" visible="true" weight="0.552459" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.3295082" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1412,13 +631,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -1437,20 +649,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="107">
           <caret line="77" column="8" selection-start-line="77" selection-start-column="8" selection-end-line="77" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="29" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -1519,13 +717,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FrontBundle/Controller/AdminController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/FrontBundle/Resources/views/Admin/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -1564,41 +755,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FrontBundle/Controller/ComptableController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FrontBundle/Entity/Compte.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
-          <folding>
-            <element signature="e#38#70#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/FrontBundle/Resources/views/Comptable/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/symfony/phpunit-bridge/phpunit.xml.dist">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/sensio/generator-bundle/Resources/skeleton/bundle/Bundle.php.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -1623,6 +783,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/sensiolabs/security-checker/SensioLabs/Security/Formatters/TextFormatter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="37" column="101" selection-start-line="37" selection-start-column="101" selection-end-line="37" selection-end-column="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="53" column="17" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/UPGRADE-4.0.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="179">
+            <caret line="198" column="4" selection-start-line="198" selection-start-column="4" selection-end-line="198" selection-end-column="4" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/sensio/generator-bundle/Resources/skeleton/bundle/Bundle.php.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/phpunit-bridge/phpunit.xml.dist">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/Fixtures/FooBundle/Controller/InvokableContainerController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1632,8 +830,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/sensiolabs/security-checker/SensioLabs/Security/Formatters/SimpleFormatter.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="38" column="27" lean-forward="true" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
+        <state relative-caret-position="204">
+          <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FrontBundle/Entity/Compte.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-339">
+          <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FrontBundle/Controller/AdminController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FrontBundle/Controller/ComptableController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FrontBundle/Entity/Visiteur.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1139">
+          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
         </state>
       </provider>
     </entry>
