@@ -2,15 +2,896 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18ab21e6-9852-42df-90ec-c659003d9da0" name="Default" comment="test">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/ca-bundle/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/ca-bundle/src/CaBundle.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/fig/link-util/src/EvolvableLinkProviderTrait.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/fig/link-util/src/EvolvableLinkTrait.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/fig/link-util/src/Link.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/fig/link-util/test/LinkTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/jdorn/sql-formatter/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/jdorn/sql-formatter/examples/examples.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/jdorn/sql-formatter/tests/clihighlight.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/jdorn/sql-formatter/tests/compress.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/jdorn/sql-formatter/tests/highlight.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/jdorn/sql-formatter/tests/performance.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/monolog/monolog/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/monolog/monolog/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/monolog/monolog/phpunit.xml.dist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/ErrorHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Formatter/ElasticaFormatter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Formatter/LogglyFormatter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Formatter/LogstashFormatter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/AbstractSyslogHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/BrowserConsoleHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/ChromePHPHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/CubeHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/Curl/Util.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/DeduplicationHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/ElasticSearchHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/FingersCrossed/ActivationStrategyInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/FleepHookHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/FlowdockHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/GroupHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/HipChatHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/IFTTTHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/MailHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/MandrillHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/NativeMailerHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/NullHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/PushoverHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/RedisHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/SamplingHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/SwiftMailerHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/SyslogHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Processor/GitProcessor.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Processor/MemoryProcessor.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Processor/MercurialProcessor.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Processor/ProcessIdProcessor.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Processor/PsrLogMessageProcessor.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Processor/UidProcessor.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Formatter/JsonFormatterTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Formatter/LineFormatterTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Formatter/WildfireFormatterTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/CouchDBHandlerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/DeduplicationHandlerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/ElasticSearchHandlerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/ErrorLogHandlerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/FingersCrossedHandlerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/FirePHPHandlerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/FleepHookHandlerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/GelfHandlerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/GroupHandlerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/HandlerWrapperTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/MongoDBHandlerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/PsrHandlerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/RavenHandlerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/SamplingHandlerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/Slack/SlackRecordTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/SlackWebhookHandlerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/SwiftMailerHandlerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/SyslogHandlerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/TestHandlerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Handler/ZendMonitorHandlerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Processor/MemoryUsageProcessorTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Processor/ProcessIdProcessorTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/monolog/monolog/tests/Monolog/Processor/TagProcessorTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/paragonie/random_compat/dist/random_compat.phar.pubkey" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/sensio/distribution-bundle/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/sensio/distribution-bundle/Composer/ScriptHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/sensio/distribution-bundle/Resources/bin/build_bootstrap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/sensio/distribution-bundle/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/.php_cs.dist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Configuration/Cache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Configuration/ConfigurationInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Configuration/IsGranted.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/DependencyInjection/Compiler/AddParamConverterPass.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/EventListener/HttpCacheListener.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/EventListener/SecurityListener.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/EventListener/TemplateListener.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Request/ArgumentValueResolver/Psr7ServerRequestResolver.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Resources/config/annotations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Resources/config/cache.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Resources/config/view.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Resources/doc/annotations/converters.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Resources/doc/annotations/routing.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Resources/doc/annotations/view.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Resources/doc/index.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Security/ExpressionLanguage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Templating/TemplateGuesser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/Configuration/RouteTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/DependencyInjection/Compiler/AddParamConverterPassTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/EventListener/ControllerListenerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/EventListener/Fixture/FooControllerMultipleCacheAtMethod.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/EventListener/Fixture/FooControllerNullableParameter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/EventListener/SecurityListenerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/Fixtures/FooBundle/Controller/MultipleActionsClassLevelTemplateController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/Fixtures/FooBundle/Resources/views/invokable/predefined.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/Fixtures/FooBundle/Resources/views/invokable_container/another_variable.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/Fixtures/FooBundle/Resources/views/simple/another.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/Fixtures/FooDateTime.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/Fixtures/TestKernel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/Fixtures/config/routing.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/Functional/IsGrantedTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/Functional/NullableAnnotationTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/Request/ArgumentNameConverterTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/Request/ParamConverter/ParamConverterManagerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/Request/ParamConverter/TestUserRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/Routing/Fixtures/InvokableController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Tests/Templating/Fixture/FooBarBundle/Controller/FooBarController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/phpunit.xml.dist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Command/GenerateBundleCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Command/GenerateCommandCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Command/GenerateDoctrineEntityCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Generator/BundleGenerator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Generator/ControllerGenerator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Generator/DoctrineCrudGenerator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Generator/DoctrineFormGenerator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Generator/Generator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Model/Bundle.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Model/EntityGeneratorResult.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Resources/doc/commands/generate_command.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Resources/doc/commands/generate_doctrine_entity.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Resources/skeleton/bundle/Configuration.php.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Resources/skeleton/bundle/Extension.php.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Resources/skeleton/bundle/routing.php.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Resources/skeleton/bundle/routing.xml.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Resources/skeleton/bundle/routing.yml.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Resources/skeleton/bundle/services.xml.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Resources/skeleton/command/Command.php.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Resources/skeleton/controller/ControllerTest.php.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Resources/skeleton/controller/Template.html.php.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Resources/skeleton/controller/Template.html.twig.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Resources/skeleton/crud/actions/new.php.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Resources/skeleton/crud/controller.php.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Resources/skeleton/form/FormType.php.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/sensio/generator-bundle/SensioGeneratorBundle.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Tests/Command/AutoComplete/EntitiesAutoCompleterTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Tests/Command/GenerateBundleCommandTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Tests/Generator/BundleGeneratorTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Tests/Generator/DoctrineCrudGeneratorTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Tests/Manipulator/KernelManipulatorTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Tests/Manipulator/RoutingManipulatorTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Tests/Manipulator/Stubs/ContainsBundlesKernelStub.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Tests/Manipulator/Stubs/ContainsCommaKernelStub.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/sensio/generator-bundle/Tests/Manipulator/Stubs/StubBundle.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/sensiolabs/security-checker/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/sensiolabs/security-checker/SensioLabs/Security/Command/SecurityCheckerCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/sensiolabs/security-checker/SensioLabs/Security/Formatters/FormatterInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/sensiolabs/security-checker/SensioLabs/Security/SecurityChecker.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/sensiolabs/security-checker/security-checker" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/.github/PULL_REQUEST_TEMPLATE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/.php_cs.dist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/CHANGES" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/doc/installing.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/doc/overview.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/doc/plugins.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/doc/uml/Transports.graffle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/ByteStream/AbstractFilterableInputStream.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/CharacterReader/GenericFixedWidthReader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/CharacterReader/UsAsciiReader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/CharacterReader/Utf8Reader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/CharacterStream/ArrayCharacterStream.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/EmbeddedFile.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Encoder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Encoder/Rfc2231Encoder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Events/CommandListener.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Events/ResponseEvent.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Events/SendListener.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Events/TransportExceptionEvent.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Events/TransportExceptionListener.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Image.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/KeyCache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/KeyCache/DiskKeyCache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/KeyCache/NullKeyCache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/LoadBalancedTransport.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/MailTransport.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mailer/RecipientIterator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/MemorySpool.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/ContentEncoder/PlainContentEncoder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/ContentEncoder/QpContentEncoder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/EncodingObserver.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/HeaderEncoder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/OpenDKIMHeader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/UnstructuredHeader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/SimpleHeaderFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/MimePart.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/LoggerPlugin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/PopBeforeSmtpPlugin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/ThrottlerPlugin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/Timer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/RfcComplianceException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Signers/OpenDKIMSigner.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/SmtpTransport.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/StreamFilter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/StreamFilters/ByteArrayReplacementFilter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/StreamFilters/StringReplacementFilter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/StreamFilters/StringReplacementFilterFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/Auth/CramMd5Authenticator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/Auth/NTLMAuthenticator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/Authenticator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/MailInvoker.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/TransportException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Validate.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/dependency_maps/cache_deps.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/IdenticalBinaryConstraint.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/_samples/charsets/iso-2022-jp/one.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/_samples/charsets/utf-8/three.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/_samples/dkim/dkim.test.priv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/_samples/smime/create-cert.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/_samples/smime/encrypt.crt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/_samples/smime/encrypt.key" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/_samples/smime/encrypt2.key" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/_samples/smime/intermediate.crt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/_samples/smime/sign.crt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/acceptance/Swift/CharacterReaderFactory/SimpleCharacterReaderFactoryAcceptanceTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/acceptance/Swift/DependencyContainerAcceptanceTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/acceptance/Swift/Mime/ContentEncoder/NativeQpContentEncoderAcceptanceTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/acceptance/Swift/Mime/ContentEncoder/PlainContentEncoderAcceptanceTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/acceptance/Swift/Transport/StreamBuffer/AbstractStreamBufferAcceptanceTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/acceptance/Swift/Transport/StreamBuffer/BasicSocketAcceptanceTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/acceptance/Swift/Transport/StreamBuffer/ProcessAcceptanceTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/acceptance/Swift/Transport/StreamBuffer/SslSocketAcceptanceTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/bug/Swift/Bug118Test.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/bug/Swift/Bug34Test.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/bug/Swift/Bug534Test.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/bug/Swift/Bug71Test.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/smoke/Swift/Smoke/InternationalSmokeTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/ByteStream/ArrayByteStreamTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/CharacterReader/Utf8ReaderTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/CharacterStream/ArrayCharacterStreamTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Encoder/Base64EncoderTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Encoder/QpEncoderTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Events/CommandEventTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/KeyCache/ArrayKeyCacheTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Mailer/ArrayRecipientIteratorTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Mime/HeaderEncoder/Base64HeaderEncoderTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Mime/Headers/MailboxHeaderTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Plugins/BandwidthMonitorPluginTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Plugins/Loggers/ArrayLoggerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Plugins/RedirectingPluginTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Plugins/Reporters/HitReporterTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/StreamFilters/ByteArrayReplacementFilterTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/StreamFilters/StringReplacementFilterTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Transport/AbstractSmtpTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Transport/Esmtp/AuthHandlerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Transport/EsmtpTransport/ExtensionSupportTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Transport/EsmtpTransportTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Transport/MailTransportTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Transport/StreamBufferTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/monolog-bundle/DependencyInjection/Configuration.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/monolog-bundle/DependencyInjection/MonologExtension.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/monolog-bundle/Tests/DependencyInjection/Compiler/AddProcessorsPassTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/monolog-bundle/Tests/DependencyInjection/Fixtures/xml/server_log.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/monolog-bundle/Tests/DependencyInjection/Fixtures/xml/single_email_recipient.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/monolog-bundle/Tests/DependencyInjection/Fixtures/yml/multiple_handlers.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/monolog-bundle/Tests/DependencyInjection/Fixtures/yml/new_and_priority_import.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/monolog-bundle/Tests/DependencyInjection/Fixtures/yml/new_at_end_import.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/monolog-bundle/Tests/DependencyInjection/Fixtures/yml/server_log.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/monolog-bundle/Tests/DependencyInjection/Fixtures/yml/single_email_recipient.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/monolog-bundle/Tests/DependencyInjection/YamlMonologExtensionTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/monolog-bundle/phpunit.xml.dist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/DnsMock.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/Legacy/CoverageListenerForV5.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/Legacy/CoverageListenerForV7.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/Legacy/SymfonyTestsListenerForV6.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/SymfonyTestsListener.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/Tests/DeprecationErrorHandler/deprecation.phar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/Tests/DeprecationErrorHandler/disabled.phpt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/Tests/DeprecationErrorHandler/fake_vendor/autoload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/Tests/DeprecationErrorHandler/weak_vendors_on_eval_d_deprecation.phpt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/Tests/DeprecationErrorHandler/weak_vendors_on_phar_deprecation.phpt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/Tests/Fixtures/coverage/src/BarCov.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/phpunit-bridge/Tests/ProcessIsolationTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-ctype/Ctype.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-ctype/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/Mbstring.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/Resources/unidata/lowerCase.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/Resources/unidata/upperCase.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-php56/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-php56/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-php56/bootstrap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-php56/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-php70/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-php70/Resources/stubs/ArithmeticError.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-php70/Resources/stubs/Error.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-php70/Resources/stubs/TypeError.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-php70/bootstrap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-util/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-util/LegacyTestListener.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-util/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/DependencyInjection/Configuration.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/DependencyInjection/SwiftmailerTransportFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/SwiftmailerBundle.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Tests/DependencyInjection/Fixtures/config/php/mail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Tests/DependencyInjection/Fixtures/config/php/null.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Tests/DependencyInjection/Fixtures/config/php/null_mailer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Tests/DependencyInjection/Fixtures/config/php/sender_address.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Tests/DependencyInjection/Fixtures/config/php/spool.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Tests/DependencyInjection/Fixtures/config/php/stream_options.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Tests/DependencyInjection/Fixtures/config/xml/antiflood.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Tests/DependencyInjection/Fixtures/config/xml/disable_delivery.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Tests/DependencyInjection/Fixtures/config/xml/null.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Tests/DependencyInjection/Fixtures/config/xml/one_mailer.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Tests/DependencyInjection/Fixtures/config/xml/redirect.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Tests/DependencyInjection/Fixtures/config/xml/redirect_multi.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Tests/DependencyInjection/Fixtures/config/xml/redirect_single.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Tests/DependencyInjection/Fixtures/config/xml/sendmail.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Tests/DependencyInjection/Fixtures/config/xml/spool.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Tests/DependencyInjection/Fixtures/config/xml/spool_service_invalid.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Tests/DependencyInjection/Fixtures/config/xml/stream_options.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Tests/DependencyInjection/Fixtures/config/yml/disable_delivery_env.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Tests/DependencyInjection/Fixtures/config/yml/many_mailers.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Tests/DependencyInjection/Fixtures/config/yml/sender_address.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Tests/DependencyInjection/Fixtures/config/yml/spool_memory.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Tests/DependencyInjection/Fixtures/config/yml/spool_service_invalid.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Tests/DependencyInjection/Fixtures/config/yml/urls.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle/Tests/DependencyInjection/SwiftmailerTransportFactoryTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/CHANGELOG-3.4.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/CONTRIBUTORS.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/UPGRADE-3.1.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/UPGRADE-3.3.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/appveyor.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/link" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/Doctrine/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/Doctrine/DependencyInjection/AbstractDoctrineExtension.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/Doctrine/DependencyInjection/CompilerPass/RegisterMappingsPass.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/Doctrine/DependencyInjection/Security/UserProvider/EntityFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/Doctrine/Form/DataTransformer/CollectionToArrayTransformer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/Doctrine/Form/DoctrineOrmExtension.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/Doctrine/Security/RememberMe/DoctrineTokenProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/Doctrine/Tests/DependencyInjection/CompilerPass/RegisterEventListenersAndSubscribersPassTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/Doctrine/Tests/DependencyInjection/DoctrineExtensionTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/Doctrine/Tests/Fixtures/AssociationEntity2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/Doctrine/Tests/Fixtures/DoubleNameEntity.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/Doctrine/Tests/Fixtures/EmbeddedIdentifierEntity.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/Doctrine/Tests/Fixtures/SingleIntIdEntity.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/Doctrine/Tests/Fixtures/SingleStringCastableIdEntity.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/Doctrine/Tests/Fixtures/Type/StringWrapper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/Doctrine/Tests/Fixtures/Type/StringWrapperType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/Doctrine/Tests/Form/ChoiceList/DoctrineChoiceLoaderTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/Doctrine/Tests/Form/ChoiceList/ORMQueryBuilderLoaderTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/Doctrine/Tests/Form/Type/EntityTypeTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/Doctrine/Tests/PropertyInfo/Fixtures/DoctrineFooType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/Doctrine/Tests/PropertyInfo/Fixtures/DoctrineRelation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/Doctrine/Tests/PropertyInfo/Fixtures/Foo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/Doctrine/Tests/Security/User/EntityUserProviderTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/Doctrine/Tests/Validator/Constraints/UniqueEntityValidatorTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/Doctrine/Validator/Constraints/UniqueEntityValidator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/Doctrine/phpunit.xml.dist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/Monolog/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/Monolog/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/Monolog/Handler/ConsoleHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/Monolog/Handler/ServerLogHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/Monolog/Processor/TokenProcessor.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/Monolog/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/PhpUnit/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/PhpUnit/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/PhpUnit/DnsMock.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/PhpUnit/Legacy/CommandForV5.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/PhpUnit/Legacy/CoverageListenerForV5.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/PhpUnit/Legacy/SymfonyTestsListenerForV5.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/PhpUnit/Legacy/SymfonyTestsListenerForV6.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/PhpUnit/Legacy/SymfonyTestsListenerTrait.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/PhpUnit/Legacy/TestRunnerForV5.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/PhpUnit/Legacy/TestRunnerForV6.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/PhpUnit/Tests/DeprecationErrorHandler/deprecation.phar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/PhpUnit/Tests/DeprecationErrorHandler/disabled.phpt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/PhpUnit/Tests/DeprecationErrorHandler/fake_vendor/acme/lib/deprecation_riddled.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/PhpUnit/Tests/DeprecationErrorHandler/shutdown_deprecations.phpt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/PhpUnit/Tests/DeprecationErrorHandler/weak.phpt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/PhpUnit/Tests/DeprecationErrorHandler/weak_vendors_on_non_vendor.phpt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/PhpUnit/Tests/DeprecationErrorHandler/weak_vendors_on_vendor.phpt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/PhpUnit/Tests/DnsMockTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/PhpUnit/Tests/Fixtures/coverage/src/BarCov.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/PhpUnit/Tests/Fixtures/coverage/src/FooCov.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/PhpUnit/Tests/Fixtures/coverage/tests/BarCovTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/PhpUnit/Tests/Fixtures/coverage/tests/CoversDefaultClassTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/PhpUnit/Tests/Fixtures/coverage/tests/CoversNothingTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/PhpUnit/Tests/Fixtures/coverage/tests/CoversTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/PhpUnit/Tests/Fixtures/coverage/tests/bootstrap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/PhpUnit/TextUI/Command.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/PhpUnit/bootstrap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/PhpUnit/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/ProxyManager/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/ProxyManager/LazyProxy/Instantiator/LazyLoadingValueHolderFactoryV1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/ProxyManager/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/ProxyManager/Tests/LazyProxy/Instantiator/RuntimeInstantiatorTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/ProxyManager/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/Twig/AppVariable.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/Twig/DataCollector/TwigDataCollector.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/Twig/Extension/FormExtension.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/Twig/Extension/HttpKernelExtension.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/Twig/Extension/SecurityExtension.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/Twig/Extension/StopwatchExtension.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/Twig/Form/TwigRendererEngine.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/Twig/Form/TwigRendererEngineInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/Twig/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/Twig/Node/FormThemeNode.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/Twig/Node/SearchAndRenderBlockNode.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/Twig/Resources/views/Form/bootstrap_3_layout.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/Twig/Resources/views/Form/bootstrap_4_layout.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/Twig/Tests/Command/DebugCommandTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/Twig/Tests/Extension/AbstractBootstrap3HorizontalLayoutTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/Twig/Tests/Extension/ExpressionExtensionTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/Twig/Tests/Extension/Fixtures/templates/form/parent_label.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/Twig/Tests/Extension/FormExtensionBootstrap4HorizontalLayoutTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/Twig/Tests/Extension/FormExtensionBootstrap4LayoutTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/Twig/Tests/Extension/HttpFoundationExtensionTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/Twig/Tests/Extension/RuntimeLoaderProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/Twig/Tests/Node/TransNodeTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/Twig/Tests/NodeVisitor/TwigNodeProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/Twig/Tests/TokenParser/FormThemeTokenParserTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/Twig/Tests/Translation/TwigExtractorTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/Twig/Tests/TwigEngineTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/Twig/TokenParser/DumpTokenParser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/Twig/TokenParser/FormThemeTokenParser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/Twig/TokenParser/TransDefaultDomainTokenParser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/Twig/Translation/TwigExtractor.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/Twig/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bridge/Twig/phpunit.xml.dist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/DebugBundle/DependencyInjection/Compiler/DumpDataCollectorPass.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/DebugBundle/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/DebugBundle/Resources/config/services.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/DebugBundle/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/DebugBundle/phpunit.xml.dist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/CacheWarmer/AnnotationsCacheWarmer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/CacheWarmer/ClassCacheCacheWarmer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Client.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Command/CacheWarmupCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Command/ContainerDebugCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Command/TranslationDebugCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Command/XliffLintCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Console/Application.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Console/Descriptor/Descriptor.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Console/Descriptor/XmlDescriptor.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Controller/AbstractController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Controller/Controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Controller/RedirectController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/DependencyInjection/Compiler/AddCacheClearerPass.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/DependencyInjection/Compiler/AddCacheWarmerPass.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/DependencyInjection/Compiler/AddDebugLogProcessorPass.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/DependencyInjection/Compiler/AddExpressionLanguageProvidersPass.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/DependencyInjection/Compiler/CacheCollectorPass.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/DependencyInjection/Compiler/RoutingResolverPass.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/DependencyInjection/Compiler/TemplatingPass.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/DependencyInjection/Compiler/TranslationDumperPass.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/DependencyInjection/Compiler/TranslationExtractorPass.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/EventListener/TestSessionListener.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/config/annotations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/config/cache.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/config/collectors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/config/debug_prod.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/config/esi.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/config/form_csrf.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/config/form_debug.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/config/fragment_renderer.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/config/identity_translator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/config/profiling.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/config/request.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/config/schema/symfony-1.0.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/config/ssi.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/config/test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/config/translation.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/config/translation_debug.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/config/validator_debug.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/views/Form/attributes.html.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/views/Form/choice_options.html.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/views/Form/choice_widget.html.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/views/Form/container_attributes.html.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/views/Form/email_widget.html.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/views/Form/form_enctype.html.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/views/Form/form_rows.html.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/views/Form/form_start.html.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/views/Form/form_widget_compound.html.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/views/Form/hidden_widget.html.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/views/Form/integer_widget.html.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/views/Form/money_widget.html.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/views/Form/percent_widget.html.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/views/Form/range_widget.html.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/views/Form/repeated_row.html.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/views/Form/submit_widget.html.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/views/Form/widget_attributes.html.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/views/FormTable/button_row.html.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/views/FormTable/form_row.html.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Routing/RedirectableUrlMatcher.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Templating/GlobalVariables.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Templating/Helper/CodeHelper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Templating/Helper/RequestHelper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Templating/Helper/RouterHelper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Templating/PhpEngine.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Templating/TemplateFilenameParser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Templating/TemplateNameParser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Templating/TemplateReference.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Templating/TimedPhpEngine.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Test/KernelTestCase.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/CacheWarmer/ValidatorCacheWarmerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/ClientTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Command/CacheClearCommand/Fixture/TestAppKernel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Command/RouterDebugCommandTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Command/YamlLintCommandTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Console/ApplicationTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Console/Descriptor/AbstractDescriptorTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Console/Descriptor/TextDescriptorTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Controller/ControllerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Controller/ControllerTraitTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Controller/RedirectControllerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/Compiler/AddCacheWarmerPassTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/Compiler/AddConstraintValidatorsPassTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/Compiler/CacheCollectorPassTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/Compiler/LoggingTranslatorPassTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/Fixtures/CustomPathBundle/src/CustomPathBundle.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/Fixtures/TestBundle/Resources/config/serializer_mapping/files/foo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/Fixtures/TestBundle/Resources/config/serializer_mapping/files/foo.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/Fixtures/TestBundle/Resources/config/serializer_mapping/serialization.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/Fixtures/TestBundle/Resources/config/validation.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/Fixtures/TestBundle/Resources/config/validation.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/Fixtures/TestBundle/Resources/config/validation_mapping/files/foo.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/Fixtures/TestBundle/Resources/config/validation_mapping/validation.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/Fixtures/TestBundle/TestBundle.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/Fixtures/php/assets_disabled.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/Fixtures/php/esi_and_ssi_without_fragments.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/Fixtures/php/full.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/Fixtures/php/php_errors_enabled.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/Fixtures/php/profiler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/Fixtures/php/request.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/Fixtures/php/templating_no_assets.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/Fixtures/php/templating_php_translator_enabled.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/Fixtures/php/validation_annotations.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/Fixtures/php/validation_multiple_static_methods.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/Fixtures/php/workflow_with_arguments_and_service.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/Fixtures/php/workflow_with_multiple_transitions_with_same_name.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/Fixtures/php/workflow_without_support_and_support_strategy.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/Fixtures/php/workflows_without_type.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/Fixtures/xml/assets.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/Fixtures/xml/assets_version_strategy_as_service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/Fixtures/xml/cache.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/Fixtures/xml/serializer_disabled.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/Fixtures/xml/serializer_enabled.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/Fixtures/xml/serializer_legacy_cache.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/Fixtures/xml/serializer_mapping.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/Fixtures/xml/session.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/Fixtures/xml/templating_disabled.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/Fixtures/xml/templating_php_translator_disabled.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/Fixtures/xml/validation_annotations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/Fixtures/xml/validation_no_static_method.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/Fixtures/xml/validation_translation_domain.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/Fixtures/xml/workflow_without_support_and_support_strategy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/Fixtures/xml/workflows.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/Fixtures/yml/assets_disabled.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/Fixtures/yml/default_config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/Fixtures/yml/esi_disabled.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/Fixtures/yml/form_no_csrf.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/Fixtures/yml/full.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/Fixtures/yml/property_accessor.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/Fixtures/yml/property_info.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/Fixtures/yml/request.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/Fixtures/yml/ssi_disabled.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/Fixtures/yml/validation_no_static_method.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/Fixtures/yml/web_link.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/Fixtures/yml/workflow_with_multiple_transitions_with_same_name.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/Fixtures/yml/workflow_with_support_and_support_strategy.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/config/validator/foo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/BaseBundle/BaseBundle.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/BaseBundle/Resources/views/controller/base.format.engine" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/BaseBundle/Resources/views/this.is.a.template.format.engine" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/alias_1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/alias_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/alias_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/alias_with_definition_2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/alias_with_definition_2.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/alias_with_definition_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/builder_1_arguments.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/builder_1_arguments.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/builder_1_public.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/builder_1_services.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/builder_1_services.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/builder_1_services.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/builder_1_tag1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/builder_1_tags.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/callable_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/callable_2.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/callable_4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/callable_4.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/callable_5.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/callable_6.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/callable_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/callable_7.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/definition_2.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/definition_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/definition_arguments_1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/definition_arguments_1.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/definition_arguments_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/definition_arguments_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/event_dispatcher_1_event1.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/parameter.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/parameter.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/parameters_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/route_1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/route_2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/route_2.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/route_collection_1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/route_collection_1.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Descriptor/route_collection_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Serialization/Resources/author.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/TestBundle/Fabpot/FooBundle/FabpotFooBundle.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/TestBundle/FooBundle/Controller/Test/DefaultController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/TestBundle/Sensio/Cms/FooBundle/SensioCmsFooBundle.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/TestBundle/Sensio/FooBundle/SensioFooBundle.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/Validation/Category.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Fixtures/WarmedClass.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Functional/Bundle/TestBundle/Controller/SubRequestController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Functional/Bundle/TestBundle/DependencyInjection/AnnotationReaderPass.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Functional/Bundle/TestBundle/DependencyInjection/TestExtension.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Functional/DebugAutowiringCommandTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Functional/FragmentTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Functional/PropertyInfoTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Functional/app/AppKernel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Functional/app/AutowiringTypes/no_annotations_cache.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Functional/app/CachePools/config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Functional/app/CachePools/redis_config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Functional/app/ConfigDump/bundles.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Functional/app/Fragment/config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Functional/app/Resources/views/fragment.html.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Functional/app/Serializer/bundles.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Functional/app/Serializer/config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Functional/app/Session/config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Functional/app/Session/routing.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Kernel/MicroKernelTraitTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Templating/Helper/RequestHelperTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Templating/Helper/Resources/Child/form_label.html.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Templating/Helper/SessionHelperTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Templating/Loader/TemplateLocatorTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/TestCase.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Translation/TranslatorTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/phpunit.xml.dist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FullStack.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Command/SetAclCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/DataCollector/SecurityDataCollector.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Debug/TraceableFirewallListener.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/DependencyInjection/Security/Factory/AbstractFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/DependencyInjection/Security/Factory/FormLoginFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/DependencyInjection/Security/Factory/HttpDigestFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/DependencyInjection/Security/Factory/RememberMeFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/DependencyInjection/Security/Factory/RemoteUserFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/DependencyInjection/Security/UserProvider/UserProviderFactoryInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/DependencyInjection/SecurityExtension.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Resources/config/collectors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Resources/config/security_debug.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Resources/config/security_listeners.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Security/FirewallConfig.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/SecurityUserValueResolver.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Templating/Helper/SecurityHelper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/DependencyInjection/Compiler/AddSecurityVotersPassTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/DependencyInjection/Fixtures/php/argon2i_encoder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/DependencyInjection/Fixtures/xml/access_decision_manager_service_and_strategy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/DependencyInjection/Fixtures/xml/container1_with_acl.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/DependencyInjection/Fixtures/xml/container1_with_digest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/DependencyInjection/Fixtures/xml/firewall_undefined_provider.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/DependencyInjection/Fixtures/xml/listener_provider.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/DependencyInjection/Fixtures/yml/access_decision_manager_service.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/DependencyInjection/Fixtures/yml/container1.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/DependencyInjection/Fixtures/yml/listener_undefined_provider.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/DependencyInjection/Fixtures/yml/merge.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/DependencyInjection/Fixtures/yml/no_custom_user_checker.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/DependencyInjection/MainConfigurationTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/DependencyInjection/Security/Factory/GuardAuthenticationFactoryTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/DependencyInjection/SecurityExtensionTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/DependencyInjection/YamlCompleteConfigurationTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/Functional/AutowiringTypesTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/Functional/Bundle/AclBundle/AclBundle.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/Functional/Bundle/CsrfFormLoginBundle/Form/UserLoginType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/Functional/Bundle/CsrfFormLoginBundle/Resources/config/routing.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/Functional/Bundle/CsrfFormLoginBundle/Resources/views/Login/after_login.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/Functional/Bundle/FirewallEntryPointBundle/DependencyInjection/FirewallEntryPointExtension.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/Functional/Bundle/FirewallEntryPointBundle/Resources/config/services.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/Functional/Bundle/FormLoginBundle/Resources/config/routing.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/Functional/Bundle/JsonLoginBundle/Security/Http/JsonAuthenticationFailureHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/Functional/FirewallEntryPointTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/Functional/FormLoginTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/Functional/UserPasswordEncoderCommandTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/Functional/app/Acl/config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/Functional/app/AutowiringTypes/config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/Functional/app/JsonLogin/routing.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/Functional/app/JsonLogin/switchuser_stateless.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/Functional/app/RememberMeLogout/config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/Functional/app/StandardFormLogin/bundles.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/Functional/app/StandardFormLogin/localized_routes.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/Functional/app/config/default.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/Functional/app/config/twig.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/Security/FirewallContextTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/Security/FirewallMapTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/phpunit.xml.dist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/CacheWarmer/TemplateCacheWarmer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Command/LintCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/ContainerAwareRuntimeLoader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/DependencyInjection/Compiler/ExceptionListenerPass.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/DependencyInjection/Compiler/RuntimeLoaderPass.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/DependencyInjection/Configurator/EnvironmentConfigurator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/DependencyInjection/TwigExtension.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/config/form.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/config/templating.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views/Exception/error.xml.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views/Exception/exception.atom.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views/Exception/exception.js.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views/Exception/exception.rdf.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views/Exception/exception.txt.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views/Exception/exception_full.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views/Exception/logs.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views/Exception/trace.txt.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views/Exception/traces.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views/images/favicon.png.base64" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views/images/icon-plus-square.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views/images/symfony-ghost.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Tests/Controller/PreviewErrorControllerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Tests/DependencyInjection/Fixtures/Bundle/ChildChildChildChildTwigBundle/Resources/views/layout.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Tests/DependencyInjection/Fixtures/Bundle/ChildChildTwigBundle/Resources/views/layout.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Tests/DependencyInjection/Fixtures/Resources/TwigBundle/views/layout.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Tests/DependencyInjection/Fixtures/php/full.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Tests/DependencyInjection/Fixtures/templates/layout.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Tests/DependencyInjection/Fixtures/xml/customTemplateEscapingGuesser.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Tests/DependencyInjection/Fixtures/xml/formats.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Tests/DependencyInjection/Fixtures/yml/customTemplateEscapingGuesser.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Tests/DependencyInjection/Fixtures/yml/formats.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Tests/DependencyInjection/TwigExtensionTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Tests/Fixtures/templates/BarBundle/Resources/views/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Tests/Functional/CacheWarmingTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Tests/Functional/Resources/config/empty_routing.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/TwigBundle.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/TwigEngine.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Controller/ExceptionController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/EventListener/WebDebugToolbarListener.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views/Collector/config.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views/Collector/logger.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views/Collector/memory.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views/Icon/ajax.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views/Icon/cache.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views/Icon/logger.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views/Icon/menu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views/Icon/no.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views/Icon/redirect.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views/Icon/request.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views/Profiler/base_js.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views/Profiler/info.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views/Profiler/open.css.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views/Profiler/open.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views/Profiler/toolbar_js.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Tests/Controller/ProfilerControllerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Tests/Csp/ContentSecurityPolicyHandlerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Tests/Profiler/TemplateManagerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/WebProfilerBundle.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/WebServerBundle/Command/ServerCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/WebServerBundle/Command/ServerStatusCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/WebServerBundle/Resources/router.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/WebServerBundle/WebServerConfig.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/WebServerBundle/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Form/AbstractRendererEngine.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Form/Button.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Form/ButtonBuilder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Form/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Form/Form.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Form/FormConfigBuilder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Form/FormConfigInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Form/FormError.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Form/FormFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Form/FormFactoryBuilderInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Form/FormRegistryInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Form/FormRendererEngineInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Form/FormTypeGuesserInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Form/FormView.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Form/Guess/ValueGuess.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Form/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Form/NativeRequestHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Form/RequestHandlerInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Form/ResolvedFormTypeFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Form/SubmitButtonTypeInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Form/Test/FormBuilderInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Form/Test/FormIntegrationTestCase.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Form/Tests/ButtonTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Form/Tests/FormConfigTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Form/Util/FormUtil.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Form/Util/OrderedHashMapIterator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Form/Util/ServerParams.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Form/Util/StringUtil.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Form/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Extension/CoreTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/exceptions/child_contents_outside_blocks.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/exceptions/multiline_tag_with_undefined_variable.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/exceptions/unclosed_tag.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/exceptions/undefined_parent.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/exceptions/undefined_template_in_child_template.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/exceptions/undefined_trait.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/expressions/array_call.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/expressions/binary.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/expressions/dotdot.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/expressions/ends_with.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/expressions/method_call.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/expressions/postfix.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/expressions/power.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/expressions/ternary_operator_nothen.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/expressions/two_word_operators_as_variables.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/batch.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/batch_float.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/convert_encoding.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/date.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/date_interval.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/date_modify.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/escape_html_attr.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/escape_non_supported_charset.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/force_escape.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/json_encode.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/nl2br.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/number_format_default.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/replace.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/round.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/split_utf8.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/static_calls.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/filters/urlencode.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/functions/block.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/functions/block_with_template.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/functions/constant.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/functions/cycle.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/functions/dump.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/functions/include/autoescaping.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/functions/include/sandbox.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/functions/include/templates_as_array.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/functions/include/with_context.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/functions/min.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/functions/special_chars.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/macros/default_values.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/macros/simple.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/macros/with_filters.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/regression/combined_debug_info.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/regression/multi_word_tests.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/regression/simple_xml_element.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/tags/autoescape/functions.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/tags/autoescape/with_filters.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/tags/autoescape/with_filters_arguments.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/tags/inheritance/block_expr2.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/tags/inheritance/empty.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/tags/inheritance/nested_inheritance.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/tags/inheritance/parent_in_a_block.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/tags/inheritance/parent_isolation.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/tags/inheritance/parent_nested.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/tags/inheritance/parent_without_extends.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/tags/inheritance/template_instance.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/tests/defined.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/tests/empty.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/tests/in.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/tests/odd.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/LegacyFixtures/autoescape/filename.legacy.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/LegacyFixtures/functions/undefined_block.legacy.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Profiler/Dumper/HtmlTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Profiler/ProfileTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sc_chat/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sc_chat/app/AppKernel.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sc_chat/app/Resources/views/default/index.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sc_chat/app/config/config.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sc_chat/app/config/security.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sc_chat/composer.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sc_chat/composer.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sc_chat/src/AppBundle/Entity/utilisateur.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sc_chat/Sc_chat/app/Resources/FOSUserBundle/views/Security/login_content.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/../Sc_chat/Sc_chat/app/Resources/FOSUserBundle/views/Security/login_content.html.twig" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,43 +905,56 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="login.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FrontBundle/Resources/views/Security/login.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/bundles/front/css/login.css">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="login_content.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FrontBundle/Resources/views/Security/login_content.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="simple-sidebar.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/FrontBundle/Resources/public/css/simple-sidebar.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+            <state relative-caret-position="425">
+              <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Resources/views/compte/index.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="201">
+              <caret line="16" column="107" selection-start-line="16" selection-start-column="107" selection-end-line="16" selection-end-column="107" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html.twig" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="71" column="11" selection-start-line="71" selection-start-column="11" selection-end-line="71" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="security.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/config/security.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="28" column="49" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ligneHorsForfait.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/FrontBundle/Entity/ligneHorsForfait.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2482">
+              <caret line="146" selection-start-line="146" selection-end-line="146" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Etat.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/FrontBundle/Entity/Etat.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2278">
+              <caret line="134" column="1" selection-start-line="134" selection-start-column="1" selection-end-line="156" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -85,13 +979,11 @@
       <command text="s cache:clear" />
       <command text="s doctrine:generate:crud " />
       <command text="s assets:install " />
+      <command text="s doctrine:schema:update --force" />
     </commandsHistory>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///Dummy.txt" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -120,12 +1012,14 @@
         <option value="$PROJECT_DIR$/app/Resources/views/compte/index.html.twig" />
         <option value="$PROJECT_DIR$/app/config/routing.yml" />
         <option value="$PROJECT_DIR$/app/config/config.yml" />
-        <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
         <option value="$PROJECT_DIR$/src/FrontBundle/Resources/views/Security/login.html.twig" />
         <option value="$PROJECT_DIR$/src/FrontBundle/Resources/public/css/login.css" />
         <option value="$PROJECT_DIR$/web/bundles/front/css/login.css" />
         <option value="$PROJECT_DIR$/src/FrontBundle/Resources/public/css/simple-sidebar.css" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/FrontBundle/Entity/Etat.php" />
+        <option value="$PROJECT_DIR$/src/FrontBundle/Entity/ligneHorsForfait.php" />
+        <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
       </list>
     </option>
   </component>
@@ -180,8 +1074,9 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="950" />
-    <option name="width" value="979" />
+    <option name="x" value="55" />
+    <option name="y" value="-15" />
+    <option name="width" value="980" />
     <option name="height" value="1090" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -192,151 +1087,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="AppliFrais" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AppliFrais" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="AppliFrais" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AppliFrais" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="AppliFrais" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AppliFrais" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="AppliFrais" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AppliFrais" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="AppliFrais" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AppliFrais" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="compte" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="AppliFrais" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AppliFrais" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="AppliFrais" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AppliFrais" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="FrontBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="AppliFrais" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AppliFrais" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="FrontBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Controller" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="AppliFrais" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AppliFrais" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="FrontBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Entity" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="AppliFrais" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AppliFrais" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="FrontBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Form" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="AppliFrais" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AppliFrais" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="FrontBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="AppliFrais" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AppliFrais" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="FrontBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="AppliFrais" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AppliFrais" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="FrontBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="AppliFrais" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AppliFrais" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="FrontBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="AppliFrais" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AppliFrais" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="FrontBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Security" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="AppliFrais" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AppliFrais" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="AppliFrais" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AppliFrais" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="friendsofsymfony" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="AppliFrais" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AppliFrais" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="friendsofsymfony" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="user-bundle" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="AppliFrais" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AppliFrais" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="friendsofsymfony" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="user-bundle" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="AppliFrais" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AppliFrais" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="friendsofsymfony" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="user-bundle" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Project Files">
           <expand>
@@ -423,6 +1173,75 @@
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="AppliFrais" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AppliFrais" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="AppliFrais" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AppliFrais" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="AppliFrais" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AppliFrais" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="AppliFrais" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AppliFrais" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="AppliFrais" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AppliFrais" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="AppliFrais" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AppliFrais" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="compte" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="AppliFrais" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AppliFrais" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="default" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="AppliFrais" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AppliFrais" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="AppliFrais" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AppliFrais" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="FrontBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="AppliFrais" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AppliFrais" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="FrontBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Entity" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -431,7 +1250,7 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.zend.framework.tool" />
+    <property name="settings.editor.selected.configurable" value="Symfony2.SettingsForm" />
     <property name="settings.editor.splitter.proportion" value="0.32610837" />
   </component>
   <component name="RecentsManager">
@@ -489,7 +1308,12 @@
       <workItem from="1539633262617" duration="11000" />
       <workItem from="1539633287375" duration="277000" />
       <workItem from="1539680134044" duration="3934000" />
-      <workItem from="1539699854777" duration="2111000" />
+      <workItem from="1539699854777" duration="3709000" />
+      <workItem from="1539703605507" duration="1010000" />
+      <workItem from="1539763930077" duration="10000" />
+      <workItem from="1541513074298" duration="6246000" />
+      <workItem from="1542104606903" duration="596000" />
+      <workItem from="1543223971326" duration="1098000" />
     </task>
     <task id="LOCAL-00001" summary="Merge branch 'master' of https://github.com/a-glln/AppliFrais&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;&#10;supprimer teubi">
       <created>1539262801247</created>
@@ -519,32 +1343,54 @@
       <option name="project" value="LOCAL" />
       <updated>1539701518929</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="autoload">
+      <created>1539702162650</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1539702162650</updated>
+    </task>
+    <task id="LOCAL-00006" summary="vendor">
+      <created>1539702669530</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1539702669530</updated>
+    </task>
+    <task id="LOCAL-00007" summary="test">
+      <created>1539703082389</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1539703082389</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35766000" />
+    <option name="totallyTimeSpent" value="46324000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <editor active="true" />
     <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15147454" />
       <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067025" side_tool="true" weight="0.32884097" />
-      <window_info anchor="bottom" id="Command Line Tools Console" order="0" sideWeight="0.49934897" visible="true" weight="0.41644204" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="12" />
-      <window_info anchor="bottom" id="Run" order="3" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49932975" weight="0.32884097" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14142092" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067025" side_tool="true" weight="0.32884097" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.32884097" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49932975" weight="0.32884097" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Command Line Tools Console" order="0" sideWeight="0.49934897" visible="true" weight="0.41644204" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.20653595" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
@@ -560,46 +1406,19 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&quot;premier commit&quot;" />
     <MESSAGE value="Merge branch 'master' of https://github.com/a-glln/AppliFrais&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;&#10;supprimer teubi" />
-    <MESSAGE value="test" />
     <MESSAGE value="Fos user bundle fonctionnel debut du css de login" />
+    <MESSAGE value="autoload" />
     <MESSAGE value="vendor" />
-    <option name="LAST_COMMIT_MESSAGE" value="vendor" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/FrontBundle/Controller/AdminController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="56" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="56" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="63" selection-start-line="4" selection-start-column="63" selection-end-line="4" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../sc_chat/app/Resources/views/base.html.twig" />
     <entry file="file://$PROJECT_DIR$/../sc_chat/app/Resources/views/default/index.html.twig" />
     <entry file="file://$PROJECT_DIR$/../sc_chat/app/Resources/views/base.html.twig" />
     <entry file="file://$PROJECT_DIR$/../sc_chat/app/Resources/views/default/index.html.twig" />
-    <entry file="file://$PROJECT_DIR$/../sc_chat/.gitignore" />
-    <entry file="file://$PROJECT_DIR$/../sc_chat/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/../Sc_chat/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/../Sc_chat/.gitignore" />
     <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -679,7 +1498,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../sc_chat/web/config.php" />
     <entry file="file://$PROJECT_DIR$/../sc_chat/web/app_dev.php" />
-    <entry file="file://$PROJECT_DIR$/../sc_chat/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/../Sc_chat/.gitignore" />
     <entry file="file://$PROJECT_DIR$/../sc_chat/app/Resources/views/default/index.html.twig" />
     <entry file="file://$PROJECT_DIR$/../sc_chat/app/Resources/views/base.html.twig" />
     <entry file="file://$PROJECT_DIR$/src/FrontBundle/Resources/views/Visiteur/liste_fiches.html.twig">
@@ -752,13 +1571,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/compte/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/FrontBundle/FrontBundle.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -773,19 +1585,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-748">
-          <caret line="16" column="59" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FrontBundle/Resources/public/css/login.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/bundles/front/css/login.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/FrontBundle/Controller/CompteController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-714" />
@@ -798,20 +1597,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/security.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="28" column="49" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/FrontBundle/Entity/Compte.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-312">
           <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#38#70#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -829,10 +1618,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FrontBundle/Resources/public/css/simple-sidebar.css">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
@@ -843,10 +1632,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/app/config/security.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" selection-end-column="8" />
+        <state relative-caret-position="476">
+          <caret line="28" column="49" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FrontBundle/Entity/Etat.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2278">
+          <caret line="134" column="1" selection-start-line="134" selection-start-column="1" selection-end-line="156" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FrontBundle/Entity/ligneHorsForfait.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2482">
+          <caret line="146" selection-start-line="146" selection-end-line="146" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FrontBundle/Resources/public/css/simple-sidebar.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/compte/new.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#12#26#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/compte/show.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#12#26#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/compte/edit.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#12#26#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="49" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
+          <folding>
+            <element signature="e#12#26#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/compte/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="16" column="107" selection-start-line="16" selection-start-column="107" selection-end-line="16" selection-end-column="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="71" column="11" selection-start-line="71" selection-start-column="11" selection-end-line="71" selection-end-column="11" />
         </state>
       </provider>
     </entry>
