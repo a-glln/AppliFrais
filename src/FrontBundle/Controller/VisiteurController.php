@@ -11,7 +11,10 @@ class VisiteurController extends Controller
 
         $nom = "toto";
 
-        return $this->render('@Front/Visiteur/index.html.twig', array("nom" => $nom));
+        return $this->render('@Front/Visiteur/index.html.twig',
+            array(
+                "nom" => $nom
+            ));
     }
 
     public function listeFichesAction()

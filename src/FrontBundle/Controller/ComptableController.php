@@ -9,8 +9,13 @@ class ComptableController extends Controller
     public function indexAction()
     {
 
-        $nom = "toto";
+        $nom = $this->getUser()->getUserName();
 
-        return $this->render('@Front/Default/index.html.twig', array("nom" => $nom));
+
+        return $this->render('@Front/Comptable/index.html.twig',
+            array(
+                "nom" => $nom
+            )
+        );
     }
 }
