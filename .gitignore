@@ -2,6 +2,6 @@ app/config/parameters.yml
 /build/
 /phpunit.xml
 /var/
-/vendor/
+vendor/
 /web/
-.idea/01
+.idea/

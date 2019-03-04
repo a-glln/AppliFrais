@@ -1,7 +1,14 @@
 {
   "ExpandedNodes": [
     "",
-    "\\web"
+    "\\src",
+    "\\src\\FrontBundle",
+    "\\src\\FrontBundle\\Controller",
+    "\\src\\FrontBundle\\Entity",
+    "\\src\\FrontBundle\\Resources",
+    "\\src\\FrontBundle\\Resources\\config",
+    "\\src\\FrontBundle\\Resources\\config\\routing"
   ],
+  "SelectedNode": "\\src\\FrontBundle\\Resources\\config\\routing",
   "PreviewInSolutionExplorer": false
 }

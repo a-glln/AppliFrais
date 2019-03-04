@@ -1,0 +1,102 @@
+/**
+ * Created by PhpStorm.
+ * User: adamg
+ */
+body {
+    background-color: white;
+    font-family: 'Droid+Sans', serif;
+}
+
+#container {
+    margin-top: 100px;
+}
+
+#page {
+    background-color: white;
+    border: 0.1em solid black;
+}
+
+#entete {
+    color: white;
+    border-collapse: separate;
+}
+
+#entete #logoGSB {
+    float: left;
+}
+
+#param {
+    text-align: left;
+    padding: 20px;
+}
+#param .form-control {
+    width: 10%;
+    display: initial;
+    color:green;
+    font-size:1.2em;
+}
+
+#validfrais{
+    width:65%;
+    text-align:left;
+}
+
+form #validfrais {
+    float: left;
+    padding : 20px;
+}
+
+
+#formulaire {
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#entete h1 {
+    float: right;
+    padding-left: 50px;
+}
+
+.input-group {
+    width: max-content;
+}
+
+form {
+    text-align: -webkit-center;
+}
+
+table {
+    width: auto;
+
+}
+
+#contenu {
+    border: none;
+    padding: 1.3em;
+    background-color: white;
+    border-left: groove 15px #007bff;
+    margin-left: 18%;
+}
+
+#menu {
+    margin-top: 0.8em;
+    padding-top: 1em;
+    background-color: white;
+    color: rgb(0,85,227);
+    float: left;
+    width: 270px;
+}
+
+/*  Le texte des messages d'erreur est de couleur rose sur fond ocre et de
+taille de caract�res l�g�rement sup�rieure � la normale */
+.erreur {
+    background-color: rgb(237,210,229);
+    color: rgb(203,28,128);
+    width: 95%;
+}
+
+
+
+
+
