@@ -34,7 +34,7 @@ switch($action){
             }
             else if ($groupe == "comptable") {
                 include("vues/v_menuComptable.php");
-                include("vues/v_accueil.php");
+                    include("vues/v_accueil.php");
             }
             else if ($groupe == "administrateur") {
                 include("vues/v_menuAdmin.php");
