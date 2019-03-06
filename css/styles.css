@@ -96,7 +96,9 @@ taille de caract�res l�g�rement sup�rieure � la normale */
     width: 95%;
 }
 
-
+.form-row>.col, .form-row>[class*=col-] {
+    text-align: left;
+}
 
 
 

@@ -29,78 +29,92 @@
                     ?>
             </table>
 		</div>
+    </form>
         <br>
         <div style="text-align: left; ">
             <h2>Ajouter d'un utilisateur</h2>
             <br>
             <form method="POST" action ="index.php?uc=listeUser&action=ajoutUser">
-                <form class="needs-validation" novalidate>
                     <div class="form-row">
-                        <div class="col-md-4 mb-3">
+                        <div class="col-md-2">
+                            <label for="validationTooltip01">Id</label>
+                            <input type="text" name="id" class="form-control" id="validationTooltip01" placeholder="ID" required>
+                            <div class="valid-tooltip">
+                                Valide
+                            </div>
+                        </div>
+                        <div class="col-md-2">
                             <label for="validationTooltip01">Nom</label>
                             <input type="text" name="nom" class="form-control" id="validationTooltip01" placeholder="Nom" required>
                             <div class="valid-tooltip">
                                 Valide
                             </div>
                         </div>
-                        <div class="col-md-4 mb-3">
+                        <div class="col-md-2">
                             <label for="validationTooltip02">Prenom</label>
                             <input type="text" name="prenom" class="form-control" id="validationTooltip02" placeholder="Prénom" required>
                             <div class="valid-tooltip">
                                 Valide
                             </div>
                         </div>
-                        <div class="col-md-4 mb-3">
+                        <div class="col-md-2">
                             <label for="validationTooltipUsername">Login</label>
-                            <div class="input-group">
-                                <div class="input-group-prepend">
-                                    <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
-                                </div>
-                                <input type="text" name="email" class="form-control" id="validationTooltipUsername" placeholder="Login" aria-describedby="validationTooltipUsernamePrepend" required>
+                                <input type="text" name="login" class="form-control" id="validationTooltipUsername" placeholder="Login"  required>
                                 <div class="invalid-tooltip">
                                     Veuillez choisir une adresse mail valide.
                                 </div>
-                            </div>
                         </div>
-                    </div>
-                    <div class="form-row">
-                        <div class="col-md-6 mb-3">
+                        <div class="col-md-2">
                             <label for="validationTooltip03">Mot de passe</label>
-                            <input type="password" name="password" class="form-control" id="validationTooltip03" placeholder="Mot de passe" required>
+                            <input type="password" name="mdp" class="form-control" id="validationTooltip03" placeholder="Mot de passe" required>
                             <div class="invalid-tooltip">
                                 Veuillez choisir un mot de passe
                             </div>
                         </div>
-                        <div class="col-md-3 mb-3">
-                            <label for="validationTooltip04">Véhicule</label>
-                            <select name="vehicule" id="validationTooltip04" class="form-control" placeholder="Véhicule" required>
-                                <option selected>Aucun</option>
-                                <option>1</option>
-                                <option>2</option>
-                                <option>3</option>
-                                <option>4</option>
-                                <option>5</option>
-                            </select>
-                            <div class="invalid-tooltip">
-                                Veuillez choisir un vehicule
-                            </div>
-                        </div>
-                        <div class="col-md-3 mb-3">
+                        <div class="col-md-2">
                             <label for="validationTooltip05">Groupe</label>
-                            <select name="role" id="validationTooltip05" class="form-control" placeholder="Role" required>
-                                <option selected>Aucun</option>
-                                <option>1</option>
-                                <option>2</option>
-                                <option>3</option>
+                            <select name="groupe" id="validationTooltip05" class="form-control" placeholder="Role" required>
+                                <option selected></option>
+                                <option>Visiteur</option>
+                                <option>Comptable</option>
+                                <option>administrateur</option>
                             </select>
                             <div class="invalid-tooltip">
                                 Veuillez choisir un role
                             </div>
                         </div>
                     </div>
-                    <button class="btn btn-primary" type="submit"><span>Ajouter</span></button>
+                    <br>
+                    <div class="form-row">
+                        <div class="col-md-2">
+                            <label for="validationTooltip09">Adresse</label>
+                                <input type="text" name="adresse" class="form-control"  placeholder="Adresse"  required>
+                        </div>
+                        <div class="col-md-2">
+                            <label for="validationTooltip06">CP</label>
+                            <input type="text" name="cp" class="form-control" id="validationTooltip06" placeholder="CP" required>
+                            <div class="valid-tooltip">
+                                Valide
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <label for="validationTooltip07">Ville</label>
+                            <input type="text" name="ville" class="form-control" id="validationTooltip07" placeholder="Ville" required>
+                            <div class="valid-tooltip">
+                                Valide
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <label for="validationTooltip08">Date embauche</label>
+                            <input type="date" name="dateEmbauche" class="form-control" id="validationTooltip08" placeholder="dateEmbauche"  required>
+                            <div class="invalid-tooltip">
+                            renseigner au format date
+                            </div>
+                        </div>
+                        <div class="col-md-3" style="margin-left: 75px; text-align: right;margin-top: 25px;">
+                            <input class="btn btn-primary" type="submit" name="valider" value="Ajouter">
+                        </div>
+                    </div>
                 </form>
-            </form>
         </div>
-    </form>
 	</div>

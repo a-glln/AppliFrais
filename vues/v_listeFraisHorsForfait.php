@@ -42,7 +42,7 @@
                     <fieldset style="text-align: left;">
                         <div class="InputGroup">
                             <label for="idFrais"></label>
-                            <label for="txtDateHF">Date :</label>
+                            <label for="txtDateHF">Date (jj/mm/aaaa) :</label>
                             <input type="text" id="txtDateHF" name="dateFrais" class="form-control" value=""/>
 
 

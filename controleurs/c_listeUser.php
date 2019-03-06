@@ -19,8 +19,19 @@ switch($action){
 
     case 'ajoutUser':
         {
-            $addUser=$pdo->addUnUser();
-            include("vues/v_listeUser.php");
+            $id = $_REQUEST['id'];
+            $nom = $_REQUEST['nom'];
+            $prenom = $_REQUEST['prenom'];
+            $login = $_REQUEST['login'];
+            $mdp = $_REQUEST['mdp'];
+            $groupe = $_REQUEST['groupe'];
+            $adresse = $_REQUEST['adresse'];
+            $cp = $_REQUEST['cp'];
+            $ville = $_REQUEST['ville'];
+            $dateEmbauche = $_REQUEST['dateEmbauche'];
+            $pdo->addUnUser($id, $nom, $prenom, $login, $mdp, $groupe, $adresse, $cp, $ville, $dateEmbauche );
+            echo ("<script>alert ('Utilisateur créer !') ;</script>");
+            include("vues/v_accueil.php");
             break;
         }
 }

@@ -296,9 +296,11 @@ class PdoGsb{
         return $allUsers;
     }
 
-    public function addUnUser()
+    public function addUnUser($id, $nom, $prenom, $login, $mdp, $groupe, $adresse, $cp, $ville, $dateEmbauche )
     {
-
+    $req=" INSERT into visiteur ( id, nom, prenom, login, mdp, groupe, adresse, cp, ville, dateEmbauche)
+            VALUES ('$id' '$nom', '$prenom', '$login', '$mdp', '$groupe', '$adresse', '$cp', '$ville', '$dateEmbauche')";
+     PdoGsb::$monPdo->exec($req);
     }
 
     //COMPTABLE
