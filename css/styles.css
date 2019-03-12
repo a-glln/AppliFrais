@@ -2,9 +2,9 @@
  * Created by PhpStorm.
  * User: adamg
  */
-body {
+body, html {
     background-color: white;
-    font-family: 'Droid+Sans', serif;
+    font-family: "Century Gothic", Times New Roman;
 }
 
 #container {

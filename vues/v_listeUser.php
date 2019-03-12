@@ -30,6 +30,20 @@
             </table>
 		</div>
     </form>
+        <form action="index.php?uc=listeUser&action=supprUser" method="post">
+            <div class="col-md-2" style="float: left;">
+                <label for="validationTooltip05">Selectionner un utilisateur</label>
+                <select name="groupe" id="validationTooltip05" class="form-control" placeholder="Role" required>
+                    <?php
+                    foreach ($allUsers as $unUser)
+                    {
+                        echo
+                            "<option>" . $unUser['nom'] . "</option>" ;
+                    }
+                    ?>
+                </select>
+            </div>
+        </form>
         <br>
         <div style="text-align: left; ">
             <h2>Ajouter d'un utilisateur</h2>

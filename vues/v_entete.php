@@ -1,15 +1,13 @@
 ﻿<!-- Created by PhpStorm. -->
 <!-- User: adamg -->
 <!doctype html>
-<html lang="fr">
+<html lang="fr" style="font-family: 'Century Gothic', Times New Roman">
 <head>
       <title>Gestion des Frais - GSB</title>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
     <link href="css/styles.css" rel="stylesheet" type="text/css"/>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Sans">
-    <!---->
     <link rel="shortcut icon" type="image/x-icon" href="./images/favicon.ico"/>
 </head>
   <body>
