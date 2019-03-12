@@ -31,7 +31,7 @@ switch($action){
             $dateEmbauche = $_REQUEST['dateEmbauche'];
             $pdo->addUnUser($id, $nom, $prenom, $login, $mdp, $groupe, $adresse, $cp, $ville, $dateEmbauche );
             echo ("<script>alert ('Utilisateur créer !') ;</script>");
-            include("vues/v_accueil.php");
+            include("vues/v_listeUser.php");
             break;
         }
 }
