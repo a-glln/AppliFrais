@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1:3306
--- Généré le :  mer. 06 mars 2019 à 20:24
+-- Généré le :  mar. 12 mars 2019 à 15:48
 -- Version du serveur :  5.7.19
 -- Version de PHP :  7.1.9
 
@@ -143,7 +143,7 @@ CREATE TABLE IF NOT EXISTS `lignefraishorsforfait` (
 --
 
 INSERT INTO `lignefraishorsforfait` (`id`, `idVisiteur`, `mois`, `libelle`, `date`, `montant`) VALUES
-(5, '2', '201903', 'shcvdv', '2171-03-03', '500.00');
+(6, '2', '201903', 'test ', '2170-03-03', '500.00');
 
 -- --------------------------------------------------------
 
