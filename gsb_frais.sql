@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1:3306
--- Généré le :  mar. 12 mars 2019 à 15:48
+-- Généré le :  mer. 13 mars 2019 à 10:09
 -- Version du serveur :  5.7.19
 -- Version de PHP :  7.1.9
 
@@ -53,7 +53,7 @@ INSERT INTO `etat` (`id`, `libelle`) VALUES
 
 DROP TABLE IF EXISTS `fichefrais`;
 CREATE TABLE IF NOT EXISTS `fichefrais` (
-  `idVisiteur` char(4) NOT NULL,
+  `idVisiteur` int(11) NOT NULL,
   `mois` char(6) NOT NULL,
   `nbJustificatifs` int(11) DEFAULT NULL,
   `montantValide` decimal(10,2) DEFAULT NULL,
@@ -62,13 +62,6 @@ CREATE TABLE IF NOT EXISTS `fichefrais` (
   PRIMARY KEY (`idVisiteur`,`mois`),
   KEY `idEtat` (`idEtat`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
---
--- Déchargement des données de la table `fichefrais`
---
-
-INSERT INTO `fichefrais` (`idVisiteur`, `mois`, `nbJustificatifs`, `montantValide`, `dateModif`, `idEtat`) VALUES
-('2', '201903', 1, '0.00', '2019-03-06', 'CR');
 
 -- --------------------------------------------------------
 
@@ -102,23 +95,13 @@ INSERT INTO `fraisforfait` (`id`, `libelle`, `montant`) VALUES
 
 DROP TABLE IF EXISTS `lignefraisforfait`;
 CREATE TABLE IF NOT EXISTS `lignefraisforfait` (
-  `idVisiteur` char(4) NOT NULL,
+  `idVisiteur` int(11) NOT NULL,
   `mois` char(6) NOT NULL,
   `idFraisForfait` char(3) NOT NULL,
   `quantite` int(11) DEFAULT NULL,
   PRIMARY KEY (`idVisiteur`,`mois`,`idFraisForfait`),
   KEY `idFraisForfait` (`idFraisForfait`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
---
--- Déchargement des données de la table `lignefraisforfait`
---
-
-INSERT INTO `lignefraisforfait` (`idVisiteur`, `mois`, `idFraisForfait`, `quantite`) VALUES
-('2', '201903', 'ETP', 1),
-('2', '201903', 'KM', 2),
-('2', '201903', 'NUI', 3),
-('2', '201903', 'REP', 4);
 
 -- --------------------------------------------------------
 
@@ -129,21 +112,14 @@ INSERT INTO `lignefraisforfait` (`idVisiteur`, `mois`, `idFraisForfait`, `quanti
 DROP TABLE IF EXISTS `lignefraishorsforfait`;
 CREATE TABLE IF NOT EXISTS `lignefraishorsforfait` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
-  `idVisiteur` char(4) NOT NULL,
+  `idVisiteur` int(11) NOT NULL,
   `mois` char(6) NOT NULL,
   `libelle` varchar(100) DEFAULT NULL,
   `date` date DEFAULT NULL,
   `montant` decimal(10,2) DEFAULT NULL,
   PRIMARY KEY (`id`),
-  KEY `idVisiteur` (`idVisiteur`,`mois`)
-) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
-
---
--- Déchargement des données de la table `lignefraishorsforfait`
---
-
-INSERT INTO `lignefraishorsforfait` (`id`, `idVisiteur`, `mois`, `libelle`, `date`, `montant`) VALUES
-(6, '2', '201903', 'test ', '2170-03-03', '500.00');
+  KEY `lignefraishorsforfait_ibfk_1` (`idVisiteur`,`mois`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
 
@@ -153,7 +129,7 @@ INSERT INTO `lignefraishorsforfait` (`id`, `idVisiteur`, `mois`, `libelle`, `dat
 
 DROP TABLE IF EXISTS `visiteur`;
 CREATE TABLE IF NOT EXISTS `visiteur` (
-  `id` char(4) NOT NULL,
+  `id` int(4) NOT NULL AUTO_INCREMENT,
   `nom` char(30) DEFAULT NULL,
   `prenom` char(30) DEFAULT NULL,
   `login` char(20) DEFAULT NULL,
@@ -164,18 +140,20 @@ CREATE TABLE IF NOT EXISTS `visiteur` (
   `ville` char(30) DEFAULT NULL,
   `dateEmbauche` date DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8;
 
 --
 -- Déchargement des données de la table `visiteur`
 --
 
 INSERT INTO `visiteur` (`id`, `nom`, `prenom`, `login`, `mdp`, `groupe`, `adresse`, `cp`, `ville`, `dateEmbauche`) VALUES
-('1', 'admin', 'istrator', 'admin', 'admin', 'admin', '22 rue des Ternes', '69390', 'Charly', '1999-07-17'),
-('2', 'Jack', 'Daniel\'s', 'visiteur', 'visiteur', 'visiteur', '8 rue des Charmes', '69390', 'Charly', '2005-12-21'),
-('3', 'Bedos', 'Christian', 'visiteur2', 'visiteur', 'visiteur', '1 rue Peranud', '46250', 'Montcuq', '1995-01-12'),
-('4', 'Tusseau', 'Louis', 'tusseau', 'visiteur', 'visiteur', '22 rue des Ternes', '46123', 'Gramat', '2000-05-01'),
-('5', 'Gates', 'Bill', 'comptable', 'comptable', 'comptable', '1 rue Petit', '46200', 'Lalbenque', '1998-11-23');
+(1, 'admin', 'istrator', 'admin', 'admin', 'admin', '22 rue des Ternes', '69390', 'Charly', '1999-07-17'),
+(2, 'Jack', 'Daniel\'s', 'visiteur', 'visiteur', 'visiteur', '8 rue des Charmes', '69390', 'Charly', '2005-12-21'),
+(3, 'Bedos', 'Christian', 'visiteur2', 'visiteur', 'visiteur', '1 rue Peranud', '46250', 'Montcuq', '1995-01-12'),
+(4, 'Tusseau', 'Louis', 'tusseau', 'visiteur', 'visiteur', '22 rue des Ternes', '46123', 'Gramat', '2000-05-01'),
+(5, 'Gates', 'Bill', 'comptable', 'comptable', 'comptable', '1 rue Petit', '46200', 'Lalbenque', '1998-11-23'),
+(6, '321', 'jhkhjk', '4545645', '4564545', 'Visiteur', '456456', '45645', '546546', '2019-03-07'),
+(7, '321', 'jhkhjk', '4545645', '4564545', 'Visiteur', '456456', '45645', '546546', '2019-03-07');
 
 --
 -- Contraintes pour les tables déchargées
