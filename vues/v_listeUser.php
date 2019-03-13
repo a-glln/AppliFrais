@@ -13,6 +13,7 @@
                     <th>Login</th>
                     <th>Mot de passe</th>
                     <th>Groupe</th>
+                    <th>Actions</th>
                 </tr>
                     <?php
                     foreach ($allUsers as $unUser)
@@ -24,6 +25,7 @@
                                 "<td>" . $unUser['login'] . "</td>" .
                                 "<td>" . $unUser['mdp'] . "</td>" .
                                 "<td>" . $unUser['groupe'] . "</td>" .
+                                "<td><a href='index.php?uc=listeUser&action=supprUser&idUser=" . $unUser['id'] . "'>supprimer</a></td>" .
                             "</tr>";
                     }
                     ?>
@@ -49,14 +51,9 @@
             <h2>Ajouter d'un utilisateur</h2>
             <br>
             <form method="POST" action ="index.php?uc=listeUser&action=ajoutUser">
-                    <div class="form-row">
-                        <div class="col-md-2">
-                            <label for="validationTooltip01">Id</label>
-                            <input type="text" name="id" class="form-control" id="validationTooltip01" placeholder="ID" required>
-                            <div class="valid-tooltip">
-                                Valide
-                            </div>
-                        </div>
+                <input id="uc" name="uc" value="listeUser" type="hidden">
+                <input id="uc" name="action" value="ajoutUser" type="hidden">
+                <div class="form-row">
                         <div class="col-md-2">
                             <label for="validationTooltip01">Nom</label>
                             <input type="text" name="nom" class="form-control" id="validationTooltip01" placeholder="Nom" required>

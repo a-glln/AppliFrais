@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18ab21e6-9852-42df-90ec-c659003d9da0" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/models/Visiteur.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controleurs/c_listeUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/controleurs/c_listeUser.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/include/class.pdogsb.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/class.pdogsb.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vues/v_listeUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/vues/v_listeUser.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,6 +31,13 @@
               </provider>
             </entry>
           </file>
+          <file leaf-file-name="fct.inc.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/include/fct.inc.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-170" />
+              </provider>
+            </entry>
+          </file>
           <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/styles.css">
               <provider selected="true" editor-type-id="text-editor">
@@ -40,8 +50,8 @@
           <file leaf-file-name="v_listeUser.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/vues/v_listeUser.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-51">
-                  <caret line="40" column="58" selection-start-line="40" selection-start-column="58" selection-end-line="40" selection-end-column="58" />
+                <state relative-caret-position="221">
+                  <caret line="27" column="92" selection-start-line="27" selection-start-column="86" selection-end-line="27" selection-end-column="92" />
                 </state>
               </provider>
             </entry>
@@ -49,8 +59,8 @@
           <file leaf-file-name="c_listeUser.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/controleurs/c_listeUser.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="561">
-                  <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
+                <state relative-caret-position="303">
+                  <caret line="23" column="27" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="27" />
                 </state>
               </provider>
             </entry>
@@ -64,15 +74,6 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="class.pdogsb.inc.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/include/class.pdogsb.inc.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="5083">
-                  <caret line="302" column="33" selection-start-line="302" selection-start-column="33" selection-end-line="302" selection-end-column="33" />
-                </state>
-              </provider>
-            </entry>
-          </file>
         </leaf>
       </split-first>
       <split-second>
@@ -80,8 +81,17 @@
           <file leaf-file-name="class.pdogsb.inc.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/include/class.pdogsb.inc.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="238">
-                  <caret line="300" column="11" selection-start-line="300" selection-start-column="11" selection-end-line="300" selection-end-column="11" />
+                <state relative-caret-position="445">
+                  <caret line="311" column="29" lean-forward="true" selection-start-line="311" selection-start-column="29" selection-end-line="311" selection-end-column="29" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Visiteur.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/models/Visiteur.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="85">
+                  <caret line="10" selection-start-line="10" selection-end-line="10" />
                 </state>
               </provider>
             </entry>
@@ -123,6 +133,14 @@
         <option value="CSS File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>add</find>
+      <find>insert</find>
+      <find>dernierMoisSaisi</find>
+      <find>9</find>
+    </findStrings>
   </component>
   <component name="FrameworkCommandLineHistory">
     <commandsHistory>
@@ -180,6 +198,7 @@
         <option value="$PROJECT_DIR$/vues/v_entete.php" />
         <option value="$PROJECT_DIR$/css/styles.css" />
         <option value="$PROJECT_DIR$/controleurs/c_connexion.php" />
+        <option value="$PROJECT_DIR$/models/Visiteur.php" />
         <option value="$PROJECT_DIR$/vues/v_listeUser.php" />
         <option value="$PROJECT_DIR$/controleurs/c_listeUser.php" />
         <option value="$PROJECT_DIR$/include/class.pdogsb.inc.php" />
@@ -239,8 +258,8 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
-    <option name="width" value="1939" />
-    <option name="height" value="1099" />
+    <option name="width" value="1940" />
+    <option name="height" value="1100" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -260,22 +279,12 @@
             <path>
               <item name="AppliFrais" type="b2602c69:ProjectViewProjectNode" />
               <item name="AppliFrais" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="controleurs" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="AppliFrais" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AppliFrais" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="AppliFrais" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AppliFrais" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="include" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="AppliFrais" type="b2602c69:ProjectViewProjectNode" />
               <item name="AppliFrais" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vues" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="models" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -445,7 +454,7 @@
       <workItem from="1551709737780" duration="2208000" />
       <workItem from="1551892825291" duration="9795000" />
       <workItem from="1551963071862" duration="1854000" />
-      <workItem from="1552403054386" duration="2154000" />
+      <workItem from="1552403054386" duration="6774000" />
     </task>
     <task id="LOCAL-00001" summary="Merge branch 'master' of https://github.com/a-glln/AppliFrais&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;&#10;supprimer teubi">
       <created>1539262801247</created>
@@ -538,15 +547,28 @@
       <option name="project" value="LOCAL" />
       <updated>1552403237594</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="ajout table sql">
+      <created>1552405657377</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1552405657377</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Nouvelle Bdd">
+      <created>1552405768607</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1552405768607</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65308000" />
+    <option name="totallyTimeSpent" value="69928000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1300268" />
       <window_info anchor="bottom" id="TODO" order="7" />
@@ -587,17 +609,10 @@
     <MESSAGE value="nouvelle version" />
     <MESSAGE value="modif pour ajout utilisateur" />
     <MESSAGE value="ajout table sql" />
-    <option name="LAST_COMMIT_MESSAGE" value="ajout table sql" />
+    <MESSAGE value="Nouvelle Bdd" />
+    <option name="LAST_COMMIT_MESSAGE" value="Nouvelle Bdd" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FrontBundle/Resources/views/Visiteur/liste_fiches.html.twig" />
     <entry file="file://$PROJECT_DIR$/src/FrontBundle/Resources/config/routing.yml" />
     <entry file="file://$PROJECT_DIR$/src/FrontBundle/Resources/views/Visiteur/index.html.twig" />
     <entry file="file://$PROJECT_DIR$/composer.json" />
@@ -646,13 +661,6 @@
         <state relative-caret-position="-2550" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vues/v_entete.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controleurs/c_gererFrais.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
@@ -695,31 +703,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vues/v_listeUser.php">
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/superglobals/_superglobals.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51">
-          <caret line="40" column="58" selection-start-line="40" selection-start-column="58" selection-end-line="40" selection-end-column="58" />
+        <state relative-caret-position="222">
+          <caret line="106" selection-start-line="106" selection-end-line="106" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controleurs/c_listeUser.php">
+    <entry file="file://$PROJECT_DIR$/vues/v_entete.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
+        <state relative-caret-position="204">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/Visiteur.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/include/fct.inc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="110" column="57" selection-start-line="110" selection-start-column="54" selection-end-line="110" selection-end-column="65" />
+        <state relative-caret-position="-170" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vues/v_listeUser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="27" column="92" selection-start-line="27" selection-start-column="86" selection-end-line="27" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controleurs/c_listeUser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="23" column="27" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/include/class.pdogsb.inc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="300" column="11" selection-start-line="300" selection-start-column="11" selection-end-line="300" selection-end-column="11" />
+        <state relative-caret-position="445">
+          <caret line="311" column="29" lean-forward="true" selection-start-line="311" selection-start-column="29" selection-end-line="311" selection-end-column="29" />
         </state>
       </provider>
     </entry>

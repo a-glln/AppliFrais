@@ -15,11 +15,20 @@ switch($action){
 		$allUsers=$pdo->getLesUsersAdmin();
         include("vues/v_listeUser.php");
         break;
-    } 
+    }
+
+    case 'supprUser':
+	{
+
+        $idUser = $_REQUEST['idUser'];
+        $pdo->supprimerUser($idUser);
+	    $allUsers=$pdo->getLesUsersAdmin();
+        include("vues/v_listeUser.php");
+        break;
+    }
 
     case 'ajoutUser':
         {
-            $id = $_REQUEST['id'];
             $nom = $_REQUEST['nom'];
             $prenom = $_REQUEST['prenom'];
             $login = $_REQUEST['login'];
@@ -29,8 +38,9 @@ switch($action){
             $cp = $_REQUEST['cp'];
             $ville = $_REQUEST['ville'];
             $dateEmbauche = $_REQUEST['dateEmbauche'];
-            $pdo->addUnUser($id, $nom, $prenom, $login, $mdp, $groupe, $adresse, $cp, $ville, $dateEmbauche );
+            $pdo->addUnUser($nom, $prenom, $login, $mdp, $groupe, $adresse, $cp, $ville, $dateEmbauche );
             echo ("<script>alert ('Utilisateur créer !') ;</script>");
+            $allUsers=$pdo->getLesUsersAdmin();
             include("vues/v_listeUser.php");
             break;
         }
