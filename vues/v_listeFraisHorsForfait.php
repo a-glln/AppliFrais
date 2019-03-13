@@ -18,7 +18,7 @@
                     $date = $unFraisHorsForfait['date'];
                     $montant = $unFraisHorsForfait['montant'];
                     $id = $unFraisHorsForfait['id'];
-                ?>
+                    ?>
                     <tr>
                         <td> <?php echo $date ?></td>
                         <td><?php echo $libelle ?></td>
@@ -26,10 +26,10 @@
                         <td><a href="index.php?uc=gererFrais&action=supprimerFrais&idFrais=<?php echo $id ?>"
                                onclick="return confirm('Voulez-vous vraiment supprimer ce frais?');">Supprimer ce
                                 frais
-							 </a>
-						</td>
+                            </a>
+                        </td>
                     </tr>
-                <?php
+                    <?php
                 }
                 ?>
             </table>
@@ -66,10 +66,6 @@
 </div>
 </div>
 </div>
-
-
-  
-
 
 
 <!--

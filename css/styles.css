@@ -29,23 +29,23 @@ body, html {
     text-align: left;
     padding: 20px;
 }
+
 #param .form-control {
     width: 10%;
     display: initial;
-    color:green;
-    font-size:1.2em;
+    color: green;
+    font-size: 1.2em;
 }
 
-#validfrais{
-    width:65%;
-    text-align:left;
+#validfrais {
+    width: 65%;
+    text-align: left;
 }
 
 form #validfrais {
     float: left;
-    padding : 20px;
+    padding: 20px;
 }
-
 
 #formulaire {
     padding: 30px;
@@ -83,7 +83,7 @@ table {
     margin-top: 0.8em;
     padding-top: 1em;
     background-color: white;
-    color: rgb(0,85,227);
+    color: rgb(0, 85, 227);
     float: left;
     width: 270px;
 }
@@ -91,12 +91,12 @@ table {
 /*  Le texte des messages d'erreur est de couleur rose sur fond ocre et de
 taille de caract�res l�g�rement sup�rieure � la normale */
 .erreur {
-    background-color: rgb(237,210,229);
-    color: rgb(203,28,128);
+    background-color: rgb(237, 210, 229);
+    color: rgb(203, 28, 128);
     width: 95%;
 }
 
-.form-row>.col, .form-row>[class*=col-] {
+.form-row > .col, .form-row > [class*=col-] {
     text-align: left;
 }
 

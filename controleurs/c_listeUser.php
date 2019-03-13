@@ -40,7 +40,7 @@ switch($action){
             $ville = $_REQUEST['ville'];
             $dateEmbauche = $_REQUEST['dateEmbauche'];
             $pdo->addUnUser($nom, $prenom, $login, $mdp, $groupe, $adresse, $cp, $ville, $dateEmbauche );
-            echo ("<script>alert ('Utilisateur créé !') ;</script>");
+            echo ("<script>alert ('Utilisateur créer !') ;</script>");
             $allUsers=$pdo->getLesUsersAdmin();
             include("vues/v_listeUser.php");
             break;

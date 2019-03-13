@@ -13,7 +13,7 @@
                         <th>Login</th>
                         <th>Mot de passe</th>
                         <th>Groupe</th>
-                        <th>Actions</th>
+                        <th style='text-align: center;'>Actions</th>
                     </tr>
                     <?php
                     foreach ($allUsers as $unUser) {
@@ -24,27 +24,14 @@
                             "<td>" . $unUser['login'] . "</td>" .
                             "<td>" . $unUser['mdp'] . "</td>" .
                             "<td>" . $unUser['groupe'] . "</td>" .
-                            "<td><a href='index.php?uc=listeUser&action=supprUser&idUser=" . $unUser['id'] . "'>supprimer</a></td>" .
+                            "<td style='text-align: center;'><a type='button' class='btn btn-primary' href='index.php?uc=listeUser&action=supprUser&idUser=" . $unUser['id'] . "'><b>X</b></a></td>" .
                             "</tr>";
                     }
                     ?>
                 </table>
             </div>
         </form>
-        <form action="index.php?uc=listeUser&action=supprUser" method="post">
-            <div class="col-md-2" style="float: left;">
-                <label for="validationTooltip05">Selectionner un utilisateur</label>
-                <select name="groupe" id="validationTooltip05" class="form-control" placeholder="Role" required>
-                    <?php
-                    foreach ($allUsers as $unUser) {
-                        echo
-                            "<option>" . $unUser['nom'] . "</option>";
-                    }
-                    ?>
-                </select>
-            </div>
-        </form>
-        <br>
+
         <div style="text-align: left; ">
             <h2>Ajouter d'un utilisateur</h2>
             <br>
