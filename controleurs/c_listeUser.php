@@ -22,6 +22,7 @@ switch($action){
 
         $idUser = $_REQUEST['idUser'];
         $pdo->supprimerUser($idUser);
+        echo ("<script>alert ('Utilisateur supprimé!') ;</script>");
 	    $allUsers=$pdo->getLesUsersAdmin();
         include("vues/v_listeUser.php");
         break;
@@ -39,7 +40,7 @@ switch($action){
             $ville = $_REQUEST['ville'];
             $dateEmbauche = $_REQUEST['dateEmbauche'];
             $pdo->addUnUser($nom, $prenom, $login, $mdp, $groupe, $adresse, $cp, $ville, $dateEmbauche );
-            echo ("<script>alert ('Utilisateur créer !') ;</script>");
+            echo ("<script>alert ('Utilisateur créé !') ;</script>");
             $allUsers=$pdo->getLesUsersAdmin();
             include("vues/v_listeUser.php");
             break;
