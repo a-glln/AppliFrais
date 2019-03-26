@@ -29,13 +29,14 @@ switch ($action) {
                 $groupe = $visiteur['groupe'];
                 connecter($id, $nom, $prenom, $groupe);
                 if ($groupe == "visiteur") {
-
                     include("vues/v_sommaire.php");
                     include("vues/v_accueil.php");
-                } else if ($groupe == "comptable") {
+                }
+                else if ($groupe == "comptable") {
                     include("vues/v_menuComptable.php");
                     include("vues/v_accueil.php");
-                } else if ($groupe == "admin") {
+                }
+                else if ($groupe == "admin") {
                     include("vues/v_menuAdmin.php");
                     include("vues/v_accueil.php");
                 }
