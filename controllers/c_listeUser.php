@@ -5,7 +5,7 @@
  * Date: 05/02/2019
  * Time: 16:59
  */
-include("vues/v_menuAdmin.php");
+include("views/v_menuAdmin.php");
 $action = $_REQUEST['action'];
 
 switch($action){
@@ -13,7 +13,7 @@ switch($action){
     case 'afficherListe':
 	{
 		$allUsers=$pdo->getLesUsersAdmin();
-        include("vues/v_listeUser.php");
+        include("views/v_listeUser.php");
         break;
     }
 
@@ -24,7 +24,7 @@ switch($action){
         $pdo->supprimerUser($idUser);
         echo ("<script>alert ('Utilisateur supprimé!') ;</script>");
 	    $allUsers=$pdo->getLesUsersAdmin();
-        include("vues/v_listeUser.php");
+        include("views/v_listeUser.php");
         break;
     }
 
@@ -42,7 +42,7 @@ switch($action){
             $pdo->addUnUser($nom, $prenom, $login, $mdp, $groupe, $adresse, $cp, $ville, $dateEmbauche );
             echo ("<script>alert ('Utilisateur créer !') ;</script>");
             $allUsers=$pdo->getLesUsersAdmin();
-            include("vues/v_listeUser.php");
+            include("views/v_listeUser.php");
             break;
         }
 }

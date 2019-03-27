@@ -6,21 +6,21 @@
  * Time: 16:59
  */
 
-include("vues/v_menuComptable.php");
+include("views/v_menuComptable.php");
 $action = $_REQUEST['action'];
 
 switch ($action) {
     case 'selectParam' :
         {
             $users = $pdo->getLesUsersComptable();
-            include("vues/v_suiviFrais.php");
+            include("views/v_suiviFrais.php");
             break;
         }
     case 'voirFrais' :
         {
             $idVisiteur = $_REQUEST['lstUser'];
             $mois = $pdo->dernierMoisSaisi($idVisiteur);
-            include("vues/v_suiviFrais.php");
+            include("views/v_suiviFrais.php");
             $lesFraisHorsForfait = $pdo->getLesFraisHorsForfait($idVisiteur, $mois);
             $lesFraisForfait = $pdo->getLesFraisForfait($idVisiteur, $mois);
             $lesInfosFicheFrais = $pdo->getLesInfosFicheFrais($idVisiteur, $mois);
@@ -31,7 +31,7 @@ switch ($action) {
             $nbJustificatifs = $lesInfosFicheFrais['nbJustificatifs'];
             $dateModif = $lesInfosFicheFrais['dateModif'];
             $dateModif = dateAnglaisVersFrancais($dateModif);
-            include("vues/v_etatFrais.php");
+            include("views/v_etatFrais.php");
             break;
         }
 }

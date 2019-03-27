@@ -3,7 +3,7 @@
  * Created by PhpStorm.
  * User: adamg
  */
-include("vues/v_sommaire.php");
+include("views/v_sommaire.php");
 $idVisiteur = $_SESSION['idVisiteur'];
 $mois = getMois(date("d/m/Y"));
 $numAnnee = substr($mois, 0, 4);
@@ -25,7 +25,7 @@ switch ($action) {
                 echo("<script>alert ('Frais Forfait mis a jour !') ;</script>");
             } else {
                 ajouterErreur("Les valeurs des frais doivent être numériques");
-                include("vues/v_erreurs.php");
+                include("views/v_erreurs.php");
             }
             break;
         }
@@ -36,7 +36,7 @@ switch ($action) {
             $montant = $_REQUEST['montant'];
             valideInfosFrais($dateFrais, $libelle, $montant);
             if (nbErreurs() != 0) {
-                include("vues/v_erreurs.php");
+                include("views/v_erreurs.php");
             } else {
                 $pdo->creeNouveauFraisHorsForfait($idVisiteur, $mois, $libelle, $dateFrais, $montant);
                 echo("<script>alert ('Frais Hors Forfait créer !') ;</script>");
@@ -52,8 +52,8 @@ switch ($action) {
 }
 $lesFraisHorsForfait = $pdo->getLesFraisHorsForfait($idVisiteur, $mois);
 $lesFraisForfait = $pdo->getLesFraisForfait($idVisiteur, $mois);
-include("vues/v_listeFraisForfait.php");
-include("vues/v_listeFraisHorsForfait.php");
+include("views/v_listeFraisForfait.php");
+include("views/v_listeFraisHorsForfait.php");
 
 
 ?>

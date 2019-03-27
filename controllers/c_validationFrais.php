@@ -3,7 +3,7 @@
  * Created by PhpStorm.
  * User: adamg
  */
-include("vues/v_menuComptable.php");
+include("views/v_menuComptable.php");
 $action = $_REQUEST['action'];
 
 switch ($action) {
@@ -11,7 +11,7 @@ switch ($action) {
         {
             $users = $pdo->getLesUsersComptable();
             $lesMois = $pdo->getLesMoisComptable();
-            include("vues/v_listeValidation.php");
+            include("views/v_listeValidation.php");
             break;
         }
     case 'validationFrais' :
@@ -29,7 +29,7 @@ switch ($action) {
             $nbJustificatifs = $lesInfosFicheFrais['nbJustificatifs'];
             $dateModif = $lesInfosFicheFrais['dateModif'];
             $dateModif = dateAnglaisVersFrancais($dateModif);
-            include("vues/v_validationFrais.php");
+            include("views/v_validationFrais.php");
             break;
         }
     case 'updateFrais' :
@@ -50,7 +50,7 @@ switch ($action) {
             $nbJustificatifs = $lesInfosFicheFrais['nbJustificatifs'];
             $dateModif = $lesInfosFicheFrais['dateModif'];
             $dateModif = dateAnglaisVersFrancais($dateModif);
-            include("vues/v_updateFrais.php");
+            include("views/v_updateFrais.php");
 
         }
     case 'gererFraisHF' :
