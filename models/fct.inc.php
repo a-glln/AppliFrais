@@ -27,7 +27,6 @@ function connecter($id, $nom, $prenom, $groupe)
     $_SESSION['groupe'] = $groupe;
 
 }
-
 /**
  * Détruit la session active
  */

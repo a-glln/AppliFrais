@@ -32,7 +32,6 @@
                     </select>
                 </div>
                 <input class="btn btn-primary" id="ok" type="submit" value="Valider">
-                <input class="btn btn-danger" id="annuler" type="reset" value="Effacer">
             </form>
         </div>
     </div>

@@ -75,8 +75,8 @@
                         <label for="validationTooltip05">Groupe</label>
                         <select name="groupe" id="validationTooltip05" class="form-control" placeholder="Role" required>
                             <option selected></option>
-                            <option>Visiteur</option>
-                            <option>Comptable</option>
+                            <option>visiteur</option>
+                            <option>comptable</option>
                             <option>administrateur</option>
                         </select>
                         <div class="invalid-tooltip">

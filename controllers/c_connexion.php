@@ -1,8 +1,8 @@
-﻿<?php
-/**
- * Created by PhpStorm.
- * User: adamg
- */
+﻿<!-- 
+  Created by PhpStorm.
+  User: adamg
+-->
+<?php
 if (!isset($_REQUEST['action'])) {
     $_REQUEST['action'] = 'demandeConnexion';
 }

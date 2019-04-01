@@ -1,14 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\src",
-    "\\src\\FrontBundle",
-    "\\src\\FrontBundle\\Controller",
-    "\\src\\FrontBundle\\Entity",
-    "\\src\\FrontBundle\\Resources",
-    "\\src\\FrontBundle\\Resources\\config",
-    "\\src\\FrontBundle\\Resources\\config\\routing"
+    "\\controllers",
+    "\\models",
+    "\\views"
   ],
-  "SelectedNode": "\\src\\FrontBundle\\Resources\\config\\routing",
+  "SelectedNode": "\\controllers\\c_listeUser.php",
   "PreviewInSolutionExplorer": false
 }
