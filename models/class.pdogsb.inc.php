@@ -23,11 +23,6 @@ class PdoGsb
         PdoGsb::$monPdo->query("SET CHARACTER SET utf8");
     }
 
-    public function _destruct()
-    {
-        PdoGsb::$monPdo = null;
-    }
-
     /**
      * Fonction statique qui crée l'unique instance de la classe
      * Appel : $instancePdoGsb = PdoGsb::getPdoGsb();
@@ -39,6 +34,11 @@ class PdoGsb
             PdoGsb::$monPdoGsb = new PdoGsb();
         }
         return PdoGsb::$monPdoGsb;
+    }
+
+    public function _destruct()
+    {
+        PdoGsb::$monPdo = null;
     }
 
     /**
@@ -113,18 +113,6 @@ class PdoGsb
     }
 
     /**
-     * Retourne tous les id de la table FraisForfait
-     * @return un tableau associatif
-     */
-    public function getLesIdFrais()
-    {
-        $req = "select fraisforfait.id as idfrais from fraisforfait order by fraisforfait.id";
-        $res = PdoGsb::$monPdo->query($req);
-        $lesLignes = $res->fetchAll();
-        return $lesLignes;
-    }
-
-    /**
      * Met à jour la table ligneFraisForfait
      * Met à jour la table ligneFraisForfait pour un visiteur et
      * un mois donné en enregistrant les nouveaux montants
@@ -179,20 +167,6 @@ class PdoGsb
     }
 
     /**
-     * Retourne le dernier mois en cours d'un visiteur
-     * @param $idVisiteur
-     * @return le mois sous la forme aaaamm
-     */
-    public function dernierMoisSaisi($idVisiteur)
-    {
-        $req = "select max(mois) as dernierMois from fichefrais where fichefrais.idvisiteur = '$idVisiteur'";
-        $res = PdoGsb::$monPdo->query($req);
-        $laLigne = $res->fetch();
-        $dernierMois = $laLigne['dernierMois'];
-        return $dernierMois;
-    }
-
-    /**
      * Crée une nouvelle fiche de frais et les lignes de frais au forfait pour un visiteur et un mois donnés
      * récupère le dernier mois en cours de traitement, met à 'CL' son champs idEtat, crée une nouvelle fiche de frais
      * avec un idEtat à 'CR' et crée les lignes de frais forfait de quantités nulles
@@ -217,6 +191,62 @@ class PdoGsb
 			values('$idVisiteur','$mois','$unIdFrais',0)";
             PdoGsb::$monPdo->exec($req);
         }
+    }
+
+    /**
+     * Retourne le dernier mois en cours d'un visiteur
+     * @param $idVisiteur
+     * @return le mois sous la forme aaaamm
+     */
+    public function dernierMoisSaisi($idVisiteur)
+    {
+        $req = "select max(mois) as dernierMois from fichefrais where fichefrais.idvisiteur = '$idVisiteur'";
+        $res = PdoGsb::$monPdo->query($req);
+        $laLigne = $res->fetch();
+        $dernierMois = $laLigne['dernierMois'];
+        return $dernierMois;
+    }
+
+    /**
+     * Retourne les informations d'une fiche de frais d'un visiteur pour un mois donné
+     * @param $idVisiteur
+     * @param $mois sous la forme aaaamm
+     * @return un tableau avec des champs de jointure entre une fiche de frais et la ligne d'état
+     */
+    public function getLesInfosFicheFrais($idVisiteur, $mois)
+    {
+        $req = "select ficheFrais.idEtat as idEtat, ficheFrais.dateModif as dateModif, ficheFrais.nbJustificatifs as nbJustificatifs, 
+			ficheFrais.montantValide as montantValide, etat.libelle as libEtat from  fichefrais inner join Etat on ficheFrais.idEtat = Etat.id 
+			where fichefrais.idvisiteur ='$idVisiteur' and fichefrais.mois = '$mois'";
+        $res = PdoGsb::$monPdo->query($req);
+        $laLigne = $res->fetch();
+        return $laLigne;
+    }
+
+    /**
+     * Modifie l'état et la date de modification d'une fiche de frais
+     * Modifie le champ idEtat et met la date de modif à aujourd'hui
+     * @param $idVisiteur
+     * @param $mois sous la forme aaaamm
+     */
+
+    public function majEtatFicheFrais($idVisiteur, $mois, $etat)
+    {
+        $req = "update ficheFrais set idEtat = '$etat', dateModif = now() 
+		where fichefrais.idvisiteur ='$idVisiteur' and fichefrais.mois = '$mois'";
+        PdoGsb::$monPdo->exec($req);
+    }
+
+    /**
+     * Retourne tous les id de la table FraisForfait
+     * @return un tableau associatif
+     */
+    public function getLesIdFrais()
+    {
+        $req = "select fraisforfait.id as idfrais from fraisforfait order by fraisforfait.id";
+        $res = PdoGsb::$monPdo->query($req);
+        $lesLignes = $res->fetchAll();
+        return $lesLignes;
     }
 
     /**
@@ -272,36 +302,7 @@ class PdoGsb
         return $lesMois;
     }
 
-    /**
-     * Retourne les informations d'une fiche de frais d'un visiteur pour un mois donné
-     * @param $idVisiteur
-     * @param $mois sous la forme aaaamm
-     * @return un tableau avec des champs de jointure entre une fiche de frais et la ligne d'état
-     */
-    public function getLesInfosFicheFrais($idVisiteur, $mois)
-    {
-        $req = "select ficheFrais.idEtat as idEtat, ficheFrais.dateModif as dateModif, ficheFrais.nbJustificatifs as nbJustificatifs, 
-			ficheFrais.montantValide as montantValide, etat.libelle as libEtat from  fichefrais inner join Etat on ficheFrais.idEtat = Etat.id 
-			where fichefrais.idvisiteur ='$idVisiteur' and fichefrais.mois = '$mois'";
-        $res = PdoGsb::$monPdo->query($req);
-        $laLigne = $res->fetch();
-        return $laLigne;
-    }
-
-    /**
-     * Modifie l'état et la date de modification d'une fiche de frais
-     * Modifie le champ idEtat et met la date de modif à aujourd'hui
-     * @param $idVisiteur
-     * @param $mois sous la forme aaaamm
-     */
-
-    public function majEtatFicheFrais($idVisiteur, $mois, $etat)
-    {
-        $req = "update ficheFrais set idEtat = '$etat', dateModif = now() 
-		where fichefrais.idvisiteur ='$idVisiteur' and fichefrais.mois = '$mois'";
-        PdoGsb::$monPdo->exec($req);
-    }
-
+    /*Recupere tout les utilisateur de la bdd */
 
     public function getLesUsersAdmin()
     {
@@ -311,6 +312,7 @@ class PdoGsb
         return $allUsers;
     }
 
+    /*Permet d'ajouter un utilisateur */
     public function addUnUser($nom, $prenom, $login, $mdp, $groupe, $adresse, $cp, $ville, $dateEmbauche)
     {
         $req = "INSERT into visiteur (nom, prenom, login, mdp, groupe, adresse, cp, ville, dateEmbauche)
@@ -320,6 +322,7 @@ class PdoGsb
 
     }
 
+    /*Permet de supprimer un utilisateur */
     public function supprimerUser($idUser)
     {
         $req = "DELETE FROM visiteur 
@@ -331,6 +334,8 @@ class PdoGsb
     }
 
     //COMPTABLE
+
+    /*Recupere tout les noms d'utilisateur de la bdd (pour les select) */
     public function getLesUsersComptable()
     {
         $req = "select nom , id  from visiteur";
@@ -339,6 +344,7 @@ class PdoGsb
         return $lesUsers;
     }
 
+    /*Recupere tout les mois contenat une fiche de la bdd */
     public function getLesMoisComptable()
     {
         $req = "select  mois, idVisiteur from fichefrais";
@@ -347,6 +353,7 @@ class PdoGsb
         return $lesMois;
     }
 
+    /*Met a jour  l'etat, la date de modif, et le montant validé pour une fiche dans la bdd */
     public function majLesInfosFicheFrais($idVisiteur, $mois, $montantValide)
     {
         $req = "UPDATE fichefrais set idEtat = 'VA', dateModif = now() ,

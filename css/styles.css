@@ -91,9 +91,11 @@ table {
 /*  Le texte des messages d'erreur est de couleur rose sur fond ocre et de
 taille de caract�res l�g�rement sup�rieure � la normale */
 .erreur {
-    background-color: rgb(237, 210, 229);
-    color: rgb(203, 28, 128);
-    width: 95%;
+    background-color: #dc3545;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: larger;
 }
 
 .form-row > .col, .form-row > [class*=col-] {

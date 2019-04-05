@@ -6,8 +6,10 @@ $user_name = 'root';
 $password = '';
 
 $bdd = new PDO("mysql:host=$host_name; dbname=$database;", $user_name, $password);
-$query = 'SELECT * FROM fichefrais';
+$query = 'SELECT mois  FROM  fichefrais where idvisiteur = :idVisiteur 
+		order by mois desc ';
 $d = $bdd -> query($query);
+$d->bindParam(':idVisiteur', $_POST['idVisiteur']);
 $fiches = $d -> fetchAll();
 
 $retour = [];
