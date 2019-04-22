@@ -17,6 +17,6 @@
             <img src="./images/logogsb.png" id="logoGSB" width="100px" height="62px" class="d-inline-block align-top">
             <h1>Mon gestionnaire de frais</h1>
         </a>
-        <a class="btn btn-danger" href="index.php?uc=connexion&amp;action=deconnexion" title="Se déconnecter">Déconnexion</a>
+       
     </nav>
 </div>

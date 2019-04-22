@@ -8,5 +8,8 @@
         <a class="nav-link active" href="index.php?uc=validFrais&action=selectParamValidation">Validation des fiches de
             frais</a>
         <a class="nav-link active" href="index.php?uc=suiviFrais&action=selectParam">Suivi des fiches de frais</a>
-    </nav>
+    	<br>
+		 <a class="btn btn-danger" href="index.php?uc=connexion&amp;action=deconnexion" title="Se déconnecter" 
+		 style="margin-left: 10px;width: max-content;">Déconnexion</a>
+	</nav>
 </div>

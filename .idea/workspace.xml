@@ -2,14 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18ab21e6-9852-42df-90ec-c659003d9da0" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vs/AppliFrais/v15/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/AppliFrais/v15/.suo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vs/VSWorkspaceState.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/VSWorkspaceState.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vs/slnx.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/slnx.sqlite" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobileData/connexion.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/c_etatFrais.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/c_etatFrais.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobileData/detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/mobileData/detail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobileData/fiche_frais.php" beforeDir="false" afterPath="$PROJECT_DIR$/mobileData/fiche_frais.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/models/class.pdogsb.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/class.pdogsb.inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/v_erreurs.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/v_erreurs.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/v_entete.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/v_entete.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/v_etatFrais.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/v_etatFrais.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/v_menuAdmin.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/v_menuAdmin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/v_menuComptable.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/v_menuComptable.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/v_sommaire.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/v_sommaire.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -38,7 +42,7 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+          <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="357">
@@ -50,15 +54,10 @@
           <file leaf-file-name="class.pdogsb.inc.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/models/class.pdogsb.inc.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="17">
-                  <caret line="150" column="26" selection-start-line="150" selection-start-column="26" selection-end-line="150" selection-end-column="26" />
+                <state relative-caret-position="2516">
+                  <caret line="151" column="26" selection-start-line="151" selection-start-column="26" selection-end-line="151" selection-end-column="26" />
                 </state>
               </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="detail.php" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/mobileData/detail.php">
-              <provider selected="true" editor-type-id="text-editor" />
             </entry>
           </file>
         </leaf>
@@ -209,6 +208,22 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="AppliFrais" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AppliFrais" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="AppliFrais" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AppliFrais" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="models" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Project Files">
           <expand>
@@ -290,22 +305,6 @@
               <item name="Resources" type="cbb8eebc:String" user="Resources" />
               <item name="views" type="cbb8eebc:String" user="views" />
               <item name="Default" type="cbb8eebc:String" user="Default" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="AppliFrais" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AppliFrais" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="AppliFrais" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AppliFrais" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="models" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -397,6 +396,7 @@
       <workItem from="1553256009710" duration="299000" />
       <workItem from="1554221112545" duration="124000" />
       <workItem from="1554375413215" duration="10000" />
+      <workItem from="1555328730510" duration="79000" />
     </task>
     <task id="LOCAL-00001" summary="Merge branch 'master' of https://github.com/a-glln/AppliFrais&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;&#10;supprimer teubi">
       <created>1539262801247</created>
@@ -535,14 +535,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74324000" />
+    <option name="totallyTimeSpent" value="74403000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14075068" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14477211" />
       <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067025" side_tool="true" weight="0.32884097" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
@@ -553,6 +552,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -585,76 +585,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Code reformate + suppresion design" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/FrontBundle/Controller/VisiteurController.php" />
-    <entry file="file://$PROJECT_DIR$/src/FrontBundle/Controller/ComptableController.php" />
-    <entry file="file://$PROJECT_DIR$/../sc_chat/web/config.php" />
-    <entry file="file://$PROJECT_DIR$/../sc_chat/web/app_dev.php" />
-    <entry file="file://$PROJECT_DIR$/../sc_chat/.gitignore" />
-    <entry file="file://$PROJECT_DIR$/../sc_chat/app/Resources/views/default/index.html.twig" />
-    <entry file="file://$PROJECT_DIR$/../sc_chat/app/Resources/views/base.html.twig" />
-    <entry file="file://$PROJECT_DIR$/src/FrontBundle/Resources/views/Visiteur/liste_fiches.html.twig" />
-    <entry file="file://$PROJECT_DIR$/src/FrontBundle/Resources/views/Default/index.html.twig" />
-    <entry file="file://$PROJECT_DIR$/src/FrontBundle/Resources/views/Admin/index.html.twig" />
-    <entry file="file://$PROJECT_DIR$/src/FrontBundle/Controller/DefaultController.php" />
-    <entry file="file://$PROJECT_DIR$/src/FrontBundle/Resources/views/Visiteur/index.html.twig" />
-    <entry file="file://$PROJECT_DIR$/app/AppKernel.php" />
-    <entry file="file://$PROJECT_DIR$/src/FrontBundle/Resources/views/Comptable/index.html.twig" />
-    <entry file="file://$PROJECT_DIR$/src/FrontBundle/Resources/config/routing.yml" />
-    <entry file="file://$PROJECT_DIR$/src/FrontBundle/Controller/AdminController.php" />
-    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml" />
-    <entry file="file://$PROJECT_DIR$/src/FrontBundle/FrontBundle.php" />
-    <entry file="file://$PROJECT_DIR$/app/config/routing.yml" />
-    <entry file="file://$PROJECT_DIR$/src/FrontBundle/Controller/CompteController.php" />
-    <entry file="file://$PROJECT_DIR$/src/FrontBundle/Form/CompteType.php" />
-    <entry file="file://$PROJECT_DIR$/src/FrontBundle/Resources/views/Security/login.html.twig" />
-    <entry file="file://$PROJECT_DIR$/app/config/config.yml" />
-    <entry file="file://$PROJECT_DIR$/src/FrontBundle/Resources/views/Security/login_content.html.twig" />
-    <entry file="file://$PROJECT_DIR$/app/config/security.yml" />
-    <entry file="file://$PROJECT_DIR$/src/FrontBundle/Entity/Etat.php" />
-    <entry file="file://$PROJECT_DIR$/src/FrontBundle/Entity/ligneHorsForfait.php" />
-    <entry file="file://$PROJECT_DIR$/src/FrontBundle/Resources/public/css/simple-sidebar.css" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/index.html.twig" />
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/compte/index.html.twig" />
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig" />
-    <entry file="file://$PROJECT_DIR$/src/FrontBundle/Entity/Compte.php" />
-    <entry file="file://$PROJECT_DIR$/gsb_frais.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2550" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vues/v_connexion.php" />
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/superglobals/_superglobals.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="106" selection-start-line="106" selection-end-line="106" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vues/v_listeFraisHorsForfait.php" />
-    <entry file="file://$PROJECT_DIR$/models/Visiteur.php" />
-    <entry file="file://$PROJECT_DIR$/controleurs/c_listeUser.php" />
-    <entry file="file://$PROJECT_DIR$/vues/v_entete.php" />
-    <entry file="file://$PROJECT_DIR$/vues/v_listeUser.php" />
-    <entry file="file://$PROJECT_DIR$/controleurs/c_gererFrais.php" />
-    <entry file="file://$PROJECT_DIR$/controleurs/c_etatFrais.php" />
-    <entry file="file://$PROJECT_DIR$/controleurs/c_validationFrais.php" />
-    <entry file="file://$PROJECT_DIR$/vues/v_listeMois.php" />
-    <entry file="file://$PROJECT_DIR$/controleurs/c_connexion.php" />
-    <entry file="file://$PROJECT_DIR$/include/class.pdogsb.inc.php" />
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -664,13 +594,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/models/class.pdogsb.inc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="150" column="26" selection-start-line="150" selection-start-column="26" selection-end-line="150" selection-end-column="26" />
+        <state relative-caret-position="2516">
+          <caret line="151" column="26" selection-start-line="151" selection-start-column="26" selection-end-line="151" selection-end-column="26" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobileData/detail.php">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
