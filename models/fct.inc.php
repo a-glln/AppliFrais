@@ -19,12 +19,12 @@ function estConnecte()
  * @param $nom
  * @param $prenom
  */
-function connecter($id, $nom, $prenom, $groupe)
+function connecter($id, $nom, $prenom, $role_id)
 {
     $_SESSION['idVisiteur'] = $id;
     $_SESSION['nom'] = $nom;
     $_SESSION['prenom'] = $prenom;
-    $_SESSION['groupe'] = $groupe;
+    $_SESSION['role_id'] = $role_id;
 
 }
 /**
@@ -43,7 +43,10 @@ function deconnecter()
 function dateFrancaisVersAnglais($maDate)
 {
     @list($jour, $mois, $annee) = explode('/', $maDate);
-    return date('Y-m-d', mktime(0, 0, 0, $annee, $mois, $jour));
+    return date('Y-m-d', mktime(
+	$annee, 
+	$mois, 
+	$jour));
 }
 
 /**
@@ -155,19 +158,8 @@ function lesQteFraisValides($lesFrais)
  * @param $libelle
  * @param $montant
  */
-function valideInfosFrais($date, $libelle, $montant)
+function valideInfosFrais( $libelle, $montant)
 {
-    if ($date == "") {
-        ajouterErreur("Le champ date ne doit pas être vide");
-    } else {
-        if (!estDatevalide($date)) {
-            ajouterErreur("Date invalide");
-        } else {
-            if (estDateDepassee($date)) {
-                ajouterErreur("date d'enregistrement du frais dépassé, plus de 1 an");
-            }
-        }
-    }
     if ($libelle == "") {
         ajouterErreur("Le champ description ne peut pas être vide");
     }
@@ -203,3 +195,7 @@ function nbErreurs()
         return count($_REQUEST['erreurs']);
     }
 }
+
+
+//COMPTABLE	
+

@@ -6,4 +6,5 @@
         connecter
         sur votre gestionnaire de frais
     </h1>
+	<h2>Nous sommes le : <?php echo date("j m Y"); ?></h2>
 </div>

@@ -32,14 +32,14 @@ switch($action){
         {
             $nom = $_REQUEST['nom'];
             $prenom = $_REQUEST['prenom'];
-            $login = $_REQUEST['login'];
-            $mdp = $_REQUEST['mdp'];
-            $groupe = $_REQUEST['groupe'];
+			$nom_utilisateur = $_REQUEST['nom_utilisateur'];
+            $mot_de_passe = $_REQUEST['mot_de_passe'];
+            $role_id = $_REQUEST['role_id'];
             $adresse = $_REQUEST['adresse'];
-            $cp = $_REQUEST['cp'];
+            $code_postal = $_REQUEST['code_postal'];
             $ville = $_REQUEST['ville'];
-            $dateEmbauche = $_REQUEST['dateEmbauche'];
-            $pdo->addUnUser($nom, $prenom, $login, $mdp, $groupe, $adresse, $cp, $ville, $dateEmbauche );
+            $date_embauche = $_REQUEST['date_embauche'];
+            $pdo->addUnUser($nom, $prenom, $nom_utilisateur, $mot_de_passe, $role_id, $adresse, $code_postal, $ville, $date_embauche );
             echo ("<script>alert ('Utilisateur créer !') ;</script>");
             $allUsers=$pdo->getLesUsersAdmin();
             include("views/v_listeUser.php");

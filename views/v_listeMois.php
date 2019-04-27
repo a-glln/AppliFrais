@@ -10,23 +10,10 @@
                     <div class="input-group-prepend">
                         <label class="input-group-text" for="lstMois">Mois :</label>
                     </div>
-                    <!-- <label for="lstMois" accesskey="n">Mois : </label> -->
-                    <select class="custom-select" id="lstMois" name="lstMois">
+				    <select class="custom-select" id="lstMois" name="lstMois">
                         <?php
                         foreach ($lesMois as $unMois) {
-                            $mois = $unMois['mois'];
-                            $numAnnee = $unMois['numAnnee'];
-                            $numMois = $unMois['numMois'];
-                            if ($mois == $moisASelectionner) {
-                                ?>
-                                <option selected
-                                        value="<?php echo $mois ?>"><?php echo $numMois . "/" . $numAnnee ?> </option>
-                                <?php
-                            } else { ?>
-                                <option value="<?php echo $mois ?>"><?php echo $numMois . "/" . $numAnnee ?> </option>
-                                <?php
-                            }
-
+                            echo "<option value='" . $unMois['id'] . "'>" . $unMois['mois'] .'/'. $unMois['annee'] . "</option>";
                         }
                         ?>
                     </select>

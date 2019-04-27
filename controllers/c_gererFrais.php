@@ -5,23 +5,31 @@
  */
 include("views/v_sommaire.php");
 $idVisiteur = $_SESSION['idVisiteur'];
-$mois = getMois(date("d/m/Y"));
-$numAnnee = substr($mois, 0, 4);
-$numMois = substr($mois, 4, 2);
+$mois = date("m");
+$annee = date("Y");
+$jour = date("d");
+
 $action = $_REQUEST['action'];
 switch ($action) {
     case 'saisirFrais':
         {
-            if ($pdo->estPremierFraisMois($idVisiteur, $mois)) {
-                $pdo->creeNouvellesLignesFrais($idVisiteur, $mois);
+            if ($pdo->estPremierFraisMois($idVisiteur, $mois, $annee)) {
+                $pdo->creeNouvellesFiche($idVisiteur, $mois, $annee);
+                $lesIdFrais = array(1, 2, 3, 4);
+                $idFiche = $pdo->derniereFicheSaisi($idVisiteur) ;
+                $derniereFiche = $idFiche['derniereFiche'];
+                $pdo->creeNouvellesLigneForfait($idVisiteur,$derniereFiche, $lesIdFrais);
             }
+
             break;
         }
-    case 'validerMajFraisForfait':
+     case 'validerMajFraisForfait':
         {
+            $idFicheUser = $pdo->derniereFicheSaisiMois($idVisiteur);
+            $ficheFraisId = $idFicheUser['idFicheUser'];
             $lesFrais = $_REQUEST['lesFrais'];
             if (lesQteFraisValides($lesFrais)) {
-                $pdo->majFraisForfait($idVisiteur, $mois, $lesFrais);
+                $pdo->majFraisForfait($idVisiteur, $ficheFraisId, $lesFrais);
                 echo("<script>alert ('Frais Forfait mis a jour !') ;</script>");
             } else {
                 ajouterErreur("Les valeurs des frais doivent être numériques");
@@ -31,14 +39,17 @@ switch ($action) {
         }
     case 'validerCreationFrais':
         {
+			$idFicheUser = $pdo->derniereFicheSaisiMois($idVisiteur);
+			$ficheFraisId = $idFicheUser['idFicheUser'];
             $dateFrais = $_REQUEST['dateFrais'];
+			//$dateFrais = dateFrancaisVersAnglais($maDate);
             $libelle = $_REQUEST['libelle'];
             $montant = $_REQUEST['montant'];
-            valideInfosFrais($dateFrais, $libelle, $montant);
+            valideInfosFrais($libelle, $montant);
             if (nbErreurs() != 0) {
                 include("views/v_erreurs.php");
             } else {
-                $pdo->creeNouveauFraisHorsForfait($idVisiteur, $mois, $libelle, $dateFrais, $montant);
+                $pdo->creeNouveauFraisHorsForfait($idVisiteur, $ficheFraisId, $libelle, $dateFrais, $montant);
                 echo("<script>alert ('Frais Hors Forfait créer !') ;</script>");
             }
             break;
@@ -50,8 +61,11 @@ switch ($action) {
             break;
         }
 }
-$lesFraisHorsForfait = $pdo->getLesFraisHorsForfait($idVisiteur, $mois);
-$lesFraisForfait = $pdo->getLesFraisForfait($idVisiteur, $mois);
+$idFicheUser = $pdo->derniereFicheSaisiMois($idVisiteur);
+$ficheFraisId = $idFicheUser['idFicheUser'];
+$lesFraisForfait = $pdo->getLesFraisForfait($idVisiteur, $ficheFraisId);
+$lesFraisHorsForfait = $pdo->getLesFraisHorsForfait($idVisiteur, $ficheFraisId);
+
 include("views/v_listeFraisForfait.php");
 include("views/v_listeFraisHorsForfait.php");
 

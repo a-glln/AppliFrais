@@ -21,9 +21,9 @@
                             "<td>" . $unUser['id'] . "</td>" .
                             "<td>" . $unUser['nom'] . "</td>" .
                             "<td>" . $unUser['prenom'] . "</td>" .
-                            "<td>" . $unUser['login'] . "</td>" .
-                            "<td>" . $unUser['mdp'] . "</td>" .
-                            "<td>" . $unUser['groupe'] . "</td>" .
+                            "<td>" . $unUser['nom_utilisateur'] . "</td>" .
+                            "<td>" . $unUser['mot_de_passe'] . "</td>" .
+                            "<td>" . $unUser['role_id'] . "</td>" .
                             "<td style='text-align: center;'><a type='button' class='btn btn-primary' href='index.php?uc=listeUser&action=supprUser&idUser=" . $unUser['id'] . "'><b>X</b></a></td>" .
                             "</tr>";
                     }
@@ -57,7 +57,7 @@
                     </div>
                     <div class="col-md-2">
                         <label for="validationTooltipUsername">Login</label>
-                        <input type="text" name="login" class="form-control" id="validationTooltipUsername"
+                        <input type="text" name="nom_utilisateur" class="form-control" id="validationTooltipUsername"
                                placeholder="Login" required>
                         <div class="invalid-tooltip">
                             Veuillez choisir une adresse mail valide.
@@ -65,7 +65,7 @@
                     </div>
                     <div class="col-md-2">
                         <label for="validationTooltip03">Mot de passe</label>
-                        <input type="password" name="mdp" class="form-control" id="validationTooltip03"
+                        <input type="password" name="mot_de_passe" class="form-control" id="validationTooltip03"
                                placeholder="Mot de passe" required>
                         <div class="invalid-tooltip">
                             Veuillez choisir un mot de passe
@@ -73,11 +73,11 @@
                     </div>
                     <div class="col-md-2">
                         <label for="validationTooltip05">Groupe</label>
-                        <select name="groupe" id="validationTooltip05" class="form-control" placeholder="Role" required>
+                        <select name="role_id" id="validationTooltip05" class="form-control" placeholder="Role" required>
                             <option selected></option>
-                            <option>visiteur</option>
-                            <option>comptable</option>
-                            <option>administrateur</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
                         </select>
                         <div class="invalid-tooltip">
                             Veuillez choisir un role
@@ -92,7 +92,7 @@
                     </div>
                     <div class="col-md-2">
                         <label for="validationTooltip06">CP</label>
-                        <input type="text" name="cp" class="form-control" id="validationTooltip06" placeholder="CP"
+                        <input type="text" name="code_postal" class="form-control" id="validationTooltip06" placeholder="CP"
                                required>
                         <div class="valid-tooltip">
                             Valide
@@ -108,7 +108,7 @@
                     </div>
                     <div class="col-md-2">
                         <label for="validationTooltip08">Date embauche</label>
-                        <input type="date" name="dateEmbauche" class="form-control" id="validationTooltip08"
+                        <input type="date" name="date_embauche" class="form-control" id="validationTooltip08"
                                placeholder="dateEmbauche" required>
                         <div class="invalid-tooltip">
                             renseigner au format date

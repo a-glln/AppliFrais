@@ -73,7 +73,7 @@ table {
 
 #contenu {
     border: none;
-    padding: 1.3em;
+    padding: 0em 1.3em 1.3em 1.3em;
     background-color: white;
     border-left: groove 15px #007bff;
     margin-left: 18%;

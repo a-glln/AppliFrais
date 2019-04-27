@@ -1,7 +1,7 @@
 ﻿<!-- Created by PhpStorm. -->
 <!-- User: adamg -->
 <div class="card">
-    <h5 class="card-header">Fiche de frais du mois <?php echo $numMois . "-" . $numAnnee ?> :</h5>
+    <h5 class="card-header">Fiche de frais du mois <?php echo $leMois . "-" . $numAnnee ?> :</h5>
     <div class="card-body">
         <h5 class="card-title"> Etat : <?php echo $libEtat ?> depuis le <?php echo $dateModif ?> <br> Montant validé
             : <?php echo $montantValide ?></h5>
@@ -9,8 +9,8 @@
             <caption>Eléments forfaitisés</caption>
             <tr class="bg-primary">
                 <?php
-                foreach ($lesFraisForfait as $unFraisForfait) {
-                    $libelle = $unFraisForfait['libelle'];
+                foreach ($lesIdFrais as $unIdFrais) {
+                    $libelle = $unIdFrais['libelle'];
                     ?>
                     <th> <?php echo $libelle ?></th>
                     <?php
@@ -38,7 +38,7 @@
             </tr>
             <?php
             foreach ($lesFraisHorsForfait as $unFraisHorsForfait) {
-                $date = $unFraisHorsForfait['date'];
+                $date = $unFraisHorsForfait['date_frais'];
                 $libelle = $unFraisHorsForfait['libelle'];
                 $montant = $unFraisHorsForfait['montant'];
                 ?>

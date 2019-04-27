@@ -19,18 +19,21 @@ switch ($action) {
     case 'voirFrais' :
         {
             $idVisiteur = $_REQUEST['lstUser'];
-            $mois = $pdo->dernierMoisSaisi($idVisiteur);
+            $idFicheUser = $pdo->derniereFicheSaisiMois($idVisiteur);
+			$ficheFraisId = $idFicheUser['idFicheUser'];
             include("views/v_suiviFrais.php");
-            $lesFraisHorsForfait = $pdo->getLesFraisHorsForfait($idVisiteur, $mois);
-            $lesFraisForfait = $pdo->getLesFraisForfait($idVisiteur, $mois);
-            $lesInfosFicheFrais = $pdo->getLesInfosFicheFrais($idVisiteur, $mois);
-            $numAnnee = substr($mois, 0, 4);
-            $numMois = substr($mois, 4, 2);
+            $lesFraisHorsForfait = $pdo->getLesFraisHorsForfait($idVisiteur, $ficheFraisId);
+            $lesIdFrais = $pdo->getLesIdFrais();
+			$lesFraisForfait = $pdo->getLesFraisForfait($idVisiteur, $ficheFraisId);
+            $idFicheUser = $pdo->derniereFicheSaisiMois($idVisiteur);
+			$leMois = $idFicheUser['idFicheUser'];
+			$lesInfosFicheFrais = $pdo->getLesInfosFicheFrais($idVisiteur, $leMois);
+			$numAnnee = $lesInfosFicheFrais['annee'];
+            $numMois = $lesInfosFicheFrais['mois'];
             $libEtat = $lesInfosFicheFrais['libEtat'];
             $montantValide = $lesInfosFicheFrais['montantValide'];
             $nbJustificatifs = $lesInfosFicheFrais['nbJustificatifs'];
-            $dateModif = $lesInfosFicheFrais['dateModif'];
-            $dateModif = dateAnglaisVersFrancais($dateModif);
+            $dateModif = $lesInfosFicheFrais['dateModif']; 
             include("views/v_etatFrais.php");
             break;
         }

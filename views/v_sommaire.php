@@ -5,7 +5,6 @@
         <a class="nav-link active"> Connecté en tant que :<br>
             <?php echo $_SESSION['prenom'] . "  " . $_SESSION['nom'] ?>
             <br>
-            <?php echo $_SESSION['groupe'] ?>
         </a>
         <a class="nav-link active" href="index.php?uc=gererFrais&action=saisirFrais">Saisie fiche de frais</a>
         <a class="nav-link" href="index.php?uc=etatFrais&action=selectionnerMois">Mes fiches de frais</a>

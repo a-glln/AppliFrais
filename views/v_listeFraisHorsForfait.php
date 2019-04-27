@@ -15,7 +15,7 @@
                 <?php
                 foreach ($lesFraisHorsForfait as $unFraisHorsForfait) {
                     $libelle = $unFraisHorsForfait['libelle'];
-                    $date = $unFraisHorsForfait['date'];
+                    $date = $unFraisHorsForfait['date_frais'];
                     $montant = $unFraisHorsForfait['montant'];
                     $id = $unFraisHorsForfait['id'];
                     ?>
@@ -42,16 +42,16 @@
                     <fieldset style="text-align: left;">
                         <div class="InputGroup">
                             <label for="idFrais"></label>
-                            <label for="txtDateHF">Date (jj/mm/aaaa) :</label>
-                            <input type="text" id="txtDateHF" name="dateFrais" class="form-control" value=""/>
+                            <label for="txtDateHF">Date (aaaa-mm-jj) :</label>
+                            <input type="date"  id="txtDateHF" name="dateFrais" class="form-control" />
 
 
                             <label for="txtLibelleHF">Libellé :</label>
-                            <input type="text" id="txtLibelleHF" name="libelle" class="form-control" value=""/>
+                            <input type="text" id="txtLibelleHF" name="libelle" class="form-control"/>
 
 
                             <label for="txtMontantHF">Montant : </label>
-                            <input type="text" id="txtMontantHF" name="montant" class="form-control" value=""/>
+                            <input type="text" id="txtMontantHF" name="montant" class="form-control" />
                         </div>
                     </fieldset>
                 </div>

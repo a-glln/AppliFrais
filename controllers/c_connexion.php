@@ -15,28 +15,28 @@ switch ($action) {
         }
     case 'valideConnexion':
         {
-            $login = $_REQUEST['login'];
-            $mdp = $_REQUEST['mdp'];
-            $visiteur = $pdo->getInfosVisiteur($login, $mdp);
-            if (!is_array($visiteur)) {
+            $nom_utilisateur = $_REQUEST['nom_utilisateur'];
+            $mot_de_passe = $_REQUEST['mot_de_passe'];
+            $utilisateur = $pdo->getInfosVisiteur($nom_utilisateur, $mot_de_passe);
+            if (!is_array($utilisateur)) {
                 ajouterErreur("Login ou mot de passe incorrect");
                 include("views/v_erreurs.php");
                 include("views/v_connexion.php");
             } else {
-                $id = $visiteur['id'];
-                $nom = $visiteur['nom'];
-                $prenom = $visiteur['prenom'];
-                $groupe = $visiteur['groupe'];
-                connecter($id, $nom, $prenom, $groupe);
-                if ($groupe == "visiteur") {
+                $id = $utilisateur['id'];
+                $nom = $utilisateur['nom'];
+                $prenom = $utilisateur['prenom'];
+                $role_id = $utilisateur['role_id'];
+                connecter($id, $nom, $prenom, $role_id);
+                if ($role_id == "1") {
                     include("views/v_sommaire.php");
                     include("views/v_accueil.php");
                 }
-                else if ($groupe == "comptable") {
+                else if ($role_id == "2") {
                     include("views/v_menuComptable.php");
                     include("views/v_accueil.php");
                 }
-                else if ($groupe == "admin") {
+                else if ($role_id == "3") {
                     include("views/v_menuAdmin.php");
                     include("views/v_accueil.php");
                 }

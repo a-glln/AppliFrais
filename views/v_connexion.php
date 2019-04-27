@@ -13,7 +13,7 @@
                     <div class="input-group-prepend">
                         <span class="input-group-text">@</span>
                     </div>
-                    <input type="text" id="login" name="login" class="form-control" placeholder="Utilisateur"
+                    <input type="text" id="nom_utilisateur" name="nom_utilisateur" class="form-control" placeholder="Utilisateur"
                            aria-label="Utilisateur" aria-describedby="basic-addon1">
                 </div>
                 <br>
@@ -21,7 +21,7 @@
                     <div class="input-group-prepend">
                         <span class="input-group-text">°°°</span>
                     </div>
-                    <input id="mdp" type="password" name="mdp" class="form-control" placeholder="Mot de passe"
+                    <input id="mot_de_passe" type="password" name="mot_de_passe" class="form-control" placeholder="Mot de passe"
                            aria-label="Mot de passe" aria-describedby="basic-addon1">
                 </div>
                 <br>
