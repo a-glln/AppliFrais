@@ -1,7 +1,7 @@
 # AppliFrais
 Projet BTS - AppliFrais (PHP)Projet permettant la consultation des fiches de frais entrant dans le cadre du BTS SIO.
 
-Dans ce projet vous trouvez un exemple d'application frais mobile avec les fonctionnalités suivantes :
+Dans ce projet vous trouverez les fonctionnalités suivantes :
 
   - Page de connexion
   
