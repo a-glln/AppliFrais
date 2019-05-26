@@ -22,9 +22,9 @@ switch ($action) {
             $idFicheUser = $pdo->derniereFicheSaisiMois($idVisiteur);
 			$ficheFraisId = $idFicheUser['idFicheUser'];
             include("views/v_suiviFrais.php");
-            $lesFraisHorsForfait = $pdo->getLesFraisHorsForfait($idVisiteur, $ficheFraisId);
             $lesIdFrais = $pdo->getLesIdFrais();
-			$lesFraisForfait = $pdo->getLesFraisForfait($idVisiteur, $ficheFraisId);
+			$lesFraisHorsForfait = $pdo->getLesFraisHorsForfait($idVisiteur, $ficheFraisId);
+            $lesFraisForfait = $pdo->getLesFraisForfait($idVisiteur, $ficheFraisId);
             $idFicheUser = $pdo->derniereFicheSaisiMois($idVisiteur);
 			$leMois = $idFicheUser['idFicheUser'];
 			$lesInfosFicheFrais = $pdo->getLesInfosFicheFrais($idVisiteur, $leMois);

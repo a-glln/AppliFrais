@@ -44,7 +44,6 @@ switch ($action) {
                 echo("<script>alert ('Fiche frais mise a jour  !') ;</script>");
             }
         
-
 			$ficheId = $pdo->getIdFicheParMois($mois);
 			$ficheFraisId = $ficheId['idFiche'];
             $lesFraisHorsForfait = $pdo->getLesFraisHorsForfait($idVisiteur, $ficheFraisId);

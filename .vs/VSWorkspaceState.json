@@ -1,10 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\controllers",
-    "\\models",
-    "\\views"
+    "\\controllers"
   ],
-  "SelectedNode": "\\models\\fct.inc.php",
+  "SelectedNode": "\\models",
   "PreviewInSolutionExplorer": false
 }

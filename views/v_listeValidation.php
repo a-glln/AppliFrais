@@ -10,7 +10,7 @@
                     <div class="input-group-prepend">
                         <label class="input-group-text" for="lstUser">User :</label>
                     </div>
-                    <select class="custom-select"  name="lstUser">
+                    <select class="custom-select" name="lstUser">
                         <?php
                         foreach ($users as $unUser) {
                             echo
@@ -23,7 +23,7 @@
                     <div class="input-group-prepend">
                         <label class="input-group-text" for="lstMois">Mois :</label>
                     </div>
-                    <select class="custom-select"  name="lstMois">
+                    <select class="custom-select" name="lstMois">
                         <?php
                         foreach ($lesMois as $unMois) {
                             echo "<option value='" . $unMois['mois'] . "'>" . $unMois['mois'] . "</option>";

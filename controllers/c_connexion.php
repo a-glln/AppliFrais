@@ -31,12 +31,10 @@ switch ($action) {
                 if ($role_id == "1") {
                     include("views/v_sommaire.php");
                     include("views/v_accueil.php");
-                }
-                else if ($role_id == "2") {
+                } else if ($role_id == "2") {
                     include("views/v_menuComptable.php");
                     include("views/v_accueil.php");
-                }
-                else if ($role_id == "3") {
+                } else if ($role_id == "3") {
                     include("views/v_menuAdmin.php");
                     include("views/v_accueil.php");
                 }

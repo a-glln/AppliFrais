@@ -42,7 +42,6 @@ switch ($action) {
 			$idFicheUser = $pdo->derniereFicheSaisiMois($idVisiteur);
 			$ficheFraisId = $idFicheUser['idFicheUser'];
             $dateFrais = $_REQUEST['dateFrais'];
-			//$dateFrais = dateFrancaisVersAnglais($maDate);
             $libelle = $_REQUEST['libelle'];
             $montant = $_REQUEST['montant'];
             valideInfosFrais($libelle, $montant);

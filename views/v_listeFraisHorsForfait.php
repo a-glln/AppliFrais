@@ -43,7 +43,7 @@
                         <div class="InputGroup">
                             <label for="idFrais"></label>
                             <label for="txtDateHF">Date (aaaa-mm-jj) :</label>
-                            <input type="date"  id="txtDateHF" name="dateFrais" class="form-control" />
+                            <input type="date" id="txtDateHF" name="dateFrais" class="form-control"/>
 
 
                             <label for="txtLibelleHF">Libellé :</label>
@@ -51,7 +51,7 @@
 
 
                             <label for="txtMontantHF">Montant : </label>
-                            <input type="text" id="txtMontantHF" name="montant" class="form-control" />
+                            <input type="text" id="txtMontantHF" name="montant" class="form-control"/>
                         </div>
                     </fieldset>
                 </div>
