@@ -6,9 +6,7 @@ Projet BTS - AppliFrais (PHP)Projet permettant la consultation des fiches de fra
   <br>
 <img align="left" width="40%" alt="2" src="http://www.adam-guillon.fr/img/gsb/slider/c_validationFiche.png">
 </p>
-<br>
-<br>
-<br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br<br><br>
 Dans ce projet vous trouverez les fonctionnalités suivantes :
   - Page de connexion
   
