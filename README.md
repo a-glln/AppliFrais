@@ -1,8 +1,13 @@
 # AppliFrais
 Projet BTS - AppliFrais (PHP)Projet permettant la consultation des fiches de frais entrant dans le cadre du BTS SIO.
-
+<p>
+<img align="left" width="40%" alt="1" src="http://www.adam-guillon.fr/img/gsb/slider/v_saisirFrais.png">
+<img align="left" width="40%" alt="2" src="http://www.adam-guillon.fr/img/gsb/slider/v_voirFrais.png">
+  <br>
+<img align="left" width="40%" alt="2" src="http://www.adam-guillon.fr/img/gsb/slider/c_validationFiche.png">
+</p>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br<br><br>
 Dans ce projet vous trouverez les fonctionnalités suivantes :
-
   - Page de connexion
   
   - Page de saisie de frais /*Visiteur*/
