@@ -8,6 +8,7 @@
                 <div class="col-sm-6">
                     <div class="card">
                         <div class="card-body">
+						<!-- RENSEIGNER SES FRAIS FORFAIT -->
                             <h5 class="card-title">Eléments forfaitisés</h5>
 							<table class="table">
 								<tr class="bg-primary">
@@ -33,6 +34,7 @@
                               <div class="input-group mb-3">
 								   <fieldset style="text-align: left;">
 								   <?php
+								   // POUR CHAQUE FRAIS ( 4 AU TOTAL) ON AFFICHE EN TANT QUE LABEL SONT ID ET LA QUANTITE CORRESPONDATE
 									foreach ($lesFraisForfait as $unFraisForfait) {
 									$idfrais = $unFraisForfait['idfrais'];
 									$quantite = $unFraisForfait['quantite'];

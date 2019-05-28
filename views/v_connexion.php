@@ -5,6 +5,7 @@
         <div class="col-sm-4 ">
 
         </div>
+		<!-- FORMULAIRE DE CONNEXION -->
         <div class="col-sm-4 bg-white" id="formulaire">
             <h2 for="nom">Se Connecter</h2>
             <br>

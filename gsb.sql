@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1:3306
--- Généré le :  sam. 27 avr. 2019 à 12:11
+-- Généré le :  mar. 28 mai 2019 à 16:11
 -- Version du serveur :  5.7.19
 -- Version de PHP :  7.1.9
 
@@ -41,7 +41,7 @@ CREATE TABLE IF NOT EXISTS `detail_frais_forfait` (
   KEY `fk_detail_frais_forfait_fiche_frais` (`fiche_frais_id`),
   KEY `fk_detail_frais_forfait_frais_forfait` (`frais_forfait_id`),
   KEY `fk_dff_e` (`etat_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=17 DEFAULT CHARSET=utf8;
 
 --
 -- Déchargement des données de la table `detail_frais_forfait`
@@ -49,13 +49,21 @@ CREATE TABLE IF NOT EXISTS `detail_frais_forfait` (
 
 INSERT INTO `detail_frais_forfait` (`id`, `frais_forfait_id`, `quantite`, `fiche_frais_id`, `etat_id`, `utilisateur_id`) VALUES
 (1, 1, 5, 3, 3, 3),
-(2, 2, 6, 3, 3, 3),
+(2, 2, 5, 3, 3, 3),
 (3, 3, 7, 3, 3, 3),
-(4, 4, 8, 3, 3, 3),
+(4, 4, 1, 3, 3, 3),
 (5, 1, 1, 4, 3, 4),
 (6, 2, 3, 4, 3, 4),
 (7, 3, 1, 4, 3, 4),
-(8, 4, 2, 4, 3, 4);
+(8, 4, 2, 4, 3, 4),
+(9, 1, 0, 5, 3, 3),
+(10, 2, 0, 5, 3, 3),
+(11, 3, 0, 5, 3, 3),
+(12, 4, 0, 5, 3, 3),
+(13, 1, 0, 6, 3, 4),
+(14, 2, 0, 6, 3, 4),
+(15, 3, 0, 6, 3, 4),
+(16, 4, 0, 6, 3, 4);
 
 -- --------------------------------------------------------
 
@@ -127,17 +135,19 @@ CREATE TABLE IF NOT EXISTS `fiche_frais` (
   PRIMARY KEY (`id`),
   KEY `fk_fiche_frais_utilisateur` (`utilisateur_id`),
   KEY `fk_fiche_frais_etat` (`etat_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
 
 --
 -- Déchargement des données de la table `fiche_frais`
 --
 
 INSERT INTO `fiche_frais` (`id`, `mois`, `annee`, `etat_id`, `utilisateur_id`, `date_modif`, `nb_justificatifs`, `montant_valid`) VALUES
-(1, 3, 2019, 1, 4, '2019-03-14', 1, '250.00'),
+(1, 2, 2019, 1, 4, '2019-03-14', 1, '250.00'),
 (2, 3, 2019, 1, 3, '2019-04-27', 1, '120.00'),
-(3, 4, 2019, 1, 3, '2019-04-27', 1, '1000.00'),
-(4, 4, 2019, 3, 4, '2019-04-27', 1, '0.00');
+(3, 4, 2019, 1, 3, '2019-04-30', 1, '1000.00'),
+(4, 4, 2019, 3, 4, '2019-04-27', 1, '0.00'),
+(5, 5, 2019, 3, 3, '2019-05-26', 1, '0.00'),
+(6, 5, 2019, 3, 4, '2019-05-26', 1, '0.00');
 
 -- --------------------------------------------------------
 
@@ -159,9 +169,9 @@ CREATE TABLE IF NOT EXISTS `frais_forfait` (
 
 INSERT INTO `frais_forfait` (`id`, `libelle`, `montant`) VALUES
 (1, 'Restaurant', '50.00'),
-(2, 'Frais kilométrique', '0.10'),
+(2, 'Frais kilometrique', '0.10'),
 (3, 'Forfait Etape', '110.00'),
-(4, 'Nuitée Hôtel', '100.00');
+(4, 'Nuitee Hotel', '100.00');
 
 -- --------------------------------------------------------
 
